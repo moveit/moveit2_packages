@@ -8,6 +8,8 @@ on:
 jobs:
   build_job:
     strategy:
+      fail-fast: false
+      max-parallel: 4
       matrix:
         ros_distro: [humble, rolling]
     name: build_${{ matrix.ros_distro }}
