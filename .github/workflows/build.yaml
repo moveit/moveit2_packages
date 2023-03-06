@@ -6,24 +6,21 @@ on:
     - cron: '17 1 * * *'
 
 jobs:
-  build_humble:
+  build_job:
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        ros_distro: [humble, rolling]
+    name: build_${{ matrix.ros_distro }}
     runs-on: ubuntu-22.04
+    env:
+      repos_branch: ${{ matrix.ros_distro == 'rolling' && 'main' || matrix.ros_distro }}
     steps:
       - uses: jspricke/ros-deb-builder-action@main
         with:
           DEB_DISTRO: jammy
-          ROS_DISTRO: humble
-          REPOS_FILE: https://raw.githubusercontent.com/ros-planning/moveit2_tutorials/humble/moveit2_tutorials.repos
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SQUASH_HISTORY: true
-
-  build_rolling:
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: jspricke/ros-deb-builder-action@main
-        with:
-          DEB_DISTRO: jammy
-          ROS_DISTRO: rolling
-          REPOS_FILE: https://raw.githubusercontent.com/ros-planning/moveit2_tutorials/main/moveit2_tutorials.repos
+          ROS_DISTRO: ${{ matrix.ros_distro }}
+          REPOS_FILE: https://raw.githubusercontent.com/ros-planning/moveit2_tutorials/${{ env.repos_branch }}/moveit2_tutorials.repos
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
