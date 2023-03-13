@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-ros-warehouse
+Binary: ros-humble-moveit-ros-warehouse
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-23-g259f039c9-2023.03.13.03.15
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-warehouse - Components of MoveIt connecting to MongoDB
+Changes:
+ ros-humble-moveit-ros-warehouse (2.5.4-23-g259f039c9-2023.03.13.03.15) jammy; urgency=high
+ .
+   * Restructure moveit warehouse package (#1551 <https://github.com/ros-planning/moveit2/issues/1551>) (#1661 <https://github.com/ros-planning/moveit2/issues/1661>)
+     (cherry picked from commit 8fddbda48148204835de23a741ba11f5be1021fa)
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 96211e59b3e620849a83ba98f84ca64e58237703 18168682 ros-humble-moveit-ros-warehouse-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.15_amd64.ddeb
+ 72885b42f5e89f7e3123de47466c1747c07f2fcb 27225 ros-humble-moveit-ros-warehouse_2.5.4-23-g259f039c9-2023.03.13.03.15_amd64.buildinfo
+ 926a206c5d289f1174b04db8e2dcb91bd9f5bbb3 422444 ros-humble-moveit-ros-warehouse_2.5.4-23-g259f039c9-2023.03.13.03.15_amd64.deb
+Checksums-Sha256:
+ c24a9bfd63b9fd20dfc20965b91459e827bbc343cdf64b5bc19bc94c320ddb26 18168682 ros-humble-moveit-ros-warehouse-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.15_amd64.ddeb
+ b53ae672bc4fcdfdf5a88976c4af485030dafe0e94611657392a89e1dc38a252 27225 ros-humble-moveit-ros-warehouse_2.5.4-23-g259f039c9-2023.03.13.03.15_amd64.buildinfo
+ 988a774b70a05e9bf718fb1576a4aba32483273d879f46d7f2fe51696284f735 422444 ros-humble-moveit-ros-warehouse_2.5.4-23-g259f039c9-2023.03.13.03.15_amd64.deb
+Files:
+ dcd60aab9b439156bcb88df163d80d67 18168682 debug optional ros-humble-moveit-ros-warehouse-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.15_amd64.ddeb
+ 3145b2418c31157586156a902e052e5b 27225 misc optional ros-humble-moveit-ros-warehouse_2.5.4-23-g259f039c9-2023.03.13.03.15_amd64.buildinfo
+ b8e5aead8711d6d77e80e9a9dd8a9dde 422444 misc optional ros-humble-moveit-ros-warehouse_2.5.4-23-g259f039c9-2023.03.13.03.15_amd64.deb

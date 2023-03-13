@@ -1,0 +1,42 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-servo
+Binary: ros-humble-moveit-servo
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-23-g259f039c9-2023.03.13.03.35
+Distribution: jammy
+Urgency: high
+Maintainer: Blake Anderson <blakeanderson@utexas.edu>
+Changed-By: Blake Anderson <blakeanderson@utexas.edu>
+Description:
+ ros-humble-moveit-servo - Provides real-time manipulator Cartesian and joint servoing.
+Changes:
+ ros-humble-moveit-servo (2.5.4-23-g259f039c9-2023.03.13.03.35) jammy; urgency=high
+ .
+   * [Servo] Remove the option for "stop distance"-based collision checking (#1574 <https://github.com/ros-planning/moveit2/issues/1574>) (#1663 <https://github.com/ros-planning/moveit2/issues/1663>)
+     (cherry picked from commit e96004702bbd338a08340eab0985fd04c74968fa)
+     Co-authored-by: AndyZe <mailto:zelenak@picknik.ai>
+   * [Servo] Use a WallRate so the clock is monotonically increasing (#1543 <https://github.com/ros-planning/moveit2/issues/1543>) (#1658 <https://github.com/ros-planning/moveit2/issues/1658>)
+     (cherry picked from commit c134d89710e831ae58a66e53d87a78b44b0b307c)
+     Co-authored-by: AndyZe <mailto:zelenak@picknik.ai>
+   * Disable flaky test_servo_singularity + test_rdf_integration (#1530 <https://github.com/ros-planning/moveit2/issues/1530>) (#1654 <https://github.com/ros-planning/moveit2/issues/1654>)
+     (cherry picked from commit f7655df7a439069565efa0de73c08e9d1dd45dde)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Enforce singularity threshold when moving away from a singularity (#620 <https://github.com/ros-planning/moveit2/issues/620>) (#1649 <https://github.com/ros-planning/moveit2/issues/1649>)
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 1da117a9cc3e1117c07051f06e03c625c426f36e 32731616 ros-humble-moveit-servo-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.35_amd64.ddeb
+ 65fcbe851c9387eace959f5fb79b30bb8d7a2293 33471 ros-humble-moveit-servo_2.5.4-23-g259f039c9-2023.03.13.03.35_amd64.buildinfo
+ fe173fa1d2577941f9f38c8123da45f14136152e 671384 ros-humble-moveit-servo_2.5.4-23-g259f039c9-2023.03.13.03.35_amd64.deb
+Checksums-Sha256:
+ 61b8c1ce1be864c4e7c15c3d7ca452013e04dddaaf16c0a821f150cad0d1fb24 32731616 ros-humble-moveit-servo-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.35_amd64.ddeb
+ 19e363d5a57e5c638c4f573d47e9f8438e62b2b02389d3e5111f51f22a28bd99 33471 ros-humble-moveit-servo_2.5.4-23-g259f039c9-2023.03.13.03.35_amd64.buildinfo
+ 34d8a948332279ebfe36c68c12dfb13e01698d1c8ee84521c10f916aee066563 671384 ros-humble-moveit-servo_2.5.4-23-g259f039c9-2023.03.13.03.35_amd64.deb
+Files:
+ 6613dcbca66da3cb4eed67a3f311f74c 32731616 debug optional ros-humble-moveit-servo-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.35_amd64.ddeb
+ e81b2200f41d9c72584dfa1794f32b62 33471 misc optional ros-humble-moveit-servo_2.5.4-23-g259f039c9-2023.03.13.03.35_amd64.buildinfo
+ 5674cde8555ee8b5434e89f98ce6616e 671384 misc optional ros-humble-moveit-servo_2.5.4-23-g259f039c9-2023.03.13.03.35_amd64.deb

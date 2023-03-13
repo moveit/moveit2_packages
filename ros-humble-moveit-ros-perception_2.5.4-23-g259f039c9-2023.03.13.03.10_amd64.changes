@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-ros-perception
+Binary: ros-humble-moveit-ros-perception
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-23-g259f039c9-2023.03.13.03.10
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-perception - Components of MoveIt connecting to perception
+Changes:
+ ros-humble-moveit-ros-perception (2.5.4-23-g259f039c9-2023.03.13.03.10) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 0078d9f97cd083eb07fcc5bd14fc5fc75ac47db3 9521852 ros-humble-moveit-ros-perception-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.10_amd64.ddeb
+ e0babb3c9b78b637e7f20e2008f45198b8f505cc 38520 ros-humble-moveit-ros-perception_2.5.4-23-g259f039c9-2023.03.13.03.10_amd64.buildinfo
+ 5407fc01febc1ea9a5e861bbde83d31b9843ff6f 332276 ros-humble-moveit-ros-perception_2.5.4-23-g259f039c9-2023.03.13.03.10_amd64.deb
+Checksums-Sha256:
+ 9227444a685e94ba375d1705ea2b8fecf1d967f199807bdcafd624d6fbf7ee0f 9521852 ros-humble-moveit-ros-perception-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.10_amd64.ddeb
+ 470339b86252a06987f1f052bea5d2694ed8c3740a371ec6515df78a438c2025 38520 ros-humble-moveit-ros-perception_2.5.4-23-g259f039c9-2023.03.13.03.10_amd64.buildinfo
+ 00d1e4af7d120b393af1c91d9b96e3f79c0b8764f532db0129dd85e75867d20c 332276 ros-humble-moveit-ros-perception_2.5.4-23-g259f039c9-2023.03.13.03.10_amd64.deb
+Files:
+ 3137eda5424cf1b32f95072c8daf4188 9521852 debug optional ros-humble-moveit-ros-perception-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.10_amd64.ddeb
+ 14144428bc4df72ecd9532285a9b0d17 38520 misc optional ros-humble-moveit-ros-perception_2.5.4-23-g259f039c9-2023.03.13.03.10_amd64.buildinfo
+ a0874cf8cd863021e944d5ed8ca85e79 332276 misc optional ros-humble-moveit-ros-perception_2.5.4-23-g259f039c9-2023.03.13.03.10_amd64.deb

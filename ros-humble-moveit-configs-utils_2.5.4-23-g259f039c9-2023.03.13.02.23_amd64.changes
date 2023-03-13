@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-configs-utils
+Binary: ros-humble-moveit-configs-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-23-g259f039c9-2023.03.13.02.23
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-humble-moveit-configs-utils - Python library for loading moveit config parameters in launch fil
+Changes:
+ ros-humble-moveit-configs-utils (2.5.4-23-g259f039c9-2023.03.13.02.23) jammy; urgency=high
+ .
+   * Use MoveItConfigsBuilder in Pilz test launch file (#1571 <https://github.com/ros-planning/moveit2/issues/1571>) (#1662 <https://github.com/ros-planning/moveit2/issues/1662>)
+     (cherry picked from commit 5e880bacaad780f511ed99847050216a8b9905c1)
+     Co-authored-by: Abishalini Sivaraman <mailto:abi.gpuram@gmail.com>
+   * Only require Cartesian limits if Pilz is used (#1519 <https://github.com/ros-planning/moveit2/issues/1519>) (#1653 <https://github.com/ros-planning/moveit2/issues/1653>)
+     (cherry picked from commit 40f7f091cc77a683f3c0a4af64f6a463dd0846f1)
+     Co-authored-by: Stephanie Eng <mailto:stephanie-eng@users.noreply.github.com>
+   * Typo fix (#1518 <https://github.com/ros-planning/moveit2/issues/1518>) (#1650 <https://github.com/ros-planning/moveit2/issues/1650>)
+     (cherry picked from commit e89526de24d88fb05eb646a7925de69ba480bfe8)
+     Co-authored-by: Stephanie Eng <mailto:stephanie-eng@users.noreply.github.com>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 9f199ef99aec82a025d830ae2ca571ceb0404401 9908 ros-humble-moveit-configs-utils_2.5.4-23-g259f039c9-2023.03.13.02.23_amd64.buildinfo
+ f06600afd578e303cee4d244dea8b6ea5166764e 23028 ros-humble-moveit-configs-utils_2.5.4-23-g259f039c9-2023.03.13.02.23_amd64.deb
+Checksums-Sha256:
+ 6573f1f16a1f43458c17414a1051c64dc00752d4fbd2c085b8079613f064e625 9908 ros-humble-moveit-configs-utils_2.5.4-23-g259f039c9-2023.03.13.02.23_amd64.buildinfo
+ 1ff8b5435a25878192b292357b6309f722b9d66260ef08e54e9b8d46a6ba4f1d 23028 ros-humble-moveit-configs-utils_2.5.4-23-g259f039c9-2023.03.13.02.23_amd64.deb
+Files:
+ bca174037a767e54c5592e90c90da545 9908 misc optional ros-humble-moveit-configs-utils_2.5.4-23-g259f039c9-2023.03.13.02.23_amd64.buildinfo
+ 2b1e18fd53924dbf27420e4376039907 23028 misc optional ros-humble-moveit-configs-utils_2.5.4-23-g259f039c9-2023.03.13.02.23_amd64.deb

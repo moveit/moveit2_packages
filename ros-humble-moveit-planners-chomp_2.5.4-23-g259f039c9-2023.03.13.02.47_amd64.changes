@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-planners-chomp
+Binary: ros-humble-moveit-planners-chomp
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-23-g259f039c9-2023.03.13.02.47
+Distribution: jammy
+Urgency: high
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Changed-By: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Description:
+ ros-humble-moveit-planners-chomp - The interface for using CHOMP within MoveIt
+Changes:
+ ros-humble-moveit-planners-chomp (2.5.4-23-g259f039c9-2023.03.13.02.47) jammy; urgency=high
+ .
+   * Add planner configurations to CHOMP and PILZ (#1522 <https://github.com/ros-planning/moveit2/issues/1522>) (#1656 <https://github.com/ros-planning/moveit2/issues/1656>)
+     (cherry picked from commit 888fc5358280b20edc394947e98341c0f03dc0bd)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 9b9b0601dacafac30e6efeb57a098d217e7c461e 4465716 ros-humble-moveit-planners-chomp-dbgsym_2.5.4-23-g259f039c9-2023.03.13.02.47_amd64.ddeb
+ 1318482bb54ba2bfdcd371f926f89a6b3cf57f26 27082 ros-humble-moveit-planners-chomp_2.5.4-23-g259f039c9-2023.03.13.02.47_amd64.buildinfo
+ f070398658ad4aaa835456535469817f713c96c1 37272 ros-humble-moveit-planners-chomp_2.5.4-23-g259f039c9-2023.03.13.02.47_amd64.deb
+Checksums-Sha256:
+ ba59e073ee1877eed72453f4a56a696f916e5b02a79bacdbc62b0f67d00a8537 4465716 ros-humble-moveit-planners-chomp-dbgsym_2.5.4-23-g259f039c9-2023.03.13.02.47_amd64.ddeb
+ 22ebdf5338592f3c5522d11dd2b0f2490b23972411dc2f6869bae624c4c5a8fa 27082 ros-humble-moveit-planners-chomp_2.5.4-23-g259f039c9-2023.03.13.02.47_amd64.buildinfo
+ b0f67afd9d8b48a500272e1fcc76de201dd065ff7013f784da5be4a01e958f51 37272 ros-humble-moveit-planners-chomp_2.5.4-23-g259f039c9-2023.03.13.02.47_amd64.deb
+Files:
+ d91b3e23c16bafe8ac7e7d857baddaa3 4465716 debug optional ros-humble-moveit-planners-chomp-dbgsym_2.5.4-23-g259f039c9-2023.03.13.02.47_amd64.ddeb
+ 5970d729ea560c4f1ffbbab1da85ef8d 27082 misc optional ros-humble-moveit-planners-chomp_2.5.4-23-g259f039c9-2023.03.13.02.47_amd64.buildinfo
+ d75e20637eeefa3b28f5a73fd9676322 37272 misc optional ros-humble-moveit-planners-chomp_2.5.4-23-g259f039c9-2023.03.13.02.47_amd64.deb

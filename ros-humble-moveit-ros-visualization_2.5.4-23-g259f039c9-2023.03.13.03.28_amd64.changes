@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-ros-visualization
+Binary: ros-humble-moveit-ros-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-23-g259f039c9-2023.03.13.03.28
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-visualization - Components of MoveIt that offer visualization
+Changes:
+ ros-humble-moveit-ros-visualization (2.5.4-23-g259f039c9-2023.03.13.03.28) jammy; urgency=high
+ .
+   * Use pragma once as header include guard (#1525 <https://github.com/ros-planning/moveit2/issues/1525>) (#1652 <https://github.com/ros-planning/moveit2/issues/1652>)
+     (cherry picked from commit 7d758de1b2f2904b8c85520129fa8d48aad93713)
+     Co-authored-by: J. Javan <mailto:J-Javan@users.noreply.github.com>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 3d94a354d88c24979a148ae7e842209ec78b1612 41367748 ros-humble-moveit-ros-visualization-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.28_amd64.ddeb
+ 39e6bf59198fe0dddc5032b1b758055283561054 33369 ros-humble-moveit-ros-visualization_2.5.4-23-g259f039c9-2023.03.13.03.28_amd64.buildinfo
+ 42ce6135c41b1e0870088110970b1d7756e88e31 714128 ros-humble-moveit-ros-visualization_2.5.4-23-g259f039c9-2023.03.13.03.28_amd64.deb
+Checksums-Sha256:
+ 2e7eb91b1d297dde499cf59d32f8eb8609b1d8a58c26d1eaadbd9503ed958e92 41367748 ros-humble-moveit-ros-visualization-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.28_amd64.ddeb
+ cd03ea8f65e1429542287810c7fcf3e4957a08dcf10c6e5e4a07d8413b3a84bf 33369 ros-humble-moveit-ros-visualization_2.5.4-23-g259f039c9-2023.03.13.03.28_amd64.buildinfo
+ afcc1de9f704c27fe060af023572d8ba3ffc06504b914c693e046b05aaedc6ea 714128 ros-humble-moveit-ros-visualization_2.5.4-23-g259f039c9-2023.03.13.03.28_amd64.deb
+Files:
+ 2a9471545899e6a19d0692bf1ea74b31 41367748 debug optional ros-humble-moveit-ros-visualization-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.28_amd64.ddeb
+ 6696de9a492f76ec3e4602462104d203 33369 misc optional ros-humble-moveit-ros-visualization_2.5.4-23-g259f039c9-2023.03.13.03.28_amd64.buildinfo
+ 672c88ce74f9513871674de69bc327cd 714128 misc optional ros-humble-moveit-ros-visualization_2.5.4-23-g259f039c9-2023.03.13.03.28_amd64.deb

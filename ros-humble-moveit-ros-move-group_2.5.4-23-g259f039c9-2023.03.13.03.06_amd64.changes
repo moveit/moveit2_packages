@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-ros-move-group
+Binary: ros-humble-moveit-ros-move-group
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-23-g259f039c9-2023.03.13.03.06
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-humble-moveit-ros-move-group - The move_group node for MoveIt
+Changes:
+ ros-humble-moveit-ros-move-group (2.5.4-23-g259f039c9-2023.03.13.03.06) jammy; urgency=high
+ .
+   * Removed plan_with_sensing (#1142 <https://github.com/ros-planning/moveit2/issues/1142>) (#1647 <https://github.com/ros-planning/moveit2/issues/1647>)
+     (cherry picked from commit ad9fb465776c68d53431ec477ff89d7e4e25f3b3)
+     Co-authored-by: Stephanie Eng <mailto:stephanie-eng@users.noreply.github.com>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 40ff9afe94ce5a0428a11eef536d26fcef724570 23442382 ros-humble-moveit-ros-move-group-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.06_amd64.ddeb
+ b37277ac3bbd7ae56a487bca4e9222a1f5e4e6ac 27536 ros-humble-moveit-ros-move-group_2.5.4-23-g259f039c9-2023.03.13.03.06_amd64.buildinfo
+ 00430c539d830338d8844aa5ab8282151b9b827f 342774 ros-humble-moveit-ros-move-group_2.5.4-23-g259f039c9-2023.03.13.03.06_amd64.deb
+Checksums-Sha256:
+ f72ed6933bc314bda2f1b4493b0661a5c03232379c7b7036c0d90be3b1aecfd5 23442382 ros-humble-moveit-ros-move-group-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.06_amd64.ddeb
+ 917fa34a8780736c76335201d18e76e58f5b816e8bfd0b15b287b981c292d2b3 27536 ros-humble-moveit-ros-move-group_2.5.4-23-g259f039c9-2023.03.13.03.06_amd64.buildinfo
+ df0c2b82b90dde8cdbb632ffb558c482015374a9d8c6475aae0acddec2df5390 342774 ros-humble-moveit-ros-move-group_2.5.4-23-g259f039c9-2023.03.13.03.06_amd64.deb
+Files:
+ 0484b2d79b09f23782ab77d56d65d80e 23442382 debug optional ros-humble-moveit-ros-move-group-dbgsym_2.5.4-23-g259f039c9-2023.03.13.03.06_amd64.ddeb
+ ed2c490711a917d27d9d10eb61800b16 27536 misc optional ros-humble-moveit-ros-move-group_2.5.4-23-g259f039c9-2023.03.13.03.06_amd64.buildinfo
+ ac7153d6f2cb975436b462246bd6e9fa 342774 misc optional ros-humble-moveit-ros-move-group_2.5.4-23-g259f039c9-2023.03.13.03.06_amd64.deb
