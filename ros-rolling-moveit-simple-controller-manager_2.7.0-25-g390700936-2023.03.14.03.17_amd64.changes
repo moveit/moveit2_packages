@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-simple-controller-manager
+Binary: ros-rolling-moveit-simple-controller-manager
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.03.17
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-rolling-moveit-simple-controller-manager - A generic, simple controller manager plugin for MoveIt.
+Changes:
+ ros-rolling-moveit-simple-controller-manager (2.7.0-25-g390700936-2023.03.14.03.17) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use emulated time in action-based controller (#899 <https://github.com/ros-planning/moveit2/issues/899>)
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Christian Henkel, Cory Crean, Gaël Écorchard, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ f2cc82df0bc5ae5ae5d721f783bfd8eedb74fcba 1515192 ros-rolling-moveit-simple-controller-manager-dbgsym_2.7.0-25-g390700936-2023.03.14.03.17_amd64.ddeb
+ 773a50b4059a48e187b489e7017446dfe7c93ad9 27394 ros-rolling-moveit-simple-controller-manager_2.7.0-25-g390700936-2023.03.14.03.17_amd64.buildinfo
+ 72a559037e37ef4195eb8c7510040bf565acb8d9 100428 ros-rolling-moveit-simple-controller-manager_2.7.0-25-g390700936-2023.03.14.03.17_amd64.deb
+Checksums-Sha256:
+ 2270b302f7c47ba5d14df2fa8f34945381bf0afff9ecbaccbbdee0e9c93ff5c6 1515192 ros-rolling-moveit-simple-controller-manager-dbgsym_2.7.0-25-g390700936-2023.03.14.03.17_amd64.ddeb
+ 5dd04845a2d5d15293a7da9fec4b138787184bee795a86ceb75fc6c4bec06df1 27394 ros-rolling-moveit-simple-controller-manager_2.7.0-25-g390700936-2023.03.14.03.17_amd64.buildinfo
+ 778748a6a2b8bc6d854f6f752d64dba00340e149de16e7934d783f48f4c9daa5 100428 ros-rolling-moveit-simple-controller-manager_2.7.0-25-g390700936-2023.03.14.03.17_amd64.deb
+Files:
+ eda981ccc38baa7b57f7a0c0748b6b88 1515192 debug optional ros-rolling-moveit-simple-controller-manager-dbgsym_2.7.0-25-g390700936-2023.03.14.03.17_amd64.ddeb
+ 5089bb4b78c1dd9fbcfcec959ca671f4 27394 misc optional ros-rolling-moveit-simple-controller-manager_2.7.0-25-g390700936-2023.03.14.03.17_amd64.buildinfo
+ ede44436161ee4db10679e1b16f7409a 100428 misc optional ros-rolling-moveit-simple-controller-manager_2.7.0-25-g390700936-2023.03.14.03.17_amd64.deb

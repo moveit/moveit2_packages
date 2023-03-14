@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-ros-control-interface
+Binary: ros-rolling-moveit-ros-control-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.03.18
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-control-interface - ros_control controller manager interface for MoveIt
+Changes:
+ ros-rolling-moveit-ros-control-interface (2.7.0-25-g390700936-2023.03.14.03.18) jammy; urgency=high
+ .
+   * Fix parameters for ros2_control namespaces (#1833 <https://github.com/ros-planning/moveit2/issues/1833>)
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel, Pablo Iñigo Blasco
+Checksums-Sha1:
+ ccf0ee9d4a7afdd58e02d2e9eab21dc3804362d5 3756818 ros-rolling-moveit-ros-control-interface-dbgsym_2.7.0-25-g390700936-2023.03.14.03.18_amd64.ddeb
+ 602197b34ab7bcb1218a49d910ca5d213eb0a8cf 27517 ros-rolling-moveit-ros-control-interface_2.7.0-25-g390700936-2023.03.14.03.18_amd64.buildinfo
+ 22dd3def83e719ebf025e5f3e0a280b839589d12 198282 ros-rolling-moveit-ros-control-interface_2.7.0-25-g390700936-2023.03.14.03.18_amd64.deb
+Checksums-Sha256:
+ 4b806f1e10ed1079c49925b128bde0408c98400cebfe495fd882b81d68a916e8 3756818 ros-rolling-moveit-ros-control-interface-dbgsym_2.7.0-25-g390700936-2023.03.14.03.18_amd64.ddeb
+ bd3d09715ca25bf8d112796b1b1b1e4297cb9d4c53a1bac0c2af70ebafb1cf48 27517 ros-rolling-moveit-ros-control-interface_2.7.0-25-g390700936-2023.03.14.03.18_amd64.buildinfo
+ 004f22fc5fffe9a26b5c60a64e0205c56f60cf343805ed98e9a0dbf8e058a330 198282 ros-rolling-moveit-ros-control-interface_2.7.0-25-g390700936-2023.03.14.03.18_amd64.deb
+Files:
+ 3d53c77c634fc3b2e42ebf8738a715f1 3756818 debug optional ros-rolling-moveit-ros-control-interface-dbgsym_2.7.0-25-g390700936-2023.03.14.03.18_amd64.ddeb
+ 888a957c13fa31100c79cb2dd3d25333 27517 misc optional ros-rolling-moveit-ros-control-interface_2.7.0-25-g390700936-2023.03.14.03.18_amd64.buildinfo
+ da47f3d90bd8a116e9711b2c8c5ca465 198282 misc optional ros-rolling-moveit-ros-control-interface_2.7.0-25-g390700936-2023.03.14.03.18_amd64.deb

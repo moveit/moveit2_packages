@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin
+Binary: ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.02.37
+Distribution: jammy
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin - The prbt_ikfast_manipulator_plugin package
+Changes:
+ ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin (2.7.0-25-g390700936-2023.03.14.02.37) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Used C++ style casting for int type (#1627 <https://github.com/ros-planning/moveit2/issues/1627>)
+   * Add -Wunused-parameter (#1756 <https://github.com/ros-planning/moveit2/issues/1756>)
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Abhijeet Das Gupta, Chris Thrasher, Cory Crean, Sameer Gupta
+Checksums-Sha1:
+ f8fa5d7faf3438103e8ae40dc94ed8807e4203ef 2697500 ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_2.7.0-25-g390700936-2023.03.14.02.37_amd64.ddeb
+ 9f1c80c35accef7a6a62767e33e9fd4dc159e17d 26511 ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin_2.7.0-25-g390700936-2023.03.14.02.37_amd64.buildinfo
+ c20f676b454a3c9a645a8bb268afbc5804c076f3 127892 ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin_2.7.0-25-g390700936-2023.03.14.02.37_amd64.deb
+Checksums-Sha256:
+ 6dd1b4b7696c0991d692690992413a1d4368917525201e2f9b77a89fb2b0ba35 2697500 ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_2.7.0-25-g390700936-2023.03.14.02.37_amd64.ddeb
+ f247811a107680c8d88be78682c11da85245452694ac73c342e88ce676ef4145 26511 ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin_2.7.0-25-g390700936-2023.03.14.02.37_amd64.buildinfo
+ 90a967262aed3099702dc0522725f36e82c328b22fd18503965a3d438200458c 127892 ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin_2.7.0-25-g390700936-2023.03.14.02.37_amd64.deb
+Files:
+ 01c299fa732a6a172da0acefe32fab45 2697500 debug optional ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_2.7.0-25-g390700936-2023.03.14.02.37_amd64.ddeb
+ e21b839d685b7ab4633bb535dab7325c 26511 misc optional ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin_2.7.0-25-g390700936-2023.03.14.02.37_amd64.buildinfo
+ 232c0b6991d8d503a8d23495ea389121 127892 misc optional ros-rolling-moveit-resources-prbt-ikfast-manipulator-plugin_2.7.0-25-g390700936-2023.03.14.02.37_amd64.deb

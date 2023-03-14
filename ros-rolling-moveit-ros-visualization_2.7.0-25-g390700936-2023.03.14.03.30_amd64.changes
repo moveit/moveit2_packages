@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-ros-visualization
+Binary: ros-rolling-moveit-ros-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.03.30
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-visualization - Components of MoveIt that offer visualization
+Changes:
+ ros-rolling-moveit-ros-visualization (2.7.0-25-g390700936-2023.03.14.03.30) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Delete unported moveit_joy visualization demo (#1541 <https://github.com/ros-planning/moveit2/issues/1541>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Migrate to Ogre.h (#1764 <https://github.com/ros-planning/moveit2/issues/1764>)
+     * Migrate to Ogre.h
+     * Remove includ for OgreQuaternion.h, included in Ogre.h
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: AndyZe, Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke, Sameer Gupta, Stephanie Eng
+Checksums-Sha1:
+ c5c016a039e4f76e7aa583c6d67ee3e4efde2c83 40144672 ros-rolling-moveit-ros-visualization-dbgsym_2.7.0-25-g390700936-2023.03.14.03.30_amd64.ddeb
+ b1147996c200d9b8fe9cd42a2a9f33d4754c3393 34285 ros-rolling-moveit-ros-visualization_2.7.0-25-g390700936-2023.03.14.03.30_amd64.buildinfo
+ 4fd9235d30dd2edf4b89b4b696307b75870babfc 682068 ros-rolling-moveit-ros-visualization_2.7.0-25-g390700936-2023.03.14.03.30_amd64.deb
+Checksums-Sha256:
+ 8280927be8233d6124579f1172e06410239549dece2da21cc0f3227911a4337a 40144672 ros-rolling-moveit-ros-visualization-dbgsym_2.7.0-25-g390700936-2023.03.14.03.30_amd64.ddeb
+ 04bb96bbe9e7d97ef44fdb65633fdc94ab341112dbc547fdb9cfaddf5bdc962b 34285 ros-rolling-moveit-ros-visualization_2.7.0-25-g390700936-2023.03.14.03.30_amd64.buildinfo
+ 9cb97602efe019a14a27b0ab1f7e9b6ae1e20348355787cb4e5db9b4ff7ba56f 682068 ros-rolling-moveit-ros-visualization_2.7.0-25-g390700936-2023.03.14.03.30_amd64.deb
+Files:
+ 9f111b47bb38e0c3f825c7700487553a 40144672 debug optional ros-rolling-moveit-ros-visualization-dbgsym_2.7.0-25-g390700936-2023.03.14.03.30_amd64.ddeb
+ 647a7933c338b710a674c0e9439fdb34 34285 misc optional ros-rolling-moveit-ros-visualization_2.7.0-25-g390700936-2023.03.14.03.30_amd64.buildinfo
+ 48d8b8a19f1351f0ff45b1738ba2f109 682068 misc optional ros-rolling-moveit-ros-visualization_2.7.0-25-g390700936-2023.03.14.03.30_amd64.deb

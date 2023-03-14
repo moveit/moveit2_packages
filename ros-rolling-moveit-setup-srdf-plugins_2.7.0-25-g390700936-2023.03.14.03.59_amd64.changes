@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-setup-srdf-plugins
+Binary: ros-rolling-moveit-setup-srdf-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.03.59
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-rolling-moveit-setup-srdf-plugins - SRDF-based plugins for MoveIt Setup Assistant
+Changes:
+ ros-rolling-moveit-setup-srdf-plugins (2.7.0-25-g390700936-2023.03.14.03.59) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean
+Checksums-Sha1:
+ 4d78c3ad8587d3bd578d4efce2a7470b9dcb467b 19647248 ros-rolling-moveit-setup-srdf-plugins-dbgsym_2.7.0-25-g390700936-2023.03.14.03.59_amd64.ddeb
+ d4a81a221bb047df60c5b04ca9f5e477ba0c5cb3 33449 ros-rolling-moveit-setup-srdf-plugins_2.7.0-25-g390700936-2023.03.14.03.59_amd64.buildinfo
+ aebbb85f181eb5d0bfa4349161de15d31a891bef 302972 ros-rolling-moveit-setup-srdf-plugins_2.7.0-25-g390700936-2023.03.14.03.59_amd64.deb
+Checksums-Sha256:
+ 5e66fab57731a866dc9bba1eeeb6325daccfaed8588996c3ae901eaebc9b9043 19647248 ros-rolling-moveit-setup-srdf-plugins-dbgsym_2.7.0-25-g390700936-2023.03.14.03.59_amd64.ddeb
+ 353e45f3e31d3cfc34ecb98094d1ea096424ef9a9cf15d907b20bbee8fef3742 33449 ros-rolling-moveit-setup-srdf-plugins_2.7.0-25-g390700936-2023.03.14.03.59_amd64.buildinfo
+ b7fc24131f39ebbdb71c3ea19e60f3ae9843ee90be36982863159e42aa896baa 302972 ros-rolling-moveit-setup-srdf-plugins_2.7.0-25-g390700936-2023.03.14.03.59_amd64.deb
+Files:
+ a458319eade43f4103a9652b8e7e7e94 19647248 debug optional ros-rolling-moveit-setup-srdf-plugins-dbgsym_2.7.0-25-g390700936-2023.03.14.03.59_amd64.ddeb
+ 26bc75e2a5093dbc55bc458c31db53a2 33449 misc optional ros-rolling-moveit-setup-srdf-plugins_2.7.0-25-g390700936-2023.03.14.03.59_amd64.buildinfo
+ 534285f270f1ec6f8fc05d0257aa5b09 302972 misc optional ros-rolling-moveit-setup-srdf-plugins_2.7.0-25-g390700936-2023.03.14.03.59_amd64.deb

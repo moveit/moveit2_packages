@@ -1,0 +1,67 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-ros-planning-interface
+Binary: ros-rolling-moveit-ros-planning-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.03.20
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-planning-interface - Components of MoveIt that offer simpler interfaces to planning an
+Changes:
+ ros-rolling-moveit-ros-planning-interface (2.7.0-25-g390700936-2023.03.14.03.20) jammy; urgency=high
+ .
+   * Merge https://github.com/ros-planning/moveit/commit/9225971216885490e933ece25390c63ca14f8a58
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * 400% speed up to move group interface (#1865 <https://github.com/ros-planning/moveit2/issues/1865>)
+   * GHA: Build moveit_msgs from source (#1853 <https://github.com/ros-planning/moveit2/issues/1853>)
+     * Revert #1739 <https://github.com/ros-planning/moveit2/issues/1739>: moveit_msgs no longer needs to be built from source
+     This reverts commit 6e0fce31cfe94ef8c6d5ebccb4d865f0c144b6e1.
+     * Remove obsolete include: moveit_msgs/srv/execute_known_trajectory.hpp
+     * Cleanup moveit2.repos
+   * Cleanup msg includes: Use C++ instead of C header (#1844 <https://github.com/ros-planning/moveit2/issues/1844>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Test moveit_commander.set_joint_value_target with JointState argument (#3187 <https://github.com/ros-planning/moveit2/issues/3187>)
+     * Test with JointState argument
+     * Check size of name and position fields
+     Co-authored-by: Robert Haschke <mailto:rhaschke@techfak.uni-bielefeld.de>
+   * Contributors: Abhijeet Das Gupta, Abishalini, Chris Thrasher, Christian Henkel, Cory Crean, Filip Sund, Robert Haschke, Sameer Gupta, azalutsky
+Checksums-Sha1:
+ f992945618687d467f3f5d5aefdec36c8e9e5c72 9343292 ros-rolling-moveit-ros-planning-interface-dbgsym_2.7.0-25-g390700936-2023.03.14.03.20_amd64.ddeb
+ 9a324bd271004d96e1bd07c9e674b0f17855685c 35974 ros-rolling-moveit-ros-planning-interface_2.7.0-25-g390700936-2023.03.14.03.20_amd64.buildinfo
+ ba6faff6ccde631e398b980f0c99902ff502c28e 250620 ros-rolling-moveit-ros-planning-interface_2.7.0-25-g390700936-2023.03.14.03.20_amd64.deb
+Checksums-Sha256:
+ 39c0534c04826f060906c2cf6fd643bed827ff154dfcd7ece2d02aafd811908d 9343292 ros-rolling-moveit-ros-planning-interface-dbgsym_2.7.0-25-g390700936-2023.03.14.03.20_amd64.ddeb
+ 00b2d97819bb86c565a48de0f6c4fcac3435b174bcf9ea027220dad519fb272f 35974 ros-rolling-moveit-ros-planning-interface_2.7.0-25-g390700936-2023.03.14.03.20_amd64.buildinfo
+ b6b580c6d9f0cce43544671daedc3178c1d5fa4f02a69ce7354795da03362a0e 250620 ros-rolling-moveit-ros-planning-interface_2.7.0-25-g390700936-2023.03.14.03.20_amd64.deb
+Files:
+ bbcec9dff9bfaee85a458fa62c4321ec 9343292 debug optional ros-rolling-moveit-ros-planning-interface-dbgsym_2.7.0-25-g390700936-2023.03.14.03.20_amd64.ddeb
+ 1d3c3638f998ec3c89554c9703eebe13 35974 misc optional ros-rolling-moveit-ros-planning-interface_2.7.0-25-g390700936-2023.03.14.03.20_amd64.buildinfo
+ 4300aca128484f30be4a61f0d4f8e49c 250620 misc optional ros-rolling-moveit-ros-planning-interface_2.7.0-25-g390700936-2023.03.14.03.20_amd64.deb

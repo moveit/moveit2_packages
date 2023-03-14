@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-pilz-industrial-motion-planner-testutils
+Binary: ros-rolling-pilz-industrial-motion-planner-testutils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.04.10
+Distribution: jammy
+Urgency: high
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Changed-By: Christian Henkel <c.henkel@pilz.de>
+Description:
+ ros-rolling-pilz-industrial-motion-planner-testutils - Helper scripts and functionality to test industrial motion genera
+Changes:
+ ros-rolling-pilz-industrial-motion-planner-testutils (2.7.0-25-g390700936-2023.03.14.04.10) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Add noexcept specifier to constructors
+   * Add default constructors
+     ... as they are not implicitly declared anymore
+   * Add default copy/move constructors/assignment operators
+     As a user-declared destructor deletes any implicitly-defined move constructor/assignment operator,
+     we need to declared them manually. This in turn requires to declare the copy constructor/assignment as well.
+   * Fix -Wdelete-non-abstract-non-virtual-dtor
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Contributors: Chris Thrasher, Christian Henkel, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ 601059da1a70baa343b937ac50152d99866d159b 5091088 ros-rolling-pilz-industrial-motion-planner-testutils-dbgsym_2.7.0-25-g390700936-2023.03.14.04.10_amd64.ddeb
+ 210d0845bbdd9a550abd05d9459fe890cbee299a 27406 ros-rolling-pilz-industrial-motion-planner-testutils_2.7.0-25-g390700936-2023.03.14.04.10_amd64.buildinfo
+ 5ce1add4fc930655c9bca10c02fb63a09b6627b8 105506 ros-rolling-pilz-industrial-motion-planner-testutils_2.7.0-25-g390700936-2023.03.14.04.10_amd64.deb
+Checksums-Sha256:
+ 4f1c44203108a551d3383ee879dd1b4a589543385b75ea586692f185aab2412d 5091088 ros-rolling-pilz-industrial-motion-planner-testutils-dbgsym_2.7.0-25-g390700936-2023.03.14.04.10_amd64.ddeb
+ ebb36af0701ad2baf6b874521ebcd4cc65d870a851771978806ac43f9cc50749 27406 ros-rolling-pilz-industrial-motion-planner-testutils_2.7.0-25-g390700936-2023.03.14.04.10_amd64.buildinfo
+ 6d660b7092252ddeec8fccc64090326addf278bb7c13e9780688807e8b4abaeb 105506 ros-rolling-pilz-industrial-motion-planner-testutils_2.7.0-25-g390700936-2023.03.14.04.10_amd64.deb
+Files:
+ b27dd343b8f1edf89db4490b586a7d55 5091088 debug optional ros-rolling-pilz-industrial-motion-planner-testutils-dbgsym_2.7.0-25-g390700936-2023.03.14.04.10_amd64.ddeb
+ f09b0dacbff5bde848bbcab0601e9f93 27406 misc optional ros-rolling-pilz-industrial-motion-planner-testutils_2.7.0-25-g390700936-2023.03.14.04.10_amd64.buildinfo
+ 36746bb2ecaff8248b018a05c0cafe6c 105506 misc optional ros-rolling-pilz-industrial-motion-planner-testutils_2.7.0-25-g390700936-2023.03.14.04.10_amd64.deb

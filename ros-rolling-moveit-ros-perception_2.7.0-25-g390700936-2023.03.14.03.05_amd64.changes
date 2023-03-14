@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-ros-perception
+Binary: ros-rolling-moveit-ros-perception
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.03.05
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-perception - Components of MoveIt connecting to perception
+Changes:
+ ros-rolling-moveit-ros-perception (2.7.0-25-g390700936-2023.03.14.03.05) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Use sensor data QOS profile for sensor_msgs::Image and sensor_msgs::PointCloud (#664 <https://github.com/ros-planning/moveit2/issues/664>)
+     Co-authored-by: Henry Moore <mailto:henrygerardmoore@gmail.com>
+     Co-authored-by: Tyler Weaver <mailto:tyler@picknik.ai>
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Abhijeet Das Gupta, Chris Thrasher, Christian Henkel, Cory Crean, Nathan Brooks, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ 13f9a16c84f75a74442ba3d0b99c3a872242853c 9144560 ros-rolling-moveit-ros-perception-dbgsym_2.7.0-25-g390700936-2023.03.14.03.05_amd64.ddeb
+ bc4771c3f3d22f840e193b2f59cf6f612dcc2c40 39426 ros-rolling-moveit-ros-perception_2.7.0-25-g390700936-2023.03.14.03.05_amd64.buildinfo
+ 3a075716b50f2530aa06a41fa2d6b0a613428e9e 339034 ros-rolling-moveit-ros-perception_2.7.0-25-g390700936-2023.03.14.03.05_amd64.deb
+Checksums-Sha256:
+ f7428192261c4dcecf4a193e0459ebdc1cb0b50b0fb299a794ad9992da68063d 9144560 ros-rolling-moveit-ros-perception-dbgsym_2.7.0-25-g390700936-2023.03.14.03.05_amd64.ddeb
+ e9a468fe1cb56a2d97896c8ec7f874f993c542a8ecaa696278ab400b2161574b 39426 ros-rolling-moveit-ros-perception_2.7.0-25-g390700936-2023.03.14.03.05_amd64.buildinfo
+ 84a500e905f2c29bb0843ba7b8744a0189e67e0f85d57393a367ef887770d54e 339034 ros-rolling-moveit-ros-perception_2.7.0-25-g390700936-2023.03.14.03.05_amd64.deb
+Files:
+ fe8ad707430214fa57f77efcaddac814 9144560 debug optional ros-rolling-moveit-ros-perception-dbgsym_2.7.0-25-g390700936-2023.03.14.03.05_amd64.ddeb
+ 35a95516d6fe991c3a32d49c30c5a8a1 39426 misc optional ros-rolling-moveit-ros-perception_2.7.0-25-g390700936-2023.03.14.03.05_amd64.buildinfo
+ a2c365dd86307039a4dfd76a5db624dc 339034 misc optional ros-rolling-moveit-ros-perception_2.7.0-25-g390700936-2023.03.14.03.05_amd64.deb

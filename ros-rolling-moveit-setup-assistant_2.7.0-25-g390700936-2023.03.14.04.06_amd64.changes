@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-setup-assistant
+Binary: ros-rolling-moveit-setup-assistant
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.04.06
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-setup-assistant - Generates a configuration package that makes it easy to use MoveI
+Changes:
+ ros-rolling-moveit-setup-assistant (2.7.0-25-g390700936-2023.03.14.04.06) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke
+Checksums-Sha1:
+ 9b164d649a0c6f9642120f349548d25886b91129 7315628 ros-rolling-moveit-setup-assistant-dbgsym_2.7.0-25-g390700936-2023.03.14.04.06_amd64.ddeb
+ d8cbd8d2dd419590a0f63baa772b6ca6fdfdf42e 34717 ros-rolling-moveit-setup-assistant_2.7.0-25-g390700936-2023.03.14.04.06_amd64.buildinfo
+ 8ed8d5bc5de07251ba14a3ae390a12342d28f147 292002 ros-rolling-moveit-setup-assistant_2.7.0-25-g390700936-2023.03.14.04.06_amd64.deb
+Checksums-Sha256:
+ 0461b5e9a486ab8d8ec924cc43bcaeca654450a30eda9b3191b334920f6070cc 7315628 ros-rolling-moveit-setup-assistant-dbgsym_2.7.0-25-g390700936-2023.03.14.04.06_amd64.ddeb
+ 63267d50fa614d0742f1bede80d79ccd57e1d3374a5e6bf8c16f166eb8b6cf57 34717 ros-rolling-moveit-setup-assistant_2.7.0-25-g390700936-2023.03.14.04.06_amd64.buildinfo
+ 058f32a007edd6d96b754b9319a681806c7cbf3d545be291b5e5e1b2205d7d4e 292002 ros-rolling-moveit-setup-assistant_2.7.0-25-g390700936-2023.03.14.04.06_amd64.deb
+Files:
+ c4eb2c66e5348cec9731475a2aa3abf9 7315628 debug optional ros-rolling-moveit-setup-assistant-dbgsym_2.7.0-25-g390700936-2023.03.14.04.06_amd64.ddeb
+ 770cd252ca29074302f1e4a30120ca34 34717 misc optional ros-rolling-moveit-setup-assistant_2.7.0-25-g390700936-2023.03.14.04.06_amd64.buildinfo
+ a3ce489c52c8b68129ee51e39d974b36 292002 misc optional ros-rolling-moveit-setup-assistant_2.7.0-25-g390700936-2023.03.14.04.06_amd64.deb

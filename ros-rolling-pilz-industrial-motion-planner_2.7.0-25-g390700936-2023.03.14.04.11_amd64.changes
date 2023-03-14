@@ -1,0 +1,68 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-pilz-industrial-motion-planner
+Binary: ros-rolling-pilz-industrial-motion-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.04.11
+Distribution: jammy
+Urgency: high
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Changed-By: Christian Henkel <c.henkel@pilz.de>
+Description:
+ ros-rolling-pilz-industrial-motion-planner - MoveIt plugin to generate industrial trajectories PTP, LIN, CIRC
+Changes:
+ ros-rolling-pilz-industrial-motion-planner (2.7.0-25-g390700936-2023.03.14.04.11) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Add default constructors
+     ... as they are not implicitly declared anymore
+   * Add default copy/move constructors/assignment operators
+     As a user-declared destructor deletes any implicitly-defined move constructor/assignment operator,
+     we need to declared them manually. This in turn requires to declare the copy constructor/assignment as well.
+   * Fix -Wunused-lambda-capture
+   * fix: resolve bugs in MoveGroupSequenceAction class (main branch) (#1797 <https://github.com/ros-planning/moveit2/issues/1797>)
+     * fix: resolve bugs in MoveGroupSequenceAction class
+     * style: adopt .clang-format
+     Co-authored-by: Marco Magri <mailto:marco.magri@fraunhofer.it>
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Cleanup lookup of planning pipelines in MoveItCpp (#1710 <https://github.com/ros-planning/moveit2/issues/1710>)
+     * Revert "Add planner configurations to CHOMP and PILZ (#1522 <https://github.com/ros-planning/moveit2/issues/1522>)"
+     * Cleanup lookup of planning pipelines
+     Remove MoveItCpp::getPlanningPipelineNames(), which was obviously intended initially to provide a planning-group-based filter for all available planning pipelines: A pipeline was discarded for a group, if there were no planner_configs defined for that group on the parameter server.
+     As pointed out in #1522 <https://github.com/ros-planning/moveit2/issues/1522>, only OMPL actually explicitly declares planner_configs on the parameter server.
+     To enable all other pipelines as well (and thus circumventing the original filter mechanism), #1522 <https://github.com/ros-planning/moveit2/issues/1522> introduced empty dummy planner_configs for all other planners as well (CHOMP + Pilz).
+     This, obviously, renders the whole filter mechanism useless. Thus, here we just remove the function getPlanningPipelineNames() and the corresponding member groups_pipelines_map_.
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Marco Magri, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ afd4e29a63f9d55449708e499b0cbe0895fdc0b6 87420516 ros-rolling-pilz-industrial-motion-planner-dbgsym_2.7.0-25-g390700936-2023.03.14.04.11_amd64.ddeb
+ 9acd475ed1f1652031227819a4e297bf31120eda 36924 ros-rolling-pilz-industrial-motion-planner_2.7.0-25-g390700936-2023.03.14.04.11_amd64.buildinfo
+ 32d2ef11e69e4359b373de6aa2ceae0bcc7fd9ce 1713706 ros-rolling-pilz-industrial-motion-planner_2.7.0-25-g390700936-2023.03.14.04.11_amd64.deb
+Checksums-Sha256:
+ 355ac718b53e2b899597de279d1f8d0aa0289d72f35e67db7ac9d9f09e75d333 87420516 ros-rolling-pilz-industrial-motion-planner-dbgsym_2.7.0-25-g390700936-2023.03.14.04.11_amd64.ddeb
+ 7c1d43f7edfd93575d173a4759aa24a27d771218ba50b1e7d3575772295548fa 36924 ros-rolling-pilz-industrial-motion-planner_2.7.0-25-g390700936-2023.03.14.04.11_amd64.buildinfo
+ 8ddb8d5f26b22a42ea39c84588caadae69b768e4c76ab2adad061f4d67810737 1713706 ros-rolling-pilz-industrial-motion-planner_2.7.0-25-g390700936-2023.03.14.04.11_amd64.deb
+Files:
+ bdab2888d99b4fc4df67837b5ba7b86b 87420516 debug optional ros-rolling-pilz-industrial-motion-planner-dbgsym_2.7.0-25-g390700936-2023.03.14.04.11_amd64.ddeb
+ 65c8478a0d290b71fcfa4ef8e65d612f 36924 misc optional ros-rolling-pilz-industrial-motion-planner_2.7.0-25-g390700936-2023.03.14.04.11_amd64.buildinfo
+ 965f826654cbe12655b249a7f9c2d4a2 1713706 misc optional ros-rolling-pilz-industrial-motion-planner_2.7.0-25-g390700936-2023.03.14.04.11_amd64.deb

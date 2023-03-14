@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-ros-warehouse
+Binary: ros-rolling-moveit-ros-warehouse
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.03.10
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-warehouse - Components of MoveIt connecting to MongoDB
+Changes:
+ ros-rolling-moveit-ros-warehouse (2.7.0-25-g390700936-2023.03.14.03.10) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ 621297daf70dc9f1dad8191c7ca48d89a71cfb29 17612804 ros-rolling-moveit-ros-warehouse-dbgsym_2.7.0-25-g390700936-2023.03.14.03.10_amd64.ddeb
+ 03df18c31615221e5aa3f529f3c745bc66b91136 28122 ros-rolling-moveit-ros-warehouse_2.7.0-25-g390700936-2023.03.14.03.10_amd64.buildinfo
+ 3f74ad04e42fabf80e15a4079fb792032ec8fe08 399520 ros-rolling-moveit-ros-warehouse_2.7.0-25-g390700936-2023.03.14.03.10_amd64.deb
+Checksums-Sha256:
+ c5d8edb54edaf925f8a6ad5c23d6301e35a9f7321dcb44a108b088eda1a8bf80 17612804 ros-rolling-moveit-ros-warehouse-dbgsym_2.7.0-25-g390700936-2023.03.14.03.10_amd64.ddeb
+ f9b82cb037f4a27afd9a79d1eb63c3b7333ba591ab8c1c5c7bdd8883a245e46a 28122 ros-rolling-moveit-ros-warehouse_2.7.0-25-g390700936-2023.03.14.03.10_amd64.buildinfo
+ eda27181312b7c1bb434071c6384bf5aaa51758a1cf492f416edf7b203a8c81d 399520 ros-rolling-moveit-ros-warehouse_2.7.0-25-g390700936-2023.03.14.03.10_amd64.deb
+Files:
+ aaa8c3cd04f00e3e70c8c03115d458d4 17612804 debug optional ros-rolling-moveit-ros-warehouse-dbgsym_2.7.0-25-g390700936-2023.03.14.03.10_amd64.ddeb
+ d5fdaf0f21910387c35da980e17d2270 28122 misc optional ros-rolling-moveit-ros-warehouse_2.7.0-25-g390700936-2023.03.14.03.10_amd64.buildinfo
+ ecd8e633dd638a25ec331a9efadedf2a 399520 misc optional ros-rolling-moveit-ros-warehouse_2.7.0-25-g390700936-2023.03.14.03.10_amd64.deb

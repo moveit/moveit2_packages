@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-planners-ompl
+Binary: ros-rolling-moveit-planners-ompl
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.02.54
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-planners-ompl - MoveIt interface to OMPL
+Changes:
+ ros-rolling-moveit-planners-ompl (2.7.0-25-g390700936-2023.03.14.02.54) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Cleanup msg includes: Use C++ instead of C header (#1844 <https://github.com/ros-planning/moveit2/issues/1844>)
+   * Remove ancient OMPL version directives (#1825 <https://github.com/ros-planning/moveit2/issues/1825>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Abhijeet Das Gupta, Chris Thrasher, Christian Henkel, Cory Crean, Henning Kayser, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ 7e2e92c755db0f706acaf619a143691dd59edb2d 22723952 ros-rolling-moveit-planners-ompl-dbgsym_2.7.0-25-g390700936-2023.03.14.02.54_amd64.ddeb
+ b6cfd9624d579bc8264c1b4dbdaab9469abb01f0 33549 ros-rolling-moveit-planners-ompl_2.7.0-25-g390700936-2023.03.14.02.54_amd64.buildinfo
+ b0f093026d543c5c113b482000f8cb8ac7de7fb3 321532 ros-rolling-moveit-planners-ompl_2.7.0-25-g390700936-2023.03.14.02.54_amd64.deb
+Checksums-Sha256:
+ 86849bd0fdea875ae064a0009aca23816bc9671ff938fe3ddce98945945af2e5 22723952 ros-rolling-moveit-planners-ompl-dbgsym_2.7.0-25-g390700936-2023.03.14.02.54_amd64.ddeb
+ edcded8aaaecdd57d4a9b9b79cd3703d07cb1664febfbe79ac7a9a2e5e6380c0 33549 ros-rolling-moveit-planners-ompl_2.7.0-25-g390700936-2023.03.14.02.54_amd64.buildinfo
+ bddead5565191195a97381a9a909bb166bb2042be6c39dd3b2d90dc7515de876 321532 ros-rolling-moveit-planners-ompl_2.7.0-25-g390700936-2023.03.14.02.54_amd64.deb
+Files:
+ 3028e9a6ff1409f52546f86b0b1f29ed 22723952 debug optional ros-rolling-moveit-planners-ompl-dbgsym_2.7.0-25-g390700936-2023.03.14.02.54_amd64.ddeb
+ bc23b6bd640784d6e14bb04e67cc1657 33549 misc optional ros-rolling-moveit-planners-ompl_2.7.0-25-g390700936-2023.03.14.02.54_amd64.buildinfo
+ 24e0d9a43eedd98b6502168af582cc59 321532 misc optional ros-rolling-moveit-planners-ompl_2.7.0-25-g390700936-2023.03.14.02.54_amd64.deb

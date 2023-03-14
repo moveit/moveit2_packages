@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-plugins
+Binary: ros-rolling-moveit-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.02.15
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-plugins - Metapackage for MoveIt plugins.
+Changes:
+ ros-rolling-moveit-plugins (2.7.0-25-g390700936-2023.03.14.02.15) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel
+Checksums-Sha1:
+ 35b1b0b08263f0501ca2d228eb2c79bc37806490 10883 ros-rolling-moveit-plugins_2.7.0-25-g390700936-2023.03.14.02.15_amd64.buildinfo
+ 4c542fe15887c7d9ac2f7abe932e70e558c895cc 6250 ros-rolling-moveit-plugins_2.7.0-25-g390700936-2023.03.14.02.15_amd64.deb
+Checksums-Sha256:
+ c1dff63fb1b5f768a9f79e9333d6b86526d169d95fcdce7563d2499696fc4219 10883 ros-rolling-moveit-plugins_2.7.0-25-g390700936-2023.03.14.02.15_amd64.buildinfo
+ 9e95c89e5728edf052d84435aa7d39b9aa4a026c940fdd85f2ad7a0df600f555 6250 ros-rolling-moveit-plugins_2.7.0-25-g390700936-2023.03.14.02.15_amd64.deb
+Files:
+ ef4846ff91f635257031fe81a12cab24 10883 misc optional ros-rolling-moveit-plugins_2.7.0-25-g390700936-2023.03.14.02.15_amd64.buildinfo
+ 0735e418c58f36d9d897a2adc996acae 6250 misc optional ros-rolling-moveit-plugins_2.7.0-25-g390700936-2023.03.14.02.15_amd64.deb

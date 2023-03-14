@@ -1,0 +1,60 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-hybrid-planning
+Binary: ros-rolling-moveit-hybrid-planning
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.03.23
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-rolling-moveit-hybrid-planning - Hybrid planning components of MoveIt 2
+Changes:
+ ros-rolling-moveit-hybrid-planning (2.7.0-25-g390700936-2023.03.14.03.23) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * Add default constructors
+     ... as they are not implicitly declared anymore
+   * Explicitly declare overrides
+   * Add default copy/move constructors/assignment operators
+     As a user-declared destructor deletes any implicitly-defined move constructor/assignment operator,
+     we need to declared them manually. This in turn requires to declare the copy constructor/assignment as well.
+   * Fix more clang warnings
+   * Fix -Wdelete-non-abstract-non-virtual-dtor
+   * Cleanup msg includes: Use C++ instead of C header (#1844 <https://github.com/ros-planning/moveit2/issues/1844>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke
+Checksums-Sha1:
+ 1a5af09442c7d303661278f31b127da6e09af42b 23654222 ros-rolling-moveit-hybrid-planning-dbgsym_2.7.0-25-g390700936-2023.03.14.03.23_amd64.ddeb
+ 37753de770ea396e8d8af79ec18b8dbd2f7ac707 30231 ros-rolling-moveit-hybrid-planning_2.7.0-25-g390700936-2023.03.14.03.23_amd64.buildinfo
+ b279a92e5115add07a9302e4724ef4aff0ecc12c 596098 ros-rolling-moveit-hybrid-planning_2.7.0-25-g390700936-2023.03.14.03.23_amd64.deb
+Checksums-Sha256:
+ b31bd4610549934913d7ca1b77e62ab182bc85a3a47a030e752d543c28ab5446 23654222 ros-rolling-moveit-hybrid-planning-dbgsym_2.7.0-25-g390700936-2023.03.14.03.23_amd64.ddeb
+ 4970ed08a4c8036faac72b38d7dbcee307efa82324772b50f1e3cf9e578ab07b 30231 ros-rolling-moveit-hybrid-planning_2.7.0-25-g390700936-2023.03.14.03.23_amd64.buildinfo
+ 8991842d2cc5bed28fcdd9e3c93ed3921dfb96e959b38bb7d6994aca241a9352 596098 ros-rolling-moveit-hybrid-planning_2.7.0-25-g390700936-2023.03.14.03.23_amd64.deb
+Files:
+ f55eb9dbca18a686a3fbdff7c17f255c 23654222 debug optional ros-rolling-moveit-hybrid-planning-dbgsym_2.7.0-25-g390700936-2023.03.14.03.23_amd64.ddeb
+ 8727e540b0fc9f57e2c4e7c1d4ed4be4 30231 misc optional ros-rolling-moveit-hybrid-planning_2.7.0-25-g390700936-2023.03.14.03.23_amd64.buildinfo
+ 3d497a5d9d4c4e71b1b1368c0058ee01 596098 misc optional ros-rolling-moveit-hybrid-planning_2.7.0-25-g390700936-2023.03.14.03.23_amd64.deb

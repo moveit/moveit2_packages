@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-ros-robot-interaction
+Binary: ros-rolling-moveit-ros-robot-interaction
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.03.09
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-robot-interaction - Components of MoveIt that offer interaction via interactive marke
+Changes:
+ ros-rolling-moveit-ros-robot-interaction (2.7.0-25-g390700936-2023.03.14.03.09) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke
+Checksums-Sha1:
+ 60a7bb4d8f91880f27b6a5ee3cb8509542fbef63 6396316 ros-rolling-moveit-ros-robot-interaction-dbgsym_2.7.0-25-g390700936-2023.03.14.03.09_amd64.ddeb
+ 044f4a28848678a26f54e9767bb51f5cfe7d203b 28197 ros-rolling-moveit-ros-robot-interaction_2.7.0-25-g390700936-2023.03.14.03.09_amd64.buildinfo
+ d51733e09a503b02f40777a81501847b59ec5189 159534 ros-rolling-moveit-ros-robot-interaction_2.7.0-25-g390700936-2023.03.14.03.09_amd64.deb
+Checksums-Sha256:
+ a70d671cd6479cea537f81a871c9ee126eaca3eb5deab436859d808ecc7f5b6f 6396316 ros-rolling-moveit-ros-robot-interaction-dbgsym_2.7.0-25-g390700936-2023.03.14.03.09_amd64.ddeb
+ 4ae0f0011d3519952aae98ac8a9230e31f65dcd4633f15b1a4d0ddf92afe7928 28197 ros-rolling-moveit-ros-robot-interaction_2.7.0-25-g390700936-2023.03.14.03.09_amd64.buildinfo
+ a926dbbf6cc15385f9affb2f22e73376483929e9ea9071baa9a4ddcc98aab884 159534 ros-rolling-moveit-ros-robot-interaction_2.7.0-25-g390700936-2023.03.14.03.09_amd64.deb
+Files:
+ 2ffc6c8338e854ee5963bdb93bb77671 6396316 debug optional ros-rolling-moveit-ros-robot-interaction-dbgsym_2.7.0-25-g390700936-2023.03.14.03.09_amd64.ddeb
+ bd583782fb8c575c6cc002a2e2af38e7 28197 misc optional ros-rolling-moveit-ros-robot-interaction_2.7.0-25-g390700936-2023.03.14.03.09_amd64.buildinfo
+ 939c8dab1ebb0d986da2476ce759aa27 159534 misc optional ros-rolling-moveit-ros-robot-interaction_2.7.0-25-g390700936-2023.03.14.03.09_amd64.deb

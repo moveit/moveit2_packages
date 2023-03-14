@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-setup-app-plugins
+Binary: ros-rolling-moveit-setup-app-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-25-g390700936-2023.03.14.03.50
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-rolling-moveit-setup-app-plugins - Various specialty plugins for MoveIt Setup Assistant
+Changes:
+ ros-rolling-moveit-setup-app-plugins (2.7.0-25-g390700936-2023.03.14.03.50) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * Declare selected classes as final
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Contributors: Chris Thrasher, Christian Henkel, Robert Haschke
+Checksums-Sha1:
+ 5e7f0f6249d665f432571f90e575baef10e18250 3666722 ros-rolling-moveit-setup-app-plugins-dbgsym_2.7.0-25-g390700936-2023.03.14.03.50_amd64.ddeb
+ 5ad7c3ab00162ac4ae9383e75b2547db7c33f421 33718 ros-rolling-moveit-setup-app-plugins_2.7.0-25-g390700936-2023.03.14.03.50_amd64.buildinfo
+ ca8f63f4486502606546320d11286d6913edcd61 71308 ros-rolling-moveit-setup-app-plugins_2.7.0-25-g390700936-2023.03.14.03.50_amd64.deb
+Checksums-Sha256:
+ 26ec46d888d1aa8b0ddd69e8019cb0eb129f4df8c654b111388ce2186675ccad 3666722 ros-rolling-moveit-setup-app-plugins-dbgsym_2.7.0-25-g390700936-2023.03.14.03.50_amd64.ddeb
+ c0b163f2a6b030a3e3a5dc92deac73f42a397d0a461184c5ad9cfaed1e33bcb3 33718 ros-rolling-moveit-setup-app-plugins_2.7.0-25-g390700936-2023.03.14.03.50_amd64.buildinfo
+ 832ffe772c0265fdf67c6e282ae2f6e6efdbebf6e0358c45e795a5222d203da7 71308 ros-rolling-moveit-setup-app-plugins_2.7.0-25-g390700936-2023.03.14.03.50_amd64.deb
+Files:
+ 93d674d1fbca45df2cf5cda2de198cc0 3666722 debug optional ros-rolling-moveit-setup-app-plugins-dbgsym_2.7.0-25-g390700936-2023.03.14.03.50_amd64.ddeb
+ 1ad867210e20938b838575ad56061421 33718 misc optional ros-rolling-moveit-setup-app-plugins_2.7.0-25-g390700936-2023.03.14.03.50_amd64.buildinfo
+ 184dace981a95d8b5b38606f9349fd1f 71308 misc optional ros-rolling-moveit-setup-app-plugins_2.7.0-25-g390700936-2023.03.14.03.50_amd64.deb
