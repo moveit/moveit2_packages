@@ -11,11 +11,11 @@ jobs:
       fail-fast: false
       max-parallel: 4
       matrix:
-        ros_distro: [humble, rolling]
+        ros_distro: [humble, iron, rolling]
     name: build_${{ matrix.ros_distro }}
     runs-on: ubuntu-22.04
     env:
-      repos_branch: ${{ matrix.ros_distro == 'rolling' && 'main' || matrix.ros_distro }}
+      repos_branch: ${{ (matrix.ros_distro == 'rolling' || matrix.ros_distro == 'iron') && 'main' || matrix.ros_distro }}
     steps:
       - uses: jspricke/ros-deb-builder-action@main
         with:
