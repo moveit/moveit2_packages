@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-rolling-moveit-py
+Binary: ros-rolling-moveit-py
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-17-g9782d9a44-2023.05.31.04.32
+Distribution: jammy
+Urgency: high
+Maintainer: Peter David Fagan <peterdavidfagan@gmail.com>
+Changed-By: Peter David Fagan <peterdavidfagan@gmail.com>
+Description:
+ ros-rolling-moveit-py - Python binding for MoveIt 2
+Changes:
+ ros-rolling-moveit-py (2.7.4-17-g9782d9a44-2023.05.31.04.32) jammy; urgency=high
+ .
+   * Rename named_target_state_values to get_named_target_state_values (#2181 <https://github.com/ros-planning/moveit2/issues/2181>)
+   * Deprecate MoveItCpp::execute() use of blocking flag (#1984 <https://github.com/ros-planning/moveit2/issues/1984>)
+   * Add Python binding for link_model_names and get_only_one_end_effector_tip + update stubs (#1985 <https://github.com/ros-planning/moveit2/issues/1985>)
+   * Contributors: Jafar, Lucas Wendland
+Checksums-Sha1:
+ 43991900c069ffb1b1fae357b29bd72952c350d3 876396 ros-rolling-moveit-py-dbgsym_2.7.4-17-g9782d9a44-2023.05.31.04.32_amd64.ddeb
+ c78a21ae63929377505b85b126e0a69c65a7c94b 27541 ros-rolling-moveit-py_2.7.4-17-g9782d9a44-2023.05.31.04.32_amd64.buildinfo
+ e9c8449bde6e37b61c17f1a02286c79bebafaeda 302134 ros-rolling-moveit-py_2.7.4-17-g9782d9a44-2023.05.31.04.32_amd64.deb
+Checksums-Sha256:
+ 844437c89d57757404964eb70f396be27b7990709d351305d8471a26bc579517 876396 ros-rolling-moveit-py-dbgsym_2.7.4-17-g9782d9a44-2023.05.31.04.32_amd64.ddeb
+ 5d825ff740ae0c4c0ffc8a67bd516bc3eb4eacc6015ff94aa584dc8a381affd8 27541 ros-rolling-moveit-py_2.7.4-17-g9782d9a44-2023.05.31.04.32_amd64.buildinfo
+ 41d9318ddf21c1b3b2a3ce377329833f3164f2dc2cb74f90bccdfbc858e709c0 302134 ros-rolling-moveit-py_2.7.4-17-g9782d9a44-2023.05.31.04.32_amd64.deb
+Files:
+ bfdcb31ef53814beb1da6e6f3219beaa 876396 debug optional ros-rolling-moveit-py-dbgsym_2.7.4-17-g9782d9a44-2023.05.31.04.32_amd64.ddeb
+ 3cd7390732fe16870e12a0bf68146a5c 27541 misc optional ros-rolling-moveit-py_2.7.4-17-g9782d9a44-2023.05.31.04.32_amd64.buildinfo
+ 12f5cc7143c92208431a97fb25d471bb 302134 misc optional ros-rolling-moveit-py_2.7.4-17-g9782d9a44-2023.05.31.04.32_amd64.deb
