@@ -1,0 +1,111 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-iron-moveit-servo
+Binary: ros-iron-moveit-servo
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-17-g9782d9a44-2023.05.31.04.31
+Distribution: jammy
+Urgency: high
+Maintainer: Blake Anderson <blakeanderson@utexas.edu>
+Changed-By: Blake Anderson <blakeanderson@utexas.edu>
+Description:
+ ros-iron-moveit-servo - Provides real-time manipulator Cartesian and joint servoing.
+Changes:
+ ros-iron-moveit-servo (2.7.4-17-g9782d9a44-2023.05.31.04.31) jammy; urgency=high
+ .
+   * [Servo] Remove soon-to-be obsolete functions (#2175 <https://github.com/ros-planning/moveit2/issues/2175>)
+     * Remove unused functions
+     * Remove drift and control dimension client in tests
+     * Remove gazebo specific message redundancy
+   * [Servo] Restore namespace to parameters (#2171 <https://github.com/ros-planning/moveit2/issues/2171>)
+     * Add  namespace to parameters
+     * Minor cleanups
+   * [Servo] Fix stop callback, delete pause/unpause mode (#2139 <https://github.com/ros-planning/moveit2/issues/2139>)
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+   * [Servo] Make conversion operations into free functions (#2149 <https://github.com/ros-planning/moveit2/issues/2149>)
+     * Move conversion operations to free functions
+     * Optimizations
+     * Fix const references
+     * Readability updates
+     * Remove unused header
+     * Comment update
+     ---------
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+   * [Servo] Avoid unnecessary checks for initializing ik_base_to_tip_frame (#2146 <https://github.com/ros-planning/moveit2/issues/2146>)
+     * Avoid unnecessary check
+     * Make ik_base_to_tip_frame_ local
+     * Remove use_inv_jacobian flag
+     * Use nullptr instead of NULL
+     * Alphabetize + clang-tidy
+     * Remove unused header
+   * [Servo] Update MoveIt Servo to use generate_parameter_library (#2096 <https://github.com/ros-planning/moveit2/issues/2096>)
+     * Add generate_parameter_library as dependency
+     * Add parameters file
+     * Update parameters file
+     * Fix one_of syntax
+     * Add parameter generation
+     * Include servo param header
+     * Test if parameters are loaded
+     * Make servo_node partially use ParamListener
+     * Make Servo partially use ParamListener
+     * Make ServoCalcs partially use ParamListener
+     * Fix frame name
+     * Handle parameter updates
+     * Remove old param lib dependency in CollisionCheck
+     * Remove old param lib dependency in ServoCalcs
+     * Remove old param lib dependency in Servo
+     * Remove old param lib dependency in ServoNode
+     * Remove old parameter librarysources
+     * Remove parameter_descriptor_builder sources
+     * Update parameter library header name
+     * Formatting
+     * Remove old param lib headers
+     * Add parameter to enable/disable continous parameter update check
+     * Update pose tracking demo
+     * Fix launch time parameter loading for pose tracking
+     * Move PID parameters to generate_parameter_library
+     * Fix launch time parameter loading for servo example
+     * Fix unit tests
+     * Fix interface test
+     * Fix pose tracking test
+     * Redorder member variable initialization
+     * Cleanup
+     * Group parameters
+     * Make parameter listener const
+     * Revert disabled lint tests
+     * Fix issues from rebase
+     * Apply performance suggestion from CI
+     * Apply variable naming suggestion from CI
+     * Apply pass params by reference suggestion by CI
+     * Apply review suggestions
+     * Apply review suggestions
+     * Remove unused parameter
+     * Change parameter listener to unique_ptr
+     * Add validations for some parameters
+     * Changes from review
+     * Make docstring more informative
+     Co-authored-by: Sebastian Castro <mailto:4603398+sea-bass@users.noreply.github.com>
+     * Change validation failure from warning to error
+     * Fix parameter loading in test launch files
+     * Remove defaults for robot specific params
+     * Update description for params with no default value
+     * Pass by reference
+     * Clang-tidy
+     Co-authored-by: Sebastian Castro <mailto:4603398+sea-bass@users.noreply.github.com>
+     ---------
+     Co-authored-by: Sebastian Castro <mailto:4603398+sea-bass@users.noreply.github.com>
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+   * Contributors: Sebastian Castro, V Mohammed Ibrahim
+Checksums-Sha1:
+ 3ff27b4b4261b4acfb50385ab34c9679c480bcfa 28887750 ros-iron-moveit-servo-dbgsym_2.7.4-17-g9782d9a44-2023.05.31.04.31_amd64.ddeb
+ f4bc1c7ba3f8ffc4bfa1ca1cdb6f047b5a8820e4 33852 ros-iron-moveit-servo_2.7.4-17-g9782d9a44-2023.05.31.04.31_amd64.buildinfo
+ 0b945e0f89bec4ca1f1679ee4c924ff8ff801776 648452 ros-iron-moveit-servo_2.7.4-17-g9782d9a44-2023.05.31.04.31_amd64.deb
+Checksums-Sha256:
+ 21ae0b8dd13416aec4235aecb731b43193379f45fa9a29abc9ee67a8381a2e0d 28887750 ros-iron-moveit-servo-dbgsym_2.7.4-17-g9782d9a44-2023.05.31.04.31_amd64.ddeb
+ 0d1ad6008cc303b4fcd443d5ba6ad5176727f298e791bad35b0c0b81df69970b 33852 ros-iron-moveit-servo_2.7.4-17-g9782d9a44-2023.05.31.04.31_amd64.buildinfo
+ e6b38fbb0b518c747da8ed9dc42b61c73b815025a83cd61995559ef39fab2dce 648452 ros-iron-moveit-servo_2.7.4-17-g9782d9a44-2023.05.31.04.31_amd64.deb
+Files:
+ 4e66cfb4f7a8e6e2c8bd46387a82882b 28887750 debug optional ros-iron-moveit-servo-dbgsym_2.7.4-17-g9782d9a44-2023.05.31.04.31_amd64.ddeb
+ f8066460ba0c071deff9adeaad547d2f 33852 misc optional ros-iron-moveit-servo_2.7.4-17-g9782d9a44-2023.05.31.04.31_amd64.buildinfo
+ 1d8cc5dd33306227f17289b2cb5a3834 648452 misc optional ros-iron-moveit-servo_2.7.4-17-g9782d9a44-2023.05.31.04.31_amd64.deb
