@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-humble-moveit-planners-ompl
+Binary: ros-humble-moveit-planners-ompl
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-17-g9782d9a44-2023.06.01.03.57
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-planners-ompl - MoveIt interface to OMPL
+Changes:
+ ros-humble-moveit-planners-ompl (2.7.4-17-g9782d9a44-2023.06.01.03.57) jammy; urgency=high
+ .
+   * Fix Constraint Planning Segfault (#2130 <https://github.com/ros-planning/moveit2/issues/2130>)
+     * Fix Constraint Planning Segfault
+     * Reuse planner data
+     * apply clang formatting
+     * apply clang formatting round 2
+     * add FIXME note and verbose output of planning graph size
+     ---------
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: Marq Rasmussen
+Checksums-Sha1:
+ 6cb25400a447a191571ac0bd2113a6e58c232509 22742028 ros-humble-moveit-planners-ompl-dbgsym_2.7.4-17-g9782d9a44-2023.06.01.03.57_amd64.ddeb
+ 3356bad3adb3c8d27490f193ae05f3f15697180b 33412 ros-humble-moveit-planners-ompl_2.7.4-17-g9782d9a44-2023.06.01.03.57_amd64.buildinfo
+ 2ddff8ff1f9664c52b6422053250006f9683991b 329374 ros-humble-moveit-planners-ompl_2.7.4-17-g9782d9a44-2023.06.01.03.57_amd64.deb
+Checksums-Sha256:
+ fbe034e3efe5c2851ed18e7c5f2fd3607843ee795a821f25aa5f0a8e71907fd9 22742028 ros-humble-moveit-planners-ompl-dbgsym_2.7.4-17-g9782d9a44-2023.06.01.03.57_amd64.ddeb
+ c5013ef7cdb2fea59ca85bfc8bf134d952363731436b4fd1ec5efaf3f18e58c4 33412 ros-humble-moveit-planners-ompl_2.7.4-17-g9782d9a44-2023.06.01.03.57_amd64.buildinfo
+ a70dde8d15bd0c733f826165bbc57a2afd0a0a32022772e5ecf091166d762f54 329374 ros-humble-moveit-planners-ompl_2.7.4-17-g9782d9a44-2023.06.01.03.57_amd64.deb
+Files:
+ f077559a32d54eaf89c467d7a66d1b65 22742028 debug optional ros-humble-moveit-planners-ompl-dbgsym_2.7.4-17-g9782d9a44-2023.06.01.03.57_amd64.ddeb
+ 886843350d7806634572368d633f8ae5 33412 misc optional ros-humble-moveit-planners-ompl_2.7.4-17-g9782d9a44-2023.06.01.03.57_amd64.buildinfo
+ 1b12ff42b2872edadbbfc07729eebd98 329374 misc optional ros-humble-moveit-planners-ompl_2.7.4-17-g9782d9a44-2023.06.01.03.57_amd64.deb
