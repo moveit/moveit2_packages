@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-rolling-moveit-configs-utils
+Binary: ros-rolling-moveit-configs-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-17-g9782d9a44-2023.06.02.02.39
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-rolling-moveit-configs-utils - Python library for loading moveit config parameters in launch fil
+Changes:
+ ros-rolling-moveit-configs-utils (2.7.4-17-g9782d9a44-2023.06.02.02.39) jammy; urgency=high
+ .
+   * Parse xacro args from .setup_assistant config in MoveIt Configs Builder (#2172 <https://github.com/ros-planning/moveit2/issues/2172>)
+     Co-authored-by: Jafar <mailto:jafar.uruc@gmail.com>
+   * Update default planning configs to use AddTimeOptimalParameterization (#2167 <https://github.com/ros-planning/moveit2/issues/2167>)
+   * Contributors: Anthony Baker
+Checksums-Sha1:
+ 949d9f2fe9180c99146abea4a835c4ee1bde18de 10028 ros-rolling-moveit-configs-utils_2.7.4-17-g9782d9a44-2023.06.02.02.39_amd64.buildinfo
+ a9b5988b1ead3c13607a9c7d2cc73ccc2d1eabcc 23592 ros-rolling-moveit-configs-utils_2.7.4-17-g9782d9a44-2023.06.02.02.39_amd64.deb
+Checksums-Sha256:
+ 9287350ea9beb039767af0ab6648e25c9d88932572c419e80adc08a2a4ce0250 10028 ros-rolling-moveit-configs-utils_2.7.4-17-g9782d9a44-2023.06.02.02.39_amd64.buildinfo
+ 2161aad707f74d7e53e52259d2cee9e7bed189899b683afd53afad4178a0be69 23592 ros-rolling-moveit-configs-utils_2.7.4-17-g9782d9a44-2023.06.02.02.39_amd64.deb
+Files:
+ 226069033ba344b30f188688f080b004 10028 misc optional ros-rolling-moveit-configs-utils_2.7.4-17-g9782d9a44-2023.06.02.02.39_amd64.buildinfo
+ d0babe364bf15c305da626b944e7b6d9 23592 misc optional ros-rolling-moveit-configs-utils_2.7.4-17-g9782d9a44-2023.06.02.02.39_amd64.deb
