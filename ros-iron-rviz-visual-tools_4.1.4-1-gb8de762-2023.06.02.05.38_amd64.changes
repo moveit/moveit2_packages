@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 05 Jan 2023 00:00:00 -0000
+Source: ros-iron-rviz-visual-tools
+Binary: ros-iron-rviz-visual-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.1.4-1-gb8de762-2023.06.02.05.38
+Distribution: jammy
+Urgency: high
+Maintainer: Mike Lautman <mike@picknik.ai>
+Changed-By: Mike Lautman <mike@picknik.ai>
+Description:
+ ros-iron-rviz-visual-tools - Utility functions for displaying and debugging data in Rviz via p
+Changes:
+ ros-iron-rviz-visual-tools (4.1.4-1-gb8de762-2023.06.02.05.38) jammy; urgency=high
+ .
+   * Migrate to Ogre.h (#226 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/226>)
+   * Remove galactic jobs since they are deprecated (#232 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/232>)
+   * Add arbitrary color option to publishCuboid (#227 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/227>)
+   * Bump clang-format version to 14 (#228 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/228>)
+   * Contributors: Sebastian Castro, Stephanie Eng, Vatan Aksoy Tezer
+Checksums-Sha1:
+ 482e59f596110985e2c42fd1bcfa1ed69fc30b31 10619556 ros-iron-rviz-visual-tools-dbgsym_4.1.4-1-gb8de762-2023.06.02.05.38_amd64.ddeb
+ c8e669569b37cd1ec323d4c121edb6214b5699e5 25307 ros-iron-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.02.05.38_amd64.buildinfo
+ 41c4ccea6a1ebae1509e7be8a32eb74b7d387cea 280704 ros-iron-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.02.05.38_amd64.deb
+Checksums-Sha256:
+ 090e1c5d14e51457e26fab137d415f5795750764e4b3d688bbc0f79331f5c005 10619556 ros-iron-rviz-visual-tools-dbgsym_4.1.4-1-gb8de762-2023.06.02.05.38_amd64.ddeb
+ b9132165f6dbd4c8c35f8ae0b21a95ea0b394680c1a5be08560ecd597d67fe24 25307 ros-iron-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.02.05.38_amd64.buildinfo
+ a740756dc618aed279e0f4790870a63db87659031ac9454455ff86ddade0419e 280704 ros-iron-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.02.05.38_amd64.deb
+Files:
+ e400b590f4bfb48c60e19c12ecfd4ac3 10619556 debug optional ros-iron-rviz-visual-tools-dbgsym_4.1.4-1-gb8de762-2023.06.02.05.38_amd64.ddeb
+ e5b7c3bdf9934587a2916edd85b17b62 25307 misc optional ros-iron-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.02.05.38_amd64.buildinfo
+ dca80a112e45c9b249f3ff9633d6794a 280704 misc optional ros-iron-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.02.05.38_amd64.deb
