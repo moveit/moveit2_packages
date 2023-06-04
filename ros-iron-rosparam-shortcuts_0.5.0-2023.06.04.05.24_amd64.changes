@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Wed, 16 Feb 2022 00:00:00 -0000
+Source: ros-iron-rosparam-shortcuts
+Binary: ros-iron-rosparam-shortcuts
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.5.0-2023.06.04.05.24
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Changed-By: Dave Coleman <davetcoleman@gmail.com>
+Description:
+ ros-iron-rosparam-shortcuts - Quickly load variables from rosparam with good command line error
+Changes:
+ ros-iron-rosparam-shortcuts (0.5.0-2023.06.04.05.24) jammy; urgency=high
+ .
+   * Fix warnings (#25 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/25>)
+   * Galactic and rolling fixes (#23 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/23>)
+   * Dynamic parameters (#16 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/16>)
+     Allows a node to contain an object capable of handling dynamic parameters.
+     Contains methods for user defined parameter validation callbacks and
+     notifies the user if the parameters changed.
+   * Port rosparam_shortcuts to ROS 2 (#15 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/15>)
+   * bump cmake version (#13 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/13>)
+     get rid of CMP0048 warning.
+     https://github.com/ros-planning/geometric_shapes/pull/129
+   * Contributors: Boston Cleek, Jafar Abdi, Michael Görner, Nathan Brooks
+Checksums-Sha1:
+ 564be4c2b59f1df3a5d335727be6144cca9627ed 1754892 ros-iron-rosparam-shortcuts-dbgsym_0.5.0-2023.06.04.05.24_amd64.ddeb
+ 4649076323490fa6c37e7e11f425b084103a698f 18579 ros-iron-rosparam-shortcuts_0.5.0-2023.06.04.05.24_amd64.buildinfo
+ 7d7ea8de815c60155b1203310ad0bd4bc326c8a4 67170 ros-iron-rosparam-shortcuts_0.5.0-2023.06.04.05.24_amd64.deb
+Checksums-Sha256:
+ a457f048a454fcc029a480c32a874bbe5d65968c23ba50b529ddc8f73ff88bb8 1754892 ros-iron-rosparam-shortcuts-dbgsym_0.5.0-2023.06.04.05.24_amd64.ddeb
+ 09be0a379ca80c8954eb57d93278027b3f1480d7c4d01261171dca0ae59dc919 18579 ros-iron-rosparam-shortcuts_0.5.0-2023.06.04.05.24_amd64.buildinfo
+ f68468fc6283aa74478a355ec39db7ac35a5c9927a6dad74048d8d09ea1a4e9c 67170 ros-iron-rosparam-shortcuts_0.5.0-2023.06.04.05.24_amd64.deb
+Files:
+ 37efa7672df135b5e06c2056484388ca 1754892 debug optional ros-iron-rosparam-shortcuts-dbgsym_0.5.0-2023.06.04.05.24_amd64.ddeb
+ c7708b468b2e173a1bba86b5c7801a1d 18579 misc optional ros-iron-rosparam-shortcuts_0.5.0-2023.06.04.05.24_amd64.buildinfo
+ bb10353406cfb0721912f5ab1c7ad3b1 67170 misc optional ros-iron-rosparam-shortcuts_0.5.0-2023.06.04.05.24_amd64.deb

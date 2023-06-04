@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 12 May 2023 00:00:00 -0000
+Source: ros-iron-moveit-msgs
+Binary: ros-iron-moveit-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.2-2023.06.04.02.56
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-iron-moveit-msgs - Messages, services and actions used by MoveIt
+Changes:
+ ros-iron-moveit-msgs (2.2.2-2023.06.04.02.56) jammy; urgency=high
+ .
+   * Remove disclaimer from CollisionObject pose (#126 <https://github.com/ros-planning/moveit_msgs/issues/126>)
+   * Add fields in GetCartesianPath srv to scale velocity and acceleration (#154 <https://github.com/ros-planning/moveit_msgs/issues/154>)
+   * Fix clang-format-14 version in Format CI job (#151 <https://github.com/ros-planning/moveit_msgs/issues/151>)
+   * Switch to clang-format-14 (#150 <https://github.com/ros-planning/moveit_msgs/issues/150>)
+   * move_group: Delete unused ExecuteKnownTrajectory.srv (#149 <https://github.com/ros-planning/moveit_msgs/issues/149>)
+   * Contributors: AndyZe, Felix von Drigalski, Henning Kayser, Yadu
+Checksums-Sha1:
+ 2589040bf1caf343a46fe368153452c500457777 23842898 ros-iron-moveit-msgs-dbgsym_2.2.2-2023.06.04.02.56_amd64.ddeb
+ c1e444074fdb89f7495e203e8a5ee6f5e59a50c9 13628 ros-iron-moveit-msgs_2.2.2-2023.06.04.02.56_amd64.buildinfo
+ 830bfadfeaefa32bfb5c4316afc643fa14415e43 1986552 ros-iron-moveit-msgs_2.2.2-2023.06.04.02.56_amd64.deb
+Checksums-Sha256:
+ 4c90140bed673a18d3a64e1ded8142c2248e0dd50bd3704664146038d0fccd06 23842898 ros-iron-moveit-msgs-dbgsym_2.2.2-2023.06.04.02.56_amd64.ddeb
+ cd847663aafc3b2115a32219a642fb4c35eced3c882c311d60ddbfaddb65d27e 13628 ros-iron-moveit-msgs_2.2.2-2023.06.04.02.56_amd64.buildinfo
+ 34e49583639ad1a3ddcc796b734ee447406e829f9bcb5119634a6e7bb2123bf9 1986552 ros-iron-moveit-msgs_2.2.2-2023.06.04.02.56_amd64.deb
+Files:
+ 10c2c081df14e67b841478ce034ac955 23842898 debug optional ros-iron-moveit-msgs-dbgsym_2.2.2-2023.06.04.02.56_amd64.ddeb
+ f1eaf9c3ad213c6a7c0ef64c9a8aa5b2 13628 misc optional ros-iron-moveit-msgs_2.2.2-2023.06.04.02.56_amd64.buildinfo
+ 129245459dba69e57fc670268c67e83f 1986552 misc optional ros-iron-moveit-msgs_2.2.2-2023.06.04.02.56_amd64.deb
