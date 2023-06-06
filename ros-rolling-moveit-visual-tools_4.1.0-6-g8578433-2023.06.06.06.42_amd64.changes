@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 09 May 2022 00:00:00 -0000
+Source: ros-rolling-moveit-visual-tools
+Binary: ros-rolling-moveit-visual-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.1.0-6-g8578433-2023.06.06.06.42
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ ros-rolling-moveit-visual-tools - Helper functions for displaying and debugging MoveIt data in Rviz
+Changes:
+ ros-rolling-moveit-visual-tools (4.1.0-6-g8578433-2023.06.06.06.42) jammy; urgency=high
+ .
+   * Update black version (#117 <https://github.com/ros-planning/moveit_visual_tools/issues/117>)
+   * Jammy fixes and clang-format-12 (#116 <https://github.com/ros-planning/moveit_visual_tools/issues/116>)
+   * Fixed deprecated call to PlanningSceneMonitor's constructor (#108 <https://github.com/ros-planning/moveit_visual_tools/issues/108>)
+   * Remove Foxy CI builds (#111 <https://github.com/ros-planning/moveit_visual_tools/issues/111>)
+   * Generate license using ament_copyright (#105 <https://github.com/ros-planning/moveit_visual_tools/issues/105>)
+   * Contributors: Jafar Abdi, Stephanie Eng, Vatan Aksoy Tezer
+Checksums-Sha1:
+ 6817aa128121793d48c70bb7b1fdd7ce9f17ac1f 8659362 ros-rolling-moveit-visual-tools-dbgsym_4.1.0-6-g8578433-2023.06.06.06.42_amd64.ddeb
+ 059f9d39f1899e0cf500cabeaaf9dc5b83bc8d6a 34945 ros-rolling-moveit-visual-tools_4.1.0-6-g8578433-2023.06.06.06.42_amd64.buildinfo
+ 80a679f888d0a4120df101833fb20a4414103d9c 297534 ros-rolling-moveit-visual-tools_4.1.0-6-g8578433-2023.06.06.06.42_amd64.deb
+Checksums-Sha256:
+ 3bba13afa380d3d67864f7f43a5d0b767b735177aa742302b6592b43988f64ae 8659362 ros-rolling-moveit-visual-tools-dbgsym_4.1.0-6-g8578433-2023.06.06.06.42_amd64.ddeb
+ 428db8e125d8732c4ffd33b44d01dcd353911b449376f5631a0cf6fb7e71ab70 34945 ros-rolling-moveit-visual-tools_4.1.0-6-g8578433-2023.06.06.06.42_amd64.buildinfo
+ d85b6a43af1199c913870a33f1d2c95f6db7d7e2365002a2741b39d9f5283e02 297534 ros-rolling-moveit-visual-tools_4.1.0-6-g8578433-2023.06.06.06.42_amd64.deb
+Files:
+ bd1625e52cbc3dc20f236fe23aa5734c 8659362 debug optional ros-rolling-moveit-visual-tools-dbgsym_4.1.0-6-g8578433-2023.06.06.06.42_amd64.ddeb
+ 23fa5305de749156f0921538c2475612 34945 misc optional ros-rolling-moveit-visual-tools_4.1.0-6-g8578433-2023.06.06.06.42_amd64.buildinfo
+ 1d97d2bec4739900ad21452c26088aae 297534 misc optional ros-rolling-moveit-visual-tools_4.1.0-6-g8578433-2023.06.06.06.42_amd64.deb
