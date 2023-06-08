@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-humble-moveit-configs-utils
+Binary: ros-humble-moveit-configs-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-24-gde1610dc2-2023.06.08.02.43
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-humble-moveit-configs-utils - Python library for loading moveit config parameters in launch fil
+Changes:
+ ros-humble-moveit-configs-utils (2.7.4-24-gde1610dc2-2023.06.08.02.43) jammy; urgency=high
+ .
+   * Parse xacro args from .setup_assistant config in MoveIt Configs Builder (#2172 <https://github.com/ros-planning/moveit2/issues/2172>)
+     Co-authored-by: Jafar <mailto:jafar.uruc@gmail.com>
+   * Update default planning configs to use AddTimeOptimalParameterization (#2167 <https://github.com/ros-planning/moveit2/issues/2167>)
+   * Contributors: Anthony Baker
+Checksums-Sha1:
+ e4e2000c1870f0e7d8a09fa78e44f4b653952832 10016 ros-humble-moveit-configs-utils_2.7.4-24-gde1610dc2-2023.06.08.02.43_amd64.buildinfo
+ dabc636afc2ef7f6537a6c732445675e8fe3c6db 23604 ros-humble-moveit-configs-utils_2.7.4-24-gde1610dc2-2023.06.08.02.43_amd64.deb
+Checksums-Sha256:
+ 48f5ee9178bf36a05735c0e44a1622ade71f9fbc2aac0dcdcfdc9ae63904683c 10016 ros-humble-moveit-configs-utils_2.7.4-24-gde1610dc2-2023.06.08.02.43_amd64.buildinfo
+ a742c18ae560f3f2cfe7167152387c5e33faaf8009361426ab7dd71791046891 23604 ros-humble-moveit-configs-utils_2.7.4-24-gde1610dc2-2023.06.08.02.43_amd64.deb
+Files:
+ 25462bbf2a164068e17ec31812e49c44 10016 misc optional ros-humble-moveit-configs-utils_2.7.4-24-gde1610dc2-2023.06.08.02.43_amd64.buildinfo
+ 9baa49a6c1d4b8035bd28c9f39a60e91 23604 misc optional ros-humble-moveit-configs-utils_2.7.4-24-gde1610dc2-2023.06.08.02.43_amd64.deb
