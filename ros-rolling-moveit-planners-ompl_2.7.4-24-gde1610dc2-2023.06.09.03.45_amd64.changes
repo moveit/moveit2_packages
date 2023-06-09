@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-rolling-moveit-planners-ompl
+Binary: ros-rolling-moveit-planners-ompl
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-24-gde1610dc2-2023.06.09.03.45
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-planners-ompl - MoveIt interface to OMPL
+Changes:
+ ros-rolling-moveit-planners-ompl (2.7.4-24-gde1610dc2-2023.06.09.03.45) jammy; urgency=high
+ .
+   * Fix Constraint Planning Segfault (#2130 <https://github.com/ros-planning/moveit2/issues/2130>)
+     * Fix Constraint Planning Segfault
+     * Reuse planner data
+     * apply clang formatting
+     * apply clang formatting round 2
+     * add FIXME note and verbose output of planning graph size
+     ---------
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: Marq Rasmussen
+Checksums-Sha1:
+ 24947af4243fac3d91f66a4e2acb15898e63b2ad 22877324 ros-rolling-moveit-planners-ompl-dbgsym_2.7.4-24-gde1610dc2-2023.06.09.03.45_amd64.ddeb
+ ef82647ab678086e8a679c8bf2e098f78a92b88e 34479 ros-rolling-moveit-planners-ompl_2.7.4-24-gde1610dc2-2023.06.09.03.45_amd64.buildinfo
+ 8fb8d00f64d9d94fd483778c481d5065cc92d501 336464 ros-rolling-moveit-planners-ompl_2.7.4-24-gde1610dc2-2023.06.09.03.45_amd64.deb
+Checksums-Sha256:
+ 9633a99c55f3964c082b2f587c3b8f625ebae4e25f6651318fe6bfcde4b66863 22877324 ros-rolling-moveit-planners-ompl-dbgsym_2.7.4-24-gde1610dc2-2023.06.09.03.45_amd64.ddeb
+ 92ad3cad91c5ed3c95b54fde59934c40b8e7e4d525bc6bf02ad0fa70fa49596c 34479 ros-rolling-moveit-planners-ompl_2.7.4-24-gde1610dc2-2023.06.09.03.45_amd64.buildinfo
+ 5e74fdb6036d503d18e1f333a6c437ce6d0a99865a333f19dac5566e42b08a77 336464 ros-rolling-moveit-planners-ompl_2.7.4-24-gde1610dc2-2023.06.09.03.45_amd64.deb
+Files:
+ baf2199ec2034b6201f484420000a561 22877324 debug optional ros-rolling-moveit-planners-ompl-dbgsym_2.7.4-24-gde1610dc2-2023.06.09.03.45_amd64.ddeb
+ a4e4d7c753e56f1b3c9bd14edbbaa109 34479 misc optional ros-rolling-moveit-planners-ompl_2.7.4-24-gde1610dc2-2023.06.09.03.45_amd64.buildinfo
+ 81bc10a3050b0e61539cf1f1e4a4442d 336464 misc optional ros-rolling-moveit-planners-ompl_2.7.4-24-gde1610dc2-2023.06.09.03.45_amd64.deb
