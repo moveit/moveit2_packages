@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-rolling-moveit-planners-stomp
+Binary: ros-rolling-moveit-planners-stomp
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.07
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-planners-stomp - STOMP Motion Planner for MoveIt
+Changes:
+ ros-rolling-moveit-planners-stomp (2.7.4-24-gde1610dc2-2023.06.10.03.07) jammy; urgency=high
+ .
+   * Migrate STOMP from ros-planning/stomp_moveit (#2158 <https://github.com/ros-planning/moveit2/issues/2158>)
+   * Fix clang-tidy warnings
+   * Improve Documentation and Readability
+   * Remove MVT example
+   * Migrate stomp_moveit into moveit_planners
+     * Move package into moveit_planners subdirectory
+     * Rename stomp_moveit package to moveit_planners_stomp
+     * List moveit_planners_stomp as package dependency
+   * Contributors: Henning Kayser
+Checksums-Sha1:
+ 1152be706bd2c24d74005f0a223a62d5b59776e5 6201358 ros-rolling-moveit-planners-stomp-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.03.07_amd64.ddeb
+ 8468fcfed603cb15a3486377d93433b1459e45cd 28882 ros-rolling-moveit-planners-stomp_2.7.4-24-gde1610dc2-2023.06.10.03.07_amd64.buildinfo
+ ab0469be5609b1fd2a71aad4f50c9c7d463d0369 139258 ros-rolling-moveit-planners-stomp_2.7.4-24-gde1610dc2-2023.06.10.03.07_amd64.deb
+Checksums-Sha256:
+ ea13842e6c9bfa647fee7455466a3149689d0ae5ebee4250f6bcf79d6145da93 6201358 ros-rolling-moveit-planners-stomp-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.03.07_amd64.ddeb
+ f24dc3227a36cd33989f69b45c12d6967759d990fa5b302e5aa8dd84bc5daf95 28882 ros-rolling-moveit-planners-stomp_2.7.4-24-gde1610dc2-2023.06.10.03.07_amd64.buildinfo
+ 912e26660edff3899d2e4d2d6cabd69defa026c839039f5bd5b8cf8b711c2ef3 139258 ros-rolling-moveit-planners-stomp_2.7.4-24-gde1610dc2-2023.06.10.03.07_amd64.deb
+Files:
+ 07563f05c99fb598835adc6f96c50727 6201358 debug optional ros-rolling-moveit-planners-stomp-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.03.07_amd64.ddeb
+ dca057bd2f2a2f24da60eb4e016b0f90 28882 misc optional ros-rolling-moveit-planners-stomp_2.7.4-24-gde1610dc2-2023.06.10.03.07_amd64.buildinfo
+ 6118454cf33b7a18cc87cd3f9676971e 139258 misc optional ros-rolling-moveit-planners-stomp_2.7.4-24-gde1610dc2-2023.06.10.03.07_amd64.deb
