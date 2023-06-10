@@ -1,885 +1,885 @@
 Package: ros-iron-chomp-motion-planner-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.14
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.20
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-chomp-motion-planner
 Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
 Installed-Size: 6899
-Depends: ros-iron-chomp-motion-planner (= 2.7.4-24-gde1610dc2-2023.06.08.03.14)
-Filename: ./ros-iron-chomp-motion-planner-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.03.14_amd64.ddeb
-Size: 6939930
-MD5sum: 3aa05669f4c26c173abed0471328dca6
-SHA1: 4f1a09b83a5077fa50ee04f339b0d37cec2b4a3e
-SHA256: 4c8c01f7b8ee8b189ae9fc06c7248e527219d6c6231995e1ae86038b94f972c0
-SHA512: 662a9af6ce555e1e7b1a4081bd0e7d28898ac520b30fd863a284e1cf426f5ccb62d8fc45ad4fc7f0f669ece6cac3a2d35c922c1261eec2a5b2f8385eed5b325a
+Depends: ros-iron-chomp-motion-planner (= 2.7.4-24-gde1610dc2-2023.06.10.03.20)
+Filename: ./ros-iron-chomp-motion-planner-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.03.20_amd64.ddeb
+Size: 6939928
+MD5sum: 53f4aee9f887b5bb0795ee884e20c1b2
+SHA1: 0dd17e3d4c0d1de2989628cafbe42709554c5e43
+SHA256: 6dd2405a18c565bda0aa8971f78eb6e94f29a4f7028b7bddcb7de80dadf93166
+SHA512: 8e0ce6c2cd1d756e0c31e5b8479fb54eac27a1342597f6c525974495927e37abaaeaa181f8a5ed1f85c9642328753484e39bf087f11467c6a432792ed16caffb
 Description: debug symbols for ros-iron-chomp-motion-planner
-Build-Ids: 6dd0e429ba6b52e272ce55855815136bc4ec0463
+Build-Ids: 4b4795737fa51b77defad09a08bc5727f9f1be44
 
 Package: ros-iron-chomp-motion-planner
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.14
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.20
 Priority: optional
 Section: misc
 Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
 Installed-Size: 302
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-moveit-core, ros-iron-moveit-common, ros-iron-rclcpp, ros-iron-rsl, ros-iron-trajectory-msgs
-Filename: ./ros-iron-chomp-motion-planner_2.7.4-24-gde1610dc2-2023.06.08.03.14_amd64.deb
-Size: 101714
-MD5sum: b10b061bc2c5ea59e0160bb8f8d0a8cb
-SHA1: 29a9dd651c2475eb622cb7a6d51b37b215e91e87
-SHA256: 5c01b0221b569e19b649a9d1df0c287019d14a3eebf6f6daa81f99d65fa6a2a6
-SHA512: 628501d1a9bca3e1fa9f117d6f855f90d13b29e6e4842587469cd0ed74f86f0427dc4c601572804bbfb82a06e5b5c8d9accd3049776f03b11104990b0792697a
+Filename: ./ros-iron-chomp-motion-planner_2.7.4-24-gde1610dc2-2023.06.10.03.20_amd64.deb
+Size: 101716
+MD5sum: 99db47d1cc802502b02e96e837064c76
+SHA1: 5eae5dc789693cdb9afc5ec8c35f5bcff924aaf6
+SHA256: c45b7d5fd7a66cd95304a2adb9dedcaec2b2c39b5ad9eaa8935d9cc859d0edb0
+SHA512: 06894edcf29ef78ae0a5c1b4186e2f22013ba735b915818de20811157f48bce77d67e6b6b2b979fb1186b4667f728f0e312fc3cee8039149f6dd207122655a34
 Homepage: http://ros.org/wiki/chomp_motion_planner
 Description: chomp_motion_planner
 
 Package: ros-iron-dual-arm-panda-moveit-config
 Architecture: amd64
-Version: 2.1.1-2-ga035b68-2023.06.08.02.40
+Version: 2.1.1-2-ga035b68-2023.06.10.02.31
 Priority: optional
 Section: misc
 Maintainer: Mike Lautman <mike@picknik.ai>
 Installed-Size: 120
 Depends: ros-iron-joint-state-publisher, ros-iron-joint-state-publisher-gui, ros-iron-moveit-resources-panda-description, ros-iron-robot-state-publisher, ros-iron-topic-tools, ros-iron-xacro
-Filename: ./ros-iron-dual-arm-panda-moveit-config_2.1.1-2-ga035b68-2023.06.08.02.40_amd64.deb
+Filename: ./ros-iron-dual-arm-panda-moveit-config_2.1.1-2-ga035b68-2023.06.10.02.31_amd64.deb
 Size: 14928
-MD5sum: bd2856e8bdd1302c1f62ef1c2e3e4aeb
-SHA1: 9c2c79288e1688e9904097546f06c42a0e7f7a3f
-SHA256: 81144c2d0359740fc180d56970f2cec0404c3676400cd741199e18b6603789ac
-SHA512: d988ecf9882614bc0df5e2064db603e582d689c6baf8957aa8241739af1a774c492415fd82aad3e5fa686433dfddfe07c0d679478a55f4d34fd4a8a6ddd8c3ff
+MD5sum: 3b928f8dc41b94bc3b622bd294556d06
+SHA1: 328404db75d7d4f6f2e37d20eb150a317750782c
+SHA256: 344adb58de12100fc9a724f6db53e5322740061ab8bc67756b0c726dc2721097
+SHA512: e40e119c3c7256131a14dc3ecff25238381e153d51cf1357fafd989797bf2235fb870bbc88095ff3adf45415af447b558b35a0292eb270c35d492b53c001accc
 Homepage: http://moveit.ros.org/
 Description: Dual Franka Emika Panda MoveIt Configuration
 
 Package: ros-iron-moveit-chomp-optimizer-adapter-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.16
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.23
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-chomp-optimizer-adapter
 Maintainer: Raghavender Sahdev <raghavendersahdev@gmail.com>
 Installed-Size: 2070
-Depends: ros-iron-moveit-chomp-optimizer-adapter (= 2.7.4-24-gde1610dc2-2023.06.08.03.16)
-Filename: ./ros-iron-moveit-chomp-optimizer-adapter-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.03.16_amd64.ddeb
-Size: 2064980
-MD5sum: 682b337d3e865ca09a9cc4b4e3ab1fd6
-SHA1: 0fcd6b98a49eb64a508fc4808fdf80272a8c0d51
-SHA256: b2a9fd9fcba573a6a9540d1d9ea0d3e799e1f8485fa2f39a177caee40d7c4ad1
-SHA512: 2c3f1b45947de4b4875e16909d5e8f7320e3ad1b60b8dc2e2fede6a21497ac80979855620c7f7f4574fcd7f0d73e581828efecf3cd1dbbaa3b9c654213f9daa1
+Depends: ros-iron-moveit-chomp-optimizer-adapter (= 2.7.4-24-gde1610dc2-2023.06.10.03.23)
+Filename: ./ros-iron-moveit-chomp-optimizer-adapter-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.03.23_amd64.ddeb
+Size: 2064984
+MD5sum: 038f65776507c8bed3379bcb8b719c68
+SHA1: 809a29a977cfae6fcb3946b757495f2dd1bad3c3
+SHA256: f794003026d70414edfc6ebec8c4d2be5ce02c4c821aad0f82c26adaf7785637
+SHA512: d782c1826420dffeb520f8fc595ba637c1451c4d17a17c2e792d7f69d38025648b2b03f1c7fcf2e7c2a4afbf3b2a9cceceea50dae20727647c89cecb079cd9dd
 Description: debug symbols for ros-iron-moveit-chomp-optimizer-adapter
-Build-Ids: 1b8ebf8e6e076451096461ffb89a5f5b85c8beb1
+Build-Ids: 9c895a93d9a86e49afbb451816beb69b4833aac2
 
 Package: ros-iron-moveit-chomp-optimizer-adapter
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.16
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.23
 Priority: optional
 Section: misc
 Maintainer: Raghavender Sahdev <raghavendersahdev@gmail.com>
 Installed-Size: 133
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-iron-chomp-motion-planner, ros-iron-moveit-core, ros-iron-moveit-common, ros-iron-pluginlib (>= 1.11.2), ros-iron-rsl
-Filename: ./ros-iron-moveit-chomp-optimizer-adapter_2.7.4-24-gde1610dc2-2023.06.08.03.16_amd64.deb
-Size: 29990
-MD5sum: b8625cec83f9e10b80dff2ac8ab8a05b
-SHA1: 254c25c4820ec145f3189c9d40ffa0e4d1923f48
-SHA256: 0ed6a6f7dd277bacc81ab9848df8c00ce1b9bc6b9df649aebb02ac49f78e9c0b
-SHA512: 77fb954d62ddd85293898ec4b89bab09032e442f1329ecb89673387a2d245f9753665f6456eb3d70c78edfe8b75e691ce0d2161c05a45bddc4c6b56ce61ffddf
+Filename: ./ros-iron-moveit-chomp-optimizer-adapter_2.7.4-24-gde1610dc2-2023.06.10.03.23_amd64.deb
+Size: 29976
+MD5sum: 4a32f2bea218026631be98cafed26cc0
+SHA1: ca6e567d578572f2dcf46eab9c432813388fa88a
+SHA256: acf858e4e6e46906e7b604c6abf0fb39984b3a48871cd203b7f33d3878b94661
+SHA512: 8991e29779e2c1e8c44c905e15be82be1ddfde127b32be7e10662b8974a6d9d3d64f17595c4eccd4c3c802b6502a36374a8f2ac7d51b5eb3478fa466634d6b8c
 Description: MoveIt planning request adapter utilizing chomp for solution optimization
 
 Package: ros-iron-moveit-common
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.02.41
+Version: 2.7.4-24-gde1610dc2-2023.06.10.02.33
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 48
 Depends: ros-iron-backward-ros
-Filename: ./ros-iron-moveit-common_2.7.4-24-gde1610dc2-2023.06.08.02.41_amd64.deb
-Size: 8438
-MD5sum: 1d4e46d89be139e03507d1a49f5ff01e
-SHA1: 96a9874a77e2d5d9a9ecc5e178fa07c134cf284a
-SHA256: 0ac93d46d7b1c5a6505bb4d6db8e70c2d99ea7064fe3c90fd8fe7111366a955d
-SHA512: b04d9ae0078433b7000a1d5a533a9a0dae119d2ddd22f88a991687d61f9d36768a93a8694a395600f3f4c5df3e22098c3646232191b759637c8bfcb833e2094b
+Filename: ./ros-iron-moveit-common_2.7.4-24-gde1610dc2-2023.06.10.02.33_amd64.deb
+Size: 8450
+MD5sum: fc280322ca4e697118896c07c17df948
+SHA1: d98c35fac1fc27541721bd925da41b3508e4cf75
+SHA256: 10840a068acdffbaaa02d4d490bf4ffd37fff34d16a914262b219ee945d37df0
+SHA512: 0d77d2d682033a9529b4e23ae550e3d3b01bff76d3ca06840497facc3a7b7ca0866f344e8a2a1542559d9bbc0a4020fbcfc5a4445c6a8f1ac6dfe6c52f88914b
 Homepage: http://moveit.ros.org
 Description: Common support functionality used throughout MoveIt
 
 Package: ros-iron-moveit-configs-utils
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.02.42
+Version: 2.7.4-24-gde1610dc2-2023.06.10.02.33
 Priority: optional
 Section: misc
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 116
 Depends: ros-iron-ament-index-python, ros-iron-launch, ros-iron-launch-param-builder, ros-iron-launch-ros, ros-iron-srdfdom
-Filename: ./ros-iron-moveit-configs-utils_2.7.4-24-gde1610dc2-2023.06.08.02.42_amd64.deb
-Size: 23576
-MD5sum: f3dbe18f050d1e9fce4478e4144f7cce
-SHA1: 71331e3feb837e6cc8df4d5d285a78b618a3c74a
-SHA256: 9f311e92cf11917a282b162c902573841cc6cbde6595f2cd377948610956313a
-SHA512: d6881d2f73970538ff0d5ef9d38e2c37290d2fb74a38f12ca4451af42b884ac5c9af4b78ad0cab0a0847abb1df5bc09b45ce75b9d2215e1fb9e1f3626f8d534c
+Filename: ./ros-iron-moveit-configs-utils_2.7.4-24-gde1610dc2-2023.06.10.02.33_amd64.deb
+Size: 23574
+MD5sum: 5442c139fec177671be0dca381fb59d3
+SHA1: 803ecd23ca7aed2e3e1991aac324f453d2ddbf58
+SHA256: c7439170ba8842793e8f2505f2a9d99266cf7ec254ea294481adb58f063da207
+SHA512: f23a8e893b76f44b3e1a3722e396e54ad2490a0a8de312168ec289446cd9050845621a8a217ff8c356ccf2e8533200c46c42f051fbdeccf0ea36c8132c065f56
 Description: Python library for loading moveit config parameters in launch files
 
 Package: ros-iron-moveit-core-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.02.56
+Version: 2.7.4-24-gde1610dc2-2023.06.10.02.53
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-core
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
-Installed-Size: 69116
-Depends: ros-iron-moveit-core (= 2.7.4-24-gde1610dc2-2023.06.08.02.56)
-Filename: ./ros-iron-moveit-core-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.02.56_amd64.ddeb
-Size: 68807340
-MD5sum: 05fb6cddc58a3a1d24f36ee98efeb9bc
-SHA1: 44af23705ac540eaf9fab1f8fd9262800486649b
-SHA256: 797046c7345b91371c0c152d9142aa5208cbd7267055a4bc876f717670c31a2e
-SHA512: 2a3d6ce7227625421b4541c70955e9819fa6c8e406cd27127ae25955c675b08ff9b250a2e4651b8da96aaea4f859477b6cf199d480cabf994296bc37a13b898c
+Installed-Size: 69115
+Depends: ros-iron-moveit-core (= 2.7.4-24-gde1610dc2-2023.06.10.02.53)
+Filename: ./ros-iron-moveit-core-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.02.53_amd64.ddeb
+Size: 68808044
+MD5sum: b68ac9ff094272a755eaf66f9b86465f
+SHA1: b6394aeef6ded6c18f5ce24f04e1efe65267b42d
+SHA256: 9240a9250d96a88c240c180def0fbdce7b2e78ecb84581e23a0068b4ae29dd41
+SHA512: 6b6df5994144636bbab154514bd04ca4065ebe8318203d3e4065c015b6d21b48675f18f91ee81035b169e2a0602dcb8fea93572ea0f5234263ab92e331aaf3bc
 Description: debug symbols for ros-iron-moveit-core
-Build-Ids: 017a1941028add4d7061651402c786c9bec2fa05 0978f15582eab8fd044ed77d509dbb1cf237b225 140d2d3283c91fb8661f335201d5adb9aaf7f736 19be94b7bbe5929df14ce4464903451ef2feca73 1be6b6f34121141523b7cdd49547767f230c2f1c 21e68744ea9d623c00303b58ed6a8e75da2a039e 24318f8b79e9dd2f0b6f90becacd000fe9c3d184 3307489bc9ae74d3aad3d8f686e124e589f89620 36782d93dc04529597b77c61342deb629cc77b4b 3d82d8a9ec80d9053298cd2ef4c43b47a99372f9 41e0bb92a0f271de10da1cb59cfc276ef1d42809 6e27c9740e9446c253b579861818a494febeed43 77fd696c7d4851fb27b527603d263e993b9e3d38 85ae359053ea4a235937490941439bcf404e4454 8af33ad4878dd5c5c8639beb641360b1a593ffae 9db084e0356d5d0744d8164b4d6806bbdb14fbef a575f8d5741b9c05608803badf5d5380cb5f183e aacc8538b56be0caf203d6016a6be33408a657f4 b8397e50b39d350823630d284dc2fa896ea4545f ca1847bdef70d4bee42f9903c5821ad4ac27f183 d034c013e2b8ddc6339a3286e2a48bfe75d0f51f d68f5d5429099b75ee1bceefbf7cacd086b94b90 e8d7942df2e3aa663e8f25c5804cea93eca61f27 ea92aad048db42bd83954585124ca327f05e74a5 f2ec7c6fb3c2349bff8452fd0a477cba82522ec4
+Build-Ids: 13fdef33866573df6cad091a68f28894b4613d1d 1594eb27771b70423724d35f447b72fcfb6c3bb4 1d0a2ed3e776481c3a7cc0b0b0b4f28930fdd1fc 2226ac84661f01b510379d07618fd8cfabca4b54 2ace207b6ea3d7db739a9a72e02968e718fdf6d8 2bc6c5ea084fce4d2b3620f28f850eda58b66c67 2c96021436765215293d2a6d4d8610abb4e2a33c 533ea0f339c9cf9e2c6882879755c9f5315c5bf9 584e54d7d70b36255ef4b1d9ef689d8837c26072 825f02a5c2c336bb8876310c6289a7c431279a8f 8a692918c9b4f6aaeed873ecac4e3d8891d7b687 8a90bfd4b6e4232d8bffc994ea5a373f9ccecec9 90c819452e801e82afcc971f2aaca519c7ee4cef 970fd7fa0414694f6af6746900ac3043171ae1f7 9d93cb3c7ebb7462f931e40f8cacecf80bb8d003 9edbf4abdac79d92827ccad30e2adef1a68b880c a2794684a704263aa7a8b915e6a2f00234b12dde ae6fa8d078d4cae1570f07f5718287db0a1e5466 b5c26b6f79cab70fbb8769fd5d598784de8adfb2 b781ab6d2b56fb85caa7b2e7d5fae4afed7e7540 bc4b99ca3e76e9da63ea6ed66bef7f0e679170c2 cafc6144fda74e9938be1d30b7adba4daa441817 d3ef8a9cc1aaa99a38b103ae0e064878a2d12d6b d480ec11ca0a249771e55f346ddf00fc86a9604f f7f2132043ac449cb32f5e4b999d42adea4382a4
 
 Package: ros-iron-moveit-core
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.02.56
+Version: 2.7.4-24-gde1610dc2-2023.06.10.02.53
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 4830
 Depends: libboost-iostreams1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libbullet3.06 (>= 3.06+dfsg), libc6 (>= 2.35), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libfcl0.7 (>= 0.7.0), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 4.0), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-geometric-shapes, ros-iron-octomap, ros-iron-srdfdom, ros-iron-urdfdom, libassimp-dev, libboost-all-dev, libbullet-dev, libeigen3-dev, libfcl-dev, ros-iron-angles, ros-iron-common-interfaces, ros-iron-eigen-stl-containers, ros-iron-eigen3-cmake-module, ros-iron-generate-parameter-library, ros-iron-geometry-msgs, ros-iron-kdl-parser, ros-iron-moveit-common, ros-iron-moveit-msgs, ros-iron-octomap-msgs, ros-iron-pluginlib, ros-iron-pybind11-vendor, ros-iron-random-numbers, ros-iron-rclcpp, ros-iron-ruckig, ros-iron-sensor-msgs, ros-iron-shape-msgs, ros-iron-std-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-kdl, ros-iron-trajectory-msgs, ros-iron-urdf, ros-iron-urdfdom-headers, ros-iron-visualization-msgs
-Filename: ./ros-iron-moveit-core_2.7.4-24-gde1610dc2-2023.06.08.02.56_amd64.deb
-Size: 1207208
-MD5sum: fcec86dbdd95606b35a3afb760e7170c
-SHA1: 1e9ef299b544c9d9bb55c591222eae9e4ba0bb6f
-SHA256: 637423df5db0a64487c53c426d430ce9e253e94e48cf1bd540b21a4dcfbfc167
-SHA512: 4a06dce0642e50b3d84b07e3755fcae4f151468c13470bb0495a37775af5c7cdc35555d042fdf4a3bc6ba3fddfd30706e3c9bdfd341548275adf69131c3c0c42
+Filename: ./ros-iron-moveit-core_2.7.4-24-gde1610dc2-2023.06.10.02.53_amd64.deb
+Size: 1207260
+MD5sum: 08b683ebe62ac0ee4a02d13fe56f5b3d
+SHA1: 8ed429328cb64c81c4b3e1d8887019a6e896962a
+SHA256: 27f378839d9b1a1e9d60a3e398764078e765588b1dd0168dcc9b8413dd7c15c4
+SHA512: 21786343dbd5fb26be62860ddc304b16077f57e81ff044dad888d7121d651974066fc86fe14c5c16bee4f912f0b2689b144943f9c63b30cdae284e811247fc03
 Homepage: http://moveit.ros.org
 Description: Core libraries used by MoveIt
 
 Package: ros-iron-moveit-hybrid-planning-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.15
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.53
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-hybrid-planning
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 25293
-Depends: ros-iron-moveit-hybrid-planning (= 2.7.4-24-gde1610dc2-2023.06.08.04.15)
-Filename: ./ros-iron-moveit-hybrid-planning-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.15_amd64.ddeb
-Size: 23910440
-MD5sum: 5c742558afe40e6ad15912895b3d17d7
-SHA1: e2dae4c37a4d99169eaf780c234497eeef401593
-SHA256: dda7367505e4bcdb1154d41beac0bd5723846b7643f7e78336927ea3284e4a60
-SHA512: 6cb162f57e88436183c5f79e488def32cac4f79ebc930eba6f6a1e499eeb8ca095bf34ef43905e033d5a4b3cd8bbd1171c6329c8d146e3fa1823459751e06c00
+Depends: ros-iron-moveit-hybrid-planning (= 2.7.4-24-gde1610dc2-2023.06.10.04.53)
+Filename: ./ros-iron-moveit-hybrid-planning-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.04.53_amd64.ddeb
+Size: 23912338
+MD5sum: af81bff5c6c9b9f189b5ac8e8a6a23b3
+SHA1: ed9c235c40856073f60766d849790764ff8c3fac
+SHA256: 115de501c7ccf05c81a26d263c5b657928f946a6b00ba9ca1ef5b40791d5fbf6
+SHA512: 016fdd978fc3b00567e2672248c3d5745f895cc3cfdfc270fe3c4320aac563b9914fc4fffddbd5296ac452cac8755bb3b448ad40cdaf9fcf6a32bc594d40a034
 Description: debug symbols for ros-iron-moveit-hybrid-planning
-Build-Ids: 1abcccc65972eb4856b584398552bd64b882a88f 38a64c1fc72e14911b9b0e89552cf30a3afc686e 4e7a0d03df4f9396cfed0eac1c8be152e8c1fe41 6c3d4f886463ae23177305f4d1790dcde1afcc72 af307f11419e0725876dbeb0e532b9befab102f2 b2042a135b2f250b00ae8f882274e606c93256df b80be3a7eccf7c414c7403f2827c2512930a9710 da1b177b93a9686f505f57c632fa3ae221310ca5 fabe2756f04ba28a76f70fdf18e7cf0562fcd07a fcf9dcdebaaebab1da1c8dab65a70c870a8a6ea7
+Build-Ids: 04c1a72f8291c1a222c0deb3b0a9bc9e86cf7b21 059cf382cda595696c30eb6aee118c78a720ed8d 0e2b815457bd48bd15d2e21505fb15316e413c1b 1b8d320e872e6b58568be043cd6b86e3bae809c4 548f875e4dbacaeb930bea5a795e75baba2e3b64 5bf4b6bd5f152b03feb6758af9db3b564ee4a6ad 7642ee1b8171ebe2344c3572b99eb3ddc38bc735 ac5fa775ee2d1c85b28450c04b2bf6e30970979b e45229e9a68fb8e3d43a57247b23a11392483f92 f394de3193279925d9ce070954112c7ed24f1d7c
 
 Package: ros-iron-moveit-hybrid-planning
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.15
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.53
 Priority: optional
 Section: misc
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 3156
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-ament-index-cpp, ros-iron-controller-manager, ros-iron-moveit-common, ros-iron-moveit-msgs, ros-iron-moveit-resources-panda-moveit-config, ros-iron-moveit-ros-planning-interface, ros-iron-pluginlib, ros-iron-position-controllers, ros-iron-rclcpp, ros-iron-rclcpp-action, ros-iron-rclcpp-components, ros-iron-robot-state-publisher, ros-iron-rviz2, ros-iron-std-msgs, ros-iron-std-srvs, ros-iron-tf2-ros, ros-iron-trajectory-msgs
-Filename: ./ros-iron-moveit-hybrid-planning_2.7.4-24-gde1610dc2-2023.06.08.04.15_amd64.deb
-Size: 612364
-MD5sum: ca9017900bb787d94574e10efdf2b5db
-SHA1: c99f757bc32e28c6c9847dd156081d60c5761a01
-SHA256: 4c945af68fef436500c6bd7cd5a194c4930a569de90bd0b8ea5597e3d8527e61
-SHA512: c416b0ba04957f6ae4819edfbb43b6f1e3e9df240e025f4d7b7f13915c0276102805e4356597ca90885af90f928de36276915aaf84d58611bdc34a85db1c0a84
+Filename: ./ros-iron-moveit-hybrid-planning_2.7.4-24-gde1610dc2-2023.06.10.04.53_amd64.deb
+Size: 612288
+MD5sum: d3e181f5b284542bb2613e6d30aa967e
+SHA1: f8ed51f11ddceb6623c5c1462339a9fb9632cc33
+SHA256: 7e854f04cffbb2d5fc87bebeaaa5bce0e2aab2ac1cddb7b06a165d3b0da1a54b
+SHA512: eca9a0b4ae630d25ab4fb404999a292815a76ae2e9054dea800845091726f3a99fc56601d1d25ae224667d2b1c47c440b7ad1505a85cf7f63340d456c46cec9d
 Homepage: http://moveit.ros.org
 Description: Hybrid planning components of MoveIt 2
 
 Package: ros-iron-moveit-kinematics-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.39
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.54
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-kinematics
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 18070
-Depends: ros-iron-moveit-kinematics (= 2.7.4-24-gde1610dc2-2023.06.08.03.39)
-Filename: ./ros-iron-moveit-kinematics-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.03.39_amd64.ddeb
-Size: 17822654
-MD5sum: 2286808884cc0b106e49f6e9907d34a3
-SHA1: 910b8f75702a4bddce5a3ed6b43e33b9dbc0b0a6
-SHA256: a4e21953a750258733f2c61eb52be0b6ca68234ce6ac065d493f346f112c77d4
-SHA512: 8ec87dbd5039ddb7a6958b6880345c3a42138dccea906ca3097929e5ab8314e731c14995ae0350c675fd24528f74f9c4017298b57db2c8f477cda638cd07df06
+Depends: ros-iron-moveit-kinematics (= 2.7.4-24-gde1610dc2-2023.06.10.03.54)
+Filename: ./ros-iron-moveit-kinematics-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.03.54_amd64.ddeb
+Size: 17823844
+MD5sum: 90ae7054c8a27dc9eeb6efb27593057d
+SHA1: 60c74a4a31749b68f26665d3a905f7af6777fdc5
+SHA256: 9e668c0f2f39a554268bf53b82cc83d498e3b0433784024918be9424cc0020e3
+SHA512: 45bb315b26345b7faada2391d6800af17f61f96632459912360caa53a89ccdc3afb18ee0e1b173486f8a06a1f325863facfb4a24729c3df53d6ce7d4df283470
 Description: debug symbols for ros-iron-moveit-kinematics
-Build-Ids: 1536a619d071ca441dc947f5854546b65e2f3025 371fdec73ff7bfd9c7b1548541cff8a823aa3c89 60ad798cd26a82c47474a21918e25dcfbbfb646b 6c4b2de2ece042e8668de3bf572bc66d1458d4da a8e64c6500e55d0b861c53451730dbbf265cfbb2 e0b567cadefde9e68178bdbece62ae59a40ce013 fe59e2171e599373f3b3d56cd5ee1ddaa0e6cfa7
+Build-Ids: 31bfea99cb7bcd64b3b3a58f93d4719e5ec33544 3ada7311996ec58f6c8837055cdea50fd9609eaf 463023628452ea0a613b686070aa20d1e218f95d a15d54bb4a1757785896088371a3b860c8f89f41 a7561f168fd40d1c57838bab662321bd65c3c6d1 ae769735c6241fc63b31369414947835c3f462e8 e86f80f133d55b4920051baa010c9124dbb72047
 
 Package: ros-iron-moveit-kinematics
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.39
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.54
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 1899
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-urdfdom, libeigen3-dev, python3-lxml, ros-iron-class-loader, ros-iron-generate-parameter-library, ros-iron-moveit-common, ros-iron-moveit-msgs, ros-iron-orocos-kdl-vendor, ros-iron-pluginlib, ros-iron-rsl, ros-iron-tf2, ros-iron-tf2-kdl
-Filename: ./ros-iron-moveit-kinematics_2.7.4-24-gde1610dc2-2023.06.08.03.39_amd64.deb
-Size: 529818
-MD5sum: 90f20e35e5eaafd2010d1406270ecd9a
-SHA1: ff8f9245421b70d2b817000f6948c05bc5b7fe21
-SHA256: 7a2f69b216f449d3a15dadb18ce6d88017597424353a397a39405e8e2119a37c
-SHA512: aa652861ca8406c435a16d8fb727dc9b98618f668632b28355f06591b9ed6626a1121baf95591564d59eae2bf8087d5a3685b993ec72b746f195096240a0f669
+Filename: ./ros-iron-moveit-kinematics_2.7.4-24-gde1610dc2-2023.06.10.03.54_amd64.deb
+Size: 529804
+MD5sum: f52362b2604e4f8b0bfd60fe96d35922
+SHA1: d80ceb0f89c7caff279fad99c948157a537ec2cb
+SHA256: 6e7bed4d82a67b30391635743cb83bc99f281d2ba4167c614508cb438ffa7f14
+SHA512: 66735e908b0c3ff4423bf9d4aeac1994a410085aa79a4881efe6971a2d48bc881eb32c75bd4b9c41fdb4f30b91e8dd4687273bbd7379aef0d04c78a9f25b767a
 Homepage: http://moveit.ros.org
 Description: Package for all inverse kinematics solvers in MoveIt
 
 Package: ros-iron-moveit-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.2.2-2023.06.08.02.42
+Version: 2.2.2-2023.06.10.02.34
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-msgs
 Maintainer: Dave Coleman <dave@dav.ee>
-Installed-Size: 28020
-Depends: ros-iron-moveit-msgs (= 2.2.2-2023.06.08.02.42)
-Filename: ./ros-iron-moveit-msgs-dbgsym_2.2.2-2023.06.08.02.42_amd64.ddeb
-Size: 22863398
-MD5sum: c073a2f6c74f72a58a0686f9e9fea8de
-SHA1: cb450b7d74e6f2b6ce4b598a09365aeaa93ea416
-SHA256: ef2e23594249bd5323d1799dc74bf1e3a050196d7cf4d51e166230656ef92dee
-SHA512: ef07ff541a3fbe82cf066c6857aa9c3e454088631d66faa301294570cc75ec1cc1f5e49f34e3dc1f6ae5d7349c87e6900e306fb6d7b098a0ebe17cd2626f0106
+Installed-Size: 28024
+Depends: ros-iron-moveit-msgs (= 2.2.2-2023.06.10.02.34)
+Filename: ./ros-iron-moveit-msgs-dbgsym_2.2.2-2023.06.10.02.34_amd64.ddeb
+Size: 23719938
+MD5sum: bfabbf0cd4a8b409a8426f80e75f847f
+SHA1: 006c9208c3c086264994fdadf527c7d83c9b1f72
+SHA256: 94eae50c049e0251c662eaac5dcfce63bd3fc795d29f3e3ac7daf1e6d348ba1a
+SHA512: e0d3b47f6694ca490f07831216048887d5ed72a0225718f38b2aa1e6837d0f42ee51eba9d58642c517d97a929221fb1da225b40a00f4491315df6f8779d9d8f7
 Description: debug symbols for ros-iron-moveit-msgs
-Build-Ids: 0580ff734aa6dcab3e44f304f869efdd8af0a0fc 1d8b573be7645e00fbdefbd7310ff9b561c75118 25a1e77670d3a926b3400d6971601ca09a425f77 32a11add8f9545bd1a54f51d3737c837f2458dda 5004cab3e722970fe8638be2d5cbf1c1a2bc258d 7c6eb84c3ec487ae9720e0b78995c1ae58866ce7 9035bcff75762d5d5f335ac2045f7fa47e8e3601 95c06197039e79a5b4f3a05a95ac37c0f28e9de5 a2ae2d6713a99ca0912da71cc90ad04b7bea56b3 ac8d434cf7dcbb49c77e068136d9320ee49dfd50 d756f919cb4fb962f1e85fed3ee3f61834c78cf1 fd3d7d51cc9d484b5d1fa586ddcb4092423889a1
+Build-Ids: 081180e505d550e8ac02232ef82496ab8be72eb8 2ec4c73683628fb2e568b0fcd6fb033a401fbf25 3f713b69c9ccf27133dcf87f1527e42222a90423 5b0d1b15e295c061e324b8049e129ac19f193873 5ca20368dfd8e027d52425bbdad3d1e2b12cbfd4 ba27d1880fd0350e61ca6c5b2bd9c1685c028e15 cffef6019f12112dd609a13de1200ec0950790d8 d5f2723ec7c4491546a8786f37c21fbd3b4a026d d833f09723ce08fc613f5e68d8a2d7b3f99b4603 de8a950df7a244cb3688b66875ff601f0fcc7303 ec217bb8a5edc770426f3bf7f3536c25ae123095 f6b5c861e5fc7a133e59df0042f82a4d7f743d58
 
 Package: ros-iron-moveit-msgs
 Architecture: amd64
-Version: 2.2.2-2023.06.08.02.42
+Version: 2.2.2-2023.06.10.02.34
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@dav.ee>
 Installed-Size: 31858
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-action-msgs, ros-iron-geometry-msgs, ros-iron-object-recognition-msgs, ros-iron-octomap-msgs, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-shape-msgs, ros-iron-std-msgs, ros-iron-trajectory-msgs
-Filename: ./ros-iron-moveit-msgs_2.2.2-2023.06.08.02.42_amd64.deb
-Size: 1986094
-MD5sum: 72481dcb7db71a0bb20c5f34495fa7fe
-SHA1: 78a3317cf648e20108e89e9e526d0749e926fb96
-SHA256: 81b5691facb7a559e37e504589c739c5697a5cb2b1f31f6a04e3c700a8d22e02
-SHA512: ace5232b780b8ea7d2be45b6586a52ee6478d89c62f3c74b749bf2de560baeee6ecda3034c8169e31b44205bbbcc05fe921e8a5e35bc70f3b5b488350f78a302
+Filename: ./ros-iron-moveit-msgs_2.2.2-2023.06.10.02.34_amd64.deb
+Size: 1986058
+MD5sum: 48e94fb3c8cbbdb473451d3250521acb
+SHA1: 453238393897e3a00deb8868c46c2f78a6f8493d
+SHA256: 8f79d9d7c2b2c567643ea8aa073c3d3999264ac5b4377540e8eeada561cb138b
+SHA512: 288c4150b4749509177df647a519e880894c386c62e85d37e020c5c2d14536790bfdca3fed5296e806c86cfcd3d12a8f8fdd9d215bbfba3621deb4e72ea07801
 Homepage: http://moveit.ros.org
 Description: Messages, services and actions used by MoveIt
 
 Package: ros-iron-moveit-planners-chomp-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.18
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.25
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-planners-chomp
 Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
 Installed-Size: 4454
-Depends: ros-iron-moveit-planners-chomp (= 2.7.4-24-gde1610dc2-2023.06.08.03.18)
-Filename: ./ros-iron-moveit-planners-chomp-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.03.18_amd64.ddeb
-Size: 4468056
-MD5sum: 7965f7924eb5dbc2717d98317f85cd50
-SHA1: c30a04a6e3b03fc36f1fb0079b27ddb6a835b22a
-SHA256: 40e8c0b70765b2dce59a0abce537f9e2b0713519088f60b20f6faa4aabcba34b
-SHA512: eab593ea193a6fbd079644d9917d28dfddfe02c5145069ef779bd874e02de735593da74d24f8b86cd73a5cdfbb4bd4937cafa877fd743e82078e42a62803b1ee
+Depends: ros-iron-moveit-planners-chomp (= 2.7.4-24-gde1610dc2-2023.06.10.03.25)
+Filename: ./ros-iron-moveit-planners-chomp-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.03.25_amd64.ddeb
+Size: 4468062
+MD5sum: 65687dab83a45bb1d8931b2e5661a868
+SHA1: 7c8bb3e84edd7ea1b474b8b53ed2af4b54432296
+SHA256: a4457deedb7cafe412ce9b04d5637cda4b75ab0ffb98513b3db5c98132278f07
+SHA512: 1e1f8938718e87c9bee982357f36b7b2d4d2a2c3d08cec01e90fee8b50ba7c5408bb940712acbb2fabf45cb30d5c1a25cdbcb8c0f37c4f641c934dd19c8e8b28
 Description: debug symbols for ros-iron-moveit-planners-chomp
-Build-Ids: 2b10aeba7e2ad2822246f1001209426121917f57 843f3a0dc9d179c4ef65ceea250b15a41dcd39e2
+Build-Ids: 053d1b9658d6b60e9446257dcb615a8803386a2e 892624790e58254e2f998fa4f6b4dcce40b82e8c
 
 Package: ros-iron-moveit-planners-chomp
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.18
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.25
 Priority: optional
 Section: misc
 Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
 Installed-Size: 159
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-iron-chomp-motion-planner, ros-iron-moveit-core, ros-iron-moveit-common, ros-iron-pluginlib, ros-iron-rclcpp
-Filename: ./ros-iron-moveit-planners-chomp_2.7.4-24-gde1610dc2-2023.06.08.03.18_amd64.deb
-Size: 36876
-MD5sum: 385d997630fd355726867c2eeac86fb8
-SHA1: 8534c249cb202068bd1b66c402aaffce8d59cfe0
-SHA256: a4d2b6985ab6a86dda43713f6464ede6571ddf690491195e97930d2027720f1c
-SHA512: 60f30cc4a36743959d0a057b7d39faaf1814862231682f86049c0030a1339b647551173f60b45900d4fcb5d0e5c00ff4312599b308b9258f85395797ca9e3f9c
+Filename: ./ros-iron-moveit-planners-chomp_2.7.4-24-gde1610dc2-2023.06.10.03.25_amd64.deb
+Size: 36882
+MD5sum: ce437f934ff7c940d34b7df580b816c6
+SHA1: b965fe183afb306863f14c3a70b839d92029b02e
+SHA256: bd632eb97f6a4ee06e05f7c1db78c1d1d2ae41926312cb5a7a240c82608b93e1
+SHA512: c50cecf43a344640930bd5aa71cbcf5c631188bb44c85948d7fd0cc0813314b26db148e3b9b8cfd08698efe5570b8485a820d5dc68694c468bba0b4f9e8c3292
 Description: The interface for using CHOMP within MoveIt
 
 Package: ros-iron-moveit-planners-ompl-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.42
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.58
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-planners-ompl
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 23370
-Depends: ros-iron-moveit-planners-ompl (= 2.7.4-24-gde1610dc2-2023.06.08.03.42)
-Filename: ./ros-iron-moveit-planners-ompl-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.03.42_amd64.ddeb
-Size: 22878126
-MD5sum: 616301208aabf22740f5b39f825c7048
-SHA1: bb9d8cd256f16fb404f4ed79711a7a85925b6501
-SHA256: e97f8a441bb64a77ab80dde608911834e890d35390350b0cc70c355cfb7572c3
-SHA512: e0611069d022bb290e24e8f661e9237042a41788afd9548202d571fe66734dbfcc98db33164499901863ee7c6620a272a516cd2518e9e1c630281f696df8f170
+Depends: ros-iron-moveit-planners-ompl (= 2.7.4-24-gde1610dc2-2023.06.10.03.58)
+Filename: ./ros-iron-moveit-planners-ompl-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.03.58_amd64.ddeb
+Size: 22877730
+MD5sum: c61620c17f9ce09b164919462a67e98a
+SHA1: 4dd50839985adf991666203e09695a69bc9c5126
+SHA256: f0723fe37439080164c3e95d47cb29fef84ea0c5fd7e3f7daad2e1b09268bf45
+SHA512: ed329ab5ea71d18c872375738ea7dc8ce319fe6676bcb0264799e6d02dfea7c21254bd5bb5d287aa2c02773ffe15a5387f3fd51985f5930f2544f482be21f688
 Description: debug symbols for ros-iron-moveit-planners-ompl
-Build-Ids: 027237954cbc9714466ba5a7390e3119e6022bef 0ee2d9439c095b45d507912346a31b8724a0ee14 a015ce07279da9bc944a09635064d0ca0b935a18
+Build-Ids: 49acffbb6d89df7cbf2eef353fc64e86ec4753c8 ed84767b3e3f70e866c0da24c629dd1416b45fcb fef5a0c17df9580353557b7f977a06c75a6c35e9
 
 Package: ros-iron-moveit-planners-ompl
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.42
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.58
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 1486
 Depends: libboost-serialization1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-ompl, libomp-dev, ros-iron-moveit-common, ros-iron-moveit-msgs, ros-iron-pluginlib (>= 1.11.2), ros-iron-rclcpp, ros-iron-tf2-eigen, ros-iron-tf2-ros
-Filename: ./ros-iron-moveit-planners-ompl_2.7.4-24-gde1610dc2-2023.06.08.03.42_amd64.deb
-Size: 336422
-MD5sum: 6e776cea18d8833155c79c7e05d65134
-SHA1: 16832b13112b9255774840ea7e6492c79bb8bd3f
-SHA256: a600d09d29bfe0e45f57789d754f8e8752115d0f55cdbebb9382d5ef6a2ab6c5
-SHA512: 3a76642e64b23412b92b5e326d87b61ad1259419e0995a7acf15a8d1378aa86d6de5781d9b4522adfecfe441f15c28d06084b8d2e0330e1df3ef7ffc357ad377
+Filename: ./ros-iron-moveit-planners-ompl_2.7.4-24-gde1610dc2-2023.06.10.03.58_amd64.deb
+Size: 336428
+MD5sum: 4579ae32028671a84294df25a5465bfe
+SHA1: 723b024b82d21ff1522a7f8aac020c54fad0f78f
+SHA256: 308f10949ca272c5e388dc6b4c54f208260b41d122c6eee92900ce9864eb8acc
+SHA512: e6f5ea0c2929d7f136d62c81e2b1d755820a82a33e1f1356a9f9e2e046bfe4bf8863e00b4d9c90ccd6f730c04d07ee1bb7190965f56fba955d419f52a15ca556
 Homepage: http://moveit.ros.org
 Description: MoveIt interface to OMPL
 
 Package: ros-iron-moveit-planners-stomp-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.19
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.28
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-planners-stomp
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 6257
-Depends: ros-iron-moveit-planners-stomp (= 2.7.4-24-gde1610dc2-2023.06.08.03.19)
-Filename: ./ros-iron-moveit-planners-stomp-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.03.19_amd64.ddeb
-Size: 6201620
-MD5sum: 32a2e312508e558f3502d7e43f3eceda
-SHA1: be97f101307d27ebd7389b5659a37c5790869b52
-SHA256: 2560c10adb15e57f4364aed19230a3a88216e90a55f6ac7fa34a2bef90336623
-SHA512: f78d98bdc10aee4ea10f7fa51180abf31e52c2f1417416dd1a0f1aee3e16253624f02c0a85cae9884ef8c84275f963e21b1b6ce026d24099c81524a9f2e1d15f
+Depends: ros-iron-moveit-planners-stomp (= 2.7.4-24-gde1610dc2-2023.06.10.03.28)
+Filename: ./ros-iron-moveit-planners-stomp-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.03.28_amd64.ddeb
+Size: 6201614
+MD5sum: 852c2f1945472543f136ad9d2e55e23a
+SHA1: 11c6bf90ed809d22e1cc2641319f4c0d84df8d44
+SHA256: 5446f0665563d1c6ff3cd4e0e594e93912a173d5fd81e534e3a1796a90fd29f2
+SHA512: 313a34b9ef06233918e9650bf200d5fdcce147cbb800c8df75fefe8125d3e49292596062db1cf6fd278c0a849aae1cdc5bca0d2da33af23cc3a92178e0c32e32
 Description: debug symbols for ros-iron-moveit-planners-stomp
-Build-Ids: 8a24ab3f839f94b4c10553f0bfb839829810da2f
+Build-Ids: b5992bb4a9ed9e8529a5caf833b61250e93e93ec
 
 Package: ros-iron-moveit-planners-stomp
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.19
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.28
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 418
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-moveit-core, ros-iron-generate-parameter-library, ros-iron-moveit-common, ros-iron-std-msgs, ros-iron-stomp, ros-iron-tf2-eigen, ros-iron-visualization-msgs
-Filename: ./ros-iron-moveit-planners-stomp_2.7.4-24-gde1610dc2-2023.06.08.03.19_amd64.deb
-Size: 139182
-MD5sum: 09a10c36e5a227fdd1768f1b49c43c92
-SHA1: 6dae5652d60afd861c6c1bc6d5e0e40c4d63b548
-SHA256: 4818fb134a10a04c55e65b0222b9ee4314f4e5d0b7a01a4ffd74e21b7e4c6d5c
-SHA512: 35e24e36a52fa6d5cb9bfe874175dc7efae74722a58e40dbc05ca59d00a6bbd0d5fadb574872a57336b1842ccc87b038393ec8f19dcaaaf80c77268cd49c6988
+Filename: ./ros-iron-moveit-planners-stomp_2.7.4-24-gde1610dc2-2023.06.10.03.28_amd64.deb
+Size: 139188
+MD5sum: 86d0a91205203f5dee5901b5fec71016
+SHA1: a8b3837ab008d038903418b92786df895509bc6f
+SHA256: 89f501f2cff20e4cc93c875aecb630649e26295fa4036f6f9c95a00f60a9e016
+SHA512: 7197a2e9850bad2927fcd7019a93aeeb09bcf1fc6e244b7132fe5841c045d22b30a15a82c3507a6f4c3f02d39d9f734e780289091dfac8477e8cc6745779fa4e
 Description: STOMP Motion Planner for MoveIt
 
 Package: ros-iron-moveit-planners
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.02.50
+Version: 2.7.4-24-gde1610dc2-2023.06.10.02.46
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 42
 Depends: ros-iron-moveit-planners-ompl, ros-iron-moveit-planners-stomp, ros-iron-pilz-industrial-motion-planner
-Filename: ./ros-iron-moveit-planners_2.7.4-24-gde1610dc2-2023.06.08.02.50_amd64.deb
+Filename: ./ros-iron-moveit-planners_2.7.4-24-gde1610dc2-2023.06.10.02.46_amd64.deb
 Size: 6336
-MD5sum: 9d57dd3767f7a98970b4ab3e92528f01
-SHA1: dc2e752ba699db2f10f5622c219a54d0ff512492
-SHA256: a155f2cc14f65ac80e3601540ccc3779fe8465c04cd20ff695a008b5b47ca373
-SHA512: 696c32eefb87ddbe6f413bf26ddb909bcdf6690b0677cbfed628bca69e69f3f1f79a2ae36832fd07e7469996f14d90492cecb9fdb3fae76d4a3487b4ccc1c2fb
+MD5sum: c7c78a91e5397c230ccc6529b1a93f15
+SHA1: 5186a67e7af8ec7e7eb57c3a9e5fc39cbdad62d0
+SHA256: 3e1f477f9b66c2456d73b7d436b437b834e7f31decefb68f62a5d52b3ebf99cc
+SHA512: 61c9eaefb2d11147956f15102b69b8f9d0718fcc191f01a7630bbb4e65fb3f7542457cf36fdff137c812a6e413f7025f79870f6b38599a9faec805122e73bf15
 Homepage: http://moveit.ros.org
 Description: Meta package that installs all available planners for MoveIt
 
 Package: ros-iron-moveit-plugins
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.02.51
+Version: 2.7.4-24-gde1610dc2-2023.06.10.02.47
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 42
 Depends: ros-iron-moveit-simple-controller-manager
-Filename: ./ros-iron-moveit-plugins_2.7.4-24-gde1610dc2-2023.06.08.02.51_amd64.deb
-Size: 6260
-MD5sum: 8f48ea1f6627125e31c0de8ae516d044
-SHA1: 967fab8aba59fbf363a49a8a168f30b3a3e0389f
-SHA256: c06b1a15035e2ca8fc173c22f76f3708bd26d9f9a060073a62ef84725a51f63d
-SHA512: 02531275b52c8af9f333593e961f1d804f91ed66d2ce73c1a3881756acbd939567035cdbffc46429186ad5163b80dd73f1af163f544b5f8c5d8cdb98453c19cd
+Filename: ./ros-iron-moveit-plugins_2.7.4-24-gde1610dc2-2023.06.10.02.47_amd64.deb
+Size: 6276
+MD5sum: 2c681fc469819abb1067212595782233
+SHA1: beaa590877744996ed25e23bbeb3c5c71bd94441
+SHA256: 83a8e929f77999011f0daed94ae269ebc99cfd75eebdc1908404ccf17a06d43a
+SHA512: 7594fd3e0ff773e2e4863182ed5c7a503d60bbf2d692dff8e04af7b2d609f04ef074c4dc1cf8327f69be2142a160ddfe48a24d0a3c17f75a753f2a2d7f3d2ae1
 Homepage: http://moveit.ros.org
 Description: Metapackage for MoveIt plugins.
 
 Package: ros-iron-moveit-py-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.20
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.58
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-py
 Maintainer: Peter David Fagan <peterdavidfagan@gmail.com>
 Installed-Size: 905
-Depends: ros-iron-moveit-py (= 2.7.4-24-gde1610dc2-2023.06.08.04.20)
-Filename: ./ros-iron-moveit-py-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.20_amd64.ddeb
-Size: 876382
-MD5sum: 46d2402e9db93f3ae891f5ecd152cc9d
-SHA1: 01b23508cb050b4694ff62a85e7bfc42f3c4cb6f
-SHA256: 61a67656f1d645b48105db49d72df59b6dfdee7b708d42b526e9a82ddfa9ac54
-SHA512: ffcc925a4df09440d82624ecdc9ec7c521ed4985769bb518243a6139a1c8126733d14219f93f287d64e6bb54dc7112a3aeef55f09c59d0976f459609478b4499
+Depends: ros-iron-moveit-py (= 2.7.4-24-gde1610dc2-2023.06.10.04.58)
+Filename: ./ros-iron-moveit-py-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.04.58_amd64.ddeb
+Size: 876380
+MD5sum: f346e9b28d5d9a2266f7a1670b65459c
+SHA1: 8b242c4c4da7f81ceda77d6f2f3a85d22f90d3bf
+SHA256: bd5616daae5dd775d39770349951a149e5a2099535332905e8639cb2c68221b7
+SHA512: 16fbd291d6748741311505846a947f0a538634937885f60a4f8fe6f9bbc4bbc70b83f8df34048575cb04483a371419391a388dda00d2511e8784f59e6f38b759
 Description: debug symbols for ros-iron-moveit-py
-Build-Ids: 0715be90258cdd6f95a496e2ddaf9d48384eff80
+Build-Ids: 3e483e276b37454a7dff54c6592a03823dd968ed
 
 Package: ros-iron-moveit-py
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.20
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.58
 Priority: optional
 Section: misc
 Maintainer: Peter David Fagan <peterdavidfagan@gmail.com>
 Installed-Size: 1078
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-srdfdom, ros-iron-urdfdom, ros-iron-ament-index-python, ros-iron-geometry-msgs, ros-iron-moveit-ros-planning-interface, ros-iron-octomap-msgs, ros-iron-rclcpp, ros-iron-rclpy
-Filename: ./ros-iron-moveit-py_2.7.4-24-gde1610dc2-2023.06.08.04.20_amd64.deb
-Size: 302102
-MD5sum: 47f410e029918aac12da9c48ba667664
-SHA1: 6923a701e7bb820e8e1d0d94a462b24fd211ffd8
-SHA256: 4a3b32f960b3463087556e0d404e57112608d87f620ceb46cd5e0adc9b3eb04e
-SHA512: 7e4506d08c691185cafc07529269a2ef0cb127b070d67a02ee7424f803ca1f821902c9e496584e2ecf3ce2aa73ea2f08caf9bd48a0b8f9095c6f914c5f832087
+Filename: ./ros-iron-moveit-py_2.7.4-24-gde1610dc2-2023.06.10.04.58_amd64.deb
+Size: 302064
+MD5sum: 17cd6a1ec8bb1cf0c45484b2317e5cdf
+SHA1: 46651a574e341f9328f54f99ae54854b3480d8a7
+SHA256: fa00f2e912807b1d1a0d87c2c9bd1f10d5935cda81a2d766579410bc4dcb1dc9
+SHA512: eb864ac587731cc37bc381ee1940cd348762f9006cec1a9df1167ff6f3ead0038c281bd10e7069daeaaed5ecd6403458d97b3de6bfac050fbcea1e619c1834a4
 Description: Python binding for MoveIt 2
 
 Package: ros-iron-moveit-resources-fanuc-description
 Architecture: amd64
-Version: 2.1.1-2-ga035b68-2023.06.08.02.52
+Version: 2.1.1-2-ga035b68-2023.06.10.02.48
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@dav.ee>
 Installed-Size: 735
-Filename: ./ros-iron-moveit-resources-fanuc-description_2.1.1-2-ga035b68-2023.06.08.02.52_amd64.deb
-Size: 127864
-MD5sum: 057a16b31f3e8020d9d4bdd163c179f4
-SHA1: c7b06c4403f64df481e4ce68fe8f16c9f2e6791c
-SHA256: fb65ba4182331b48f13dc11e4660cc06a94fba3345d77ab1d39f8d5d1e9ee674
-SHA512: 49f78097c161c1462e70b815e5600824b92a91ac7382ef8d112b9711c91592db9c950cb2d1dc03f3aba735e50153892f79969a48538a56dc71a8c19bca456c8f
+Filename: ./ros-iron-moveit-resources-fanuc-description_2.1.1-2-ga035b68-2023.06.10.02.48_amd64.deb
+Size: 127872
+MD5sum: b1b0544c27b6e6a85cc735e26b966f43
+SHA1: b9067a2226a5a0835e288dff71d4edd0ff905eaf
+SHA256: 65eb81f5a2483ad963e017f2f2e231c3a1a7f2398beabe9c6fa83e398baf4327
+SHA512: 7b58750dc4d06f98639d7ff11aee3ca2ea070225e8a4766ffe37fdb382a06ae91f1ecaa2239660beb379c799f9659250d66ad966ca2bf6552c6ee5e6157d6c42
 Homepage: http://moveit.ros.org
 Description: Fanuc Resources used for MoveIt testing
 
 Package: ros-iron-moveit-resources-fanuc-moveit-config
 Architecture: amd64
-Version: 2.1.1-2-ga035b68-2023.06.08.02.53
+Version: 2.1.1-2-ga035b68-2023.06.10.02.49
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@dav.ee>
 Installed-Size: 89
 Depends: ros-iron-joint-state-publisher, ros-iron-moveit-resources-fanuc-description, ros-iron-robot-state-publisher, ros-iron-tf2-ros, ros-iron-xacro
-Filename: ./ros-iron-moveit-resources-fanuc-moveit-config_2.1.1-2-ga035b68-2023.06.08.02.53_amd64.deb
-Size: 15056
-MD5sum: fc84f8fafaa9db1a8b27a34eb431f4aa
-SHA1: 847b93fe6f352ef2c450c63f33c48ad5d0deb224
-SHA256: dfc5e403a920b1e3ad78092fccadfeae5377f8854c0c7497f26c4a1fabca30cd
-SHA512: e01271300bf020e44a95b0f34787c25d725566b16a8cba617e62d840dee3d38409ed4997e0ae4a3cc9459a131a3ca1aeda94a99866d9aa0c00b42f3fbe9dde21
+Filename: ./ros-iron-moveit-resources-fanuc-moveit-config_2.1.1-2-ga035b68-2023.06.10.02.49_amd64.deb
+Size: 15052
+MD5sum: 8c35bc255566068d406f31cb93852808
+SHA1: 2dcd4c75ea14d2b8464e00cb647707bbcca336a7
+SHA256: fcc5c8b54e69cd4dff373fe59284023a531c3c9b46d73714944f8c6684a54970
+SHA512: 2fb6a54f71191d38f1f916c830df18a7b0d44441e5dcdc2a65ca2355c71efefedb2dfa9b48c3811cb2901d6814da16a614d54dc839b21c6b74eaa1ac11f62495
 Homepage: http://moveit.ros.org
 Description: MoveIt Resources for testing: Fanuc M-10iA.
  A project-internal configuration for testing in MoveIt.
 
 Package: ros-iron-moveit-resources-panda-description
 Architecture: amd64
-Version: 2.1.1-2-ga035b68-2023.06.08.02.53
+Version: 2.1.1-2-ga035b68-2023.06.10.02.50
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@dav.ee>
 Installed-Size: 10457
-Filename: ./ros-iron-moveit-resources-panda-description_2.1.1-2-ga035b68-2023.06.08.02.53_amd64.deb
-Size: 3136436
-MD5sum: 33a7b5a974e55d2151edc01427230821
-SHA1: 2f380bba5a88a3d18d45e331095e7b31237e12ef
-SHA256: 506eecc514619fe512570e4703ead386e4619d9d7225d77f57ae9493377653c6
-SHA512: de2d4814a179c5927fb4fd536ed9d8955fd78ac59dd88e00dc4c12b492ac969172f0f222a4436737a1d8879bfa9f513f302358effb1fc594b932f2044221b913
+Filename: ./ros-iron-moveit-resources-panda-description_2.1.1-2-ga035b68-2023.06.10.02.50_amd64.deb
+Size: 3136438
+MD5sum: ed27260fa4aea1e4346ba60a7e3e8ff3
+SHA1: f1d1662ef9e926445fdd0b542b202a68c1d4f7de
+SHA256: 8e5d4a4fe838ed480fb503dd570406984a6a4dea7908a0a17e9e20e1255bc86c
+SHA512: 92d846cede71d1dc516ed14dd704ce4e6052338396185c7ebdd7d41d200c1cacdba0a61f1dcfcf76feea0be73cca98ff78d0b17fccc65b1da1eab0bc6583c112
 Homepage: http://moveit.ros.org
 Description: panda Resources used for MoveIt testing
 
 Package: ros-iron-moveit-resources-panda-moveit-config
 Architecture: amd64
-Version: 2.1.1-2-ga035b68-2023.06.08.02.54
+Version: 2.1.1-2-ga035b68-2023.06.10.02.51
 Priority: optional
 Section: misc
 Maintainer: Mike Lautman <mike@picknik.ai>
 Installed-Size: 129
 Depends: ros-iron-joint-state-publisher, ros-iron-joint-state-publisher-gui, ros-iron-moveit-resources-panda-description, ros-iron-robot-state-publisher, ros-iron-xacro
-Filename: ./ros-iron-moveit-resources-panda-moveit-config_2.1.1-2-ga035b68-2023.06.08.02.54_amd64.deb
-Size: 19188
-MD5sum: 7aa0a07b7b1b8024bb670ecdd14dc26e
-SHA1: 4fbd7f487fddc60d8eacee7a34d6e208eb117e45
-SHA256: e02922ca42fcd9c5563594637701912aea755a4357145be8d18c50105c8d2b13
-SHA512: 0c71cc57949390f957f66ce30ed74a2e96a503f412fe2bf7cbab750eae7ff62117ef52fc919c78a1be25111062086142778b705d2ebf08581ab0fb07a22e4873
+Filename: ./ros-iron-moveit-resources-panda-moveit-config_2.1.1-2-ga035b68-2023.06.10.02.51_amd64.deb
+Size: 19190
+MD5sum: 4999ab03b91b3d315325978f0b7314b4
+SHA1: 3c21aa4e2ce3555a98854f569f8d6c217137271b
+SHA256: 23ba8fcb00391f1af6f26a653a8db94f6b30723486dbc1a9d0bfc6683fce490d
+SHA512: 975cd7c2e9516c3af5153a2e1e8f146405d9ab8d3b9635c26eecf814fb1059c758953e9cf75d3bc71aa1810d532456b96f363710b060fe29145e4c1fabd45ca5
 Homepage: http://moveit.ros.org/
 Description: MoveIt Resources for testing: Franka Emika Panda A project-internal configuration for testing in MoveIt.
 
 Package: ros-iron-moveit-resources-pr2-description
 Architecture: amd64
-Version: 2.1.1-2-ga035b68-2023.06.08.02.55
+Version: 2.1.1-2-ga035b68-2023.06.10.02.52
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@dav.ee>
 Installed-Size: 48623
-Filename: ./ros-iron-moveit-resources-pr2-description_2.1.1-2-ga035b68-2023.06.08.02.55_amd64.deb
-Size: 24391294
-MD5sum: 74ef4fd9841247ee1f6e7c4329d360a9
-SHA1: 811f5be68e4561c778c6bfc3fab17e0ca41d3dec
-SHA256: 4649ce54489066b46b1ef489bbe66fb2782a3dba238078af20ab1b3230187a99
-SHA512: 6126c83a56fdbd56449a7c5e656a7ea6e29dab852b49c6578d4d8ec5b477a2845e5cfe42935fcb0588aa28e6a1df9fe68eb78e086b5c76862ba97c3781e09541
+Filename: ./ros-iron-moveit-resources-pr2-description_2.1.1-2-ga035b68-2023.06.10.02.52_amd64.deb
+Size: 24391296
+MD5sum: 86de3bc0d1598ec3a4fb98cb2f28badc
+SHA1: 482bf68dce5dcd9dd72784154ee5e08d8842bcc0
+SHA256: 7e183f6aa3c6d9e41255e6b8ee6006bdf90b1178fdaaff1372df9ebf54ed67ac
+SHA512: c13e78043f10d7e30c8e0dc115f358104857d44bddf78bc22419d9afc9c93c16cc67a7e71edd40f4232b75ccfcd21b09b5a8f440bb2b6fa8a4b882935b340474
 Homepage: http://moveit.ros.org
 Description: PR2 Resources used for MoveIt! testing
 
 Package: ros-iron-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.21
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.30
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-resources-prbt-ikfast-manipulator-plugin
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 2740
-Depends: ros-iron-moveit-resources-prbt-ikfast-manipulator-plugin (= 2.7.4-24-gde1610dc2-2023.06.08.03.21)
-Filename: ./ros-iron-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.03.21_amd64.ddeb
+Depends: ros-iron-moveit-resources-prbt-ikfast-manipulator-plugin (= 2.7.4-24-gde1610dc2-2023.06.10.03.30)
+Filename: ./ros-iron-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.03.30_amd64.ddeb
 Size: 2717722
-MD5sum: 98b4cde6ce661dce69d376701853dbae
-SHA1: 74cefa198a11005c2b1e1625b2d559480b84bbcf
-SHA256: 4c4f3317305ecc621251ce8bed5635fb10be05c222001c89663881688a98f61b
-SHA512: 81f8d838f5368850f408377137482dbe84e1fe8df5324546283c7d5355097e1bbe3c83952d5f4ab7a95e3b1c7d03c7f4c345ccd93e93d07314dff95d31991e94
+MD5sum: 97f5a7729b3cbaa14c342cdfb7e0db2b
+SHA1: f9baa6dd570ea6c1a6c927e75e6fa3774e5d6c99
+SHA256: c63f11d51d9c426888d857f8ee43641afb0d424296147e4d02ba30851ad38d8b
+SHA512: 183be6785e46d6e0979ec2c3e23c6dfcd586181b50dcf60056046349ff2aa0434aec5beb48f5612740ca220f706cb892951a842467e8b99c7d66cbe38911afe8
 Description: debug symbols for ros-iron-moveit-resources-prbt-ikfast-manipulator-plugin
-Build-Ids: 54e5d374a1750ebf28491eedbdb1024e1e00aca0
+Build-Ids: 7a7aaeedada426b6fdfaabac54cbba9261bddbb9
 
 Package: ros-iron-moveit-resources-prbt-ikfast-manipulator-plugin
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.21
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.30
 Priority: optional
 Section: misc
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 474
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 4.0), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), ros-iron-moveit-core, ros-iron-generate-parameter-library, ros-iron-pluginlib, ros-iron-rclcpp, ros-iron-tf2-geometry-msgs, ros-iron-tf2-kdl
-Filename: ./ros-iron-moveit-resources-prbt-ikfast-manipulator-plugin_2.7.4-24-gde1610dc2-2023.06.08.03.21_amd64.deb
-Size: 129064
-MD5sum: 371182aa82a6b2d992ad188499936eaa
-SHA1: 6e0a8d5005da69f244df78ca375b2854e7e5fd51
-SHA256: 909d3f5ae197c34178e244a3a84c849333ba9123586563871e6d0f5bbe707dbe
-SHA512: bdbf59b7c3f316d79bb7b7f4103b8f7d1994ca38b232045e437f9e8ea7f460ff3a87f50280a0ab1a75d6b2a6959d3a5d77c0f3f7b45a32c22313b0983d786bea
+Filename: ./ros-iron-moveit-resources-prbt-ikfast-manipulator-plugin_2.7.4-24-gde1610dc2-2023.06.10.03.30_amd64.deb
+Size: 129058
+MD5sum: 07f1f7f811f01118b85d6c8918d2f74b
+SHA1: fdad30b05afa582004ccea8e18872cb1841ce0f5
+SHA256: 4a4fb8ed6ec0ec6a1be319a74fd54c1ceafb66307e8dad7a5c7132866d2cc849
+SHA512: fdfdeda0a708e6b7d6bb819fe376a34c9b150d34a02c775c304c79d25d5b47cd1643fb2de8ad35e2fa8c501db84ac2223d92ffbbe5510088eafbd7c3e9749617
 Homepage: http://moveit.ros.org
 Description: The prbt_ikfast_manipulator_plugin package
 
 Package: ros-iron-moveit-resources-prbt-moveit-config
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.23
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.33
 Priority: optional
 Section: misc
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 83
 Depends: ros-iron-joint-state-publisher, ros-iron-moveit-resources-prbt-ikfast-manipulator-plugin, ros-iron-moveit-resources-prbt-support, ros-iron-moveit-ros-move-group, ros-iron-robot-state-publisher, ros-iron-rviz2, ros-iron-xacro
-Filename: ./ros-iron-moveit-resources-prbt-moveit-config_2.7.4-24-gde1610dc2-2023.06.08.03.23_amd64.deb
-Size: 14130
-MD5sum: 090e32e16889ceece2947d65f0d09b3d
-SHA1: b3f5e7069625a3ebd8425d43c3c535947c02badd
-SHA256: 23fb9406d7a626f17a84a482a31801a6312a995c0004aff32c973bdf67585516
-SHA512: 39a941ca75d497f00b603b7ac4c3992bbc3a8c7de7fd14e65ffcde5d816d2419bc4e02e61ef8d454afa8d367b16712db37e424ae8e82bc088509ec0ca27bae4b
+Filename: ./ros-iron-moveit-resources-prbt-moveit-config_2.7.4-24-gde1610dc2-2023.06.10.03.33_amd64.deb
+Size: 14132
+MD5sum: ec9763c14e3b6c1d89c441c1ff017e31
+SHA1: 62a37fc37c2f2de7dae4a2881192c5fffd9d4314
+SHA256: d32eadb8f248e1936f428521a3d2aed0a6b6999ec87cb16e9e39589287dd1efc
+SHA512: faea329e873d8d0dce26e990cf71e35192016adc03e1666630d84d8eb15235a726979c2d2190527aa312228245c44e6bfab7066320947bac48f9ec9cefd190e4
 Homepage: http://moveit.ros.org
 Description: MoveIt Resources for testing: Pilz PRBT 6 A project-internal configuration for testing in MoveIt.
 
 Package: ros-iron-moveit-resources-prbt-pg70-support
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.24
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.34
 Priority: optional
 Section: misc
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 933
 Depends: ros-iron-moveit-resources-prbt-ikfast-manipulator-plugin, ros-iron-moveit-resources-prbt-moveit-config, ros-iron-moveit-resources-prbt-support, ros-iron-xacro
-Filename: ./ros-iron-moveit-resources-prbt-pg70-support_2.7.4-24-gde1610dc2-2023.06.08.03.24_amd64.deb
-Size: 161888
-MD5sum: ddab7e775912c2d89c6b6af8c0eba3c9
-SHA1: 82c665906300f2f14475fe2e3b6824e1b08a5f7d
-SHA256: bc8968019f189094fa7b7f3e62a5207db7cbe1e37d41933a09356cc2ee326da3
-SHA512: 951ddfac9957d3522b831cfb91ca9bdd2d9f4601cf33dea4ae1ff64e949effa38c5219facc7f6f8c6f7f80359543b483bd830554afc3db53cf0d6a2f1c7b69c2
+Filename: ./ros-iron-moveit-resources-prbt-pg70-support_2.7.4-24-gde1610dc2-2023.06.10.03.34_amd64.deb
+Size: 161892
+MD5sum: 72d1084295effdf1b56b614a58b0146e
+SHA1: 1f3bfe25a3ad683471cf050395fac18aa927b5eb
+SHA256: 3d00b5657d6b2290bb679ed0f1774a222d9353789b5587d6a2c527d83dda8276
+SHA512: a8dc51ec336c71be23496dee2e1516fa61d9493cb9245d17b4858ec807e776f97a9ad2545fc7d31653ab3695de410293c64163d32f4d14fab07784f297b41eca
 Homepage: http://moveit.ros.org
 Description: PRBT support for Schunk pg70 gripper.
 
 Package: ros-iron-moveit-resources-prbt-support
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.25
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.35
 Priority: optional
 Section: misc
 Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
 Installed-Size: 3858
 Depends: ros-iron-xacro
-Filename: ./ros-iron-moveit-resources-prbt-support_2.7.4-24-gde1610dc2-2023.06.08.03.25_amd64.deb
-Size: 790622
-MD5sum: 61a3a19aca74149204c242935778e4b1
-SHA1: 69dac38631c7dbc65f1dcf4e0cf5fc528b9de65f
-SHA256: 0b9f0d7a4da1f0b43de55cea8726cedca3887355d76f1e889cae67c116073820
-SHA512: 59923229a06ecaf01dc313b96164ba5f72c5e916d91cd6c025d07399f1236820fe63ef03d1089dfeff113a55a531c6393256074be45e83703be3f8b6edb5a011
+Filename: ./ros-iron-moveit-resources-prbt-support_2.7.4-24-gde1610dc2-2023.06.10.03.35_amd64.deb
+Size: 790624
+MD5sum: c8a140a837060cbc847dbaea807bb75f
+SHA1: 00a4322fe272b0e244636a7b8a1e7f82238c7763
+SHA256: 087d391a5986d8f0faff6fc4b643e4282dd9ff5e1aca95d3516c53c514c5e2b6
+SHA512: f76a33c9cb4b4c5581025f5895c41ab75f2dcf8e9d00d84ea85466d8b5053b7edbda35c57d044617caa67d16692880bd0b83c57f65861148afdbd3692ddeff72
 Homepage: http://moveit.ros.org
 Description: Mechanical, kinematic and visual description of the Pilz light weight arm PRBT.
 
 Package: ros-iron-moveit-resources
 Architecture: amd64
-Version: 2.1.1-2-ga035b68-2023.06.08.02.52
+Version: 2.1.1-2-ga035b68-2023.06.10.02.48
 Priority: optional
 Section: misc
 Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
 Installed-Size: 42
 Depends: ros-iron-joint-state-publisher, ros-iron-moveit-resources-fanuc-description, ros-iron-moveit-resources-fanuc-moveit-config, ros-iron-moveit-resources-panda-description, ros-iron-moveit-resources-panda-moveit-config, ros-iron-moveit-resources-pr2-description, ros-iron-robot-state-publisher
-Filename: ./ros-iron-moveit-resources_2.1.1-2-ga035b68-2023.06.08.02.52_amd64.deb
-Size: 6448
-MD5sum: e3bd5fa0a010f2643e796b9d47a0ac65
-SHA1: 4d47c8d2db09cc0e5cef4e452d893bc3edf457c4
-SHA256: 5bf811e200d73eb9729895df368fb8366db88bd6c01eb5c63ee7078609a3c224
-SHA512: 064dd122cf55be7bf296fe8e306252eabc4b21f5a9e3374daa3a4bff2c32fe46ddd3a6bd28aa00f63e0993ce11a1fba761429eb32f0062eb830b406bed02897e
+Filename: ./ros-iron-moveit-resources_2.1.1-2-ga035b68-2023.06.10.02.48_amd64.deb
+Size: 6442
+MD5sum: b55628a845e1456f7f6f0f62747abf62
+SHA1: 0012a4fb5e216fe1dacb56898c595fa2964bfddc
+SHA256: eb73d11c7b321df35dcd30eb58ae26ff6caed7aa61f964f6eabd91ca8bf7ff46
+SHA512: a122227da635c536774ce6f7056ad21ea691ee9eb4d621dc27038c915853d59df0b8a589d914aa2e44e94e04bf14cb458555b7d1b6ffd90b219e5ed093138f3a
 Homepage: http://moveit.ros.org
 Description: Resources used for MoveIt testing
 
 Package: ros-iron-moveit-ros-benchmarks-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.05
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.40
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-ros-benchmarks
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 6187
-Depends: ros-iron-moveit-ros-benchmarks (= 2.7.4-24-gde1610dc2-2023.06.08.04.05)
-Filename: ./ros-iron-moveit-ros-benchmarks-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.05_amd64.ddeb
+Depends: ros-iron-moveit-ros-benchmarks (= 2.7.4-24-gde1610dc2-2023.06.10.04.40)
+Filename: ./ros-iron-moveit-ros-benchmarks-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.04.40_amd64.ddeb
 Size: 6137564
-MD5sum: 380c27ddf413e63b1af8693d009972b5
-SHA1: 37d9c69d4e6df414dffaa1adcef5d5168d9d42db
-SHA256: 5b87a3600b7bb567deb3a9b63b30641cc91c3ab86c786bc2aaed044c551f8557
-SHA512: 8cf53f8ec6974317edab27bcaf06ce10681ca1a685bcbb38ee3cdf66b654abda200a6f259e7f23434738dde10dc3c525672848185f7d7f31b5401e929f4df1b5
+MD5sum: d80ff6244bef837a70cb110fa3034cf1
+SHA1: 499a84a1b5f560b2597be3ab0c52b17b7c5d2abe
+SHA256: 2092d77c13839ecd28e00bb4a7e19adfb61245deb7245f2a65bbad1166233453
+SHA512: 15ba59b81ea41af3c0edfe7679d9b57e2812e16920b423063a6a9ad18405f76fa10c1afe07c504e8adb2d108a7be6b9a48033465b6ae803de7d6928b2ed030e9
 Description: debug symbols for ros-iron-moveit-ros-benchmarks
-Build-Ids: ba9df17c0ce67c2b66109e1b2ef2fb3183d1a6a5 da7b7bebf9df876106e3eff3d55dd1ad3b1e8f98
+Build-Ids: 6200e829fb37ffb27c403ffdd21862c29dd55622 667181bb264a6269012621d4fdcde301d65e3e79
 
 Package: ros-iron-moveit-ros-benchmarks
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.05
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.40
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 567
 Depends: libc6 (>= 2.34), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-moveit-ros-warehouse, libboost-date-time1.74.0, libboost-filesystem1.74.0, ros-iron-launch-param-builder, ros-iron-moveit-common, ros-iron-moveit-configs-utils, ros-iron-pluginlib (>= 1.11.2), ros-iron-rclcpp, ros-iron-tf2-eigen
-Filename: ./ros-iron-moveit-ros-benchmarks_2.7.4-24-gde1610dc2-2023.06.08.04.05_amd64.deb
-Size: 178560
-MD5sum: 572f90c11ad070cd7b846e934a5d487e
-SHA1: c936899afeef0240233a24516e6f9904c6072540
-SHA256: 57bf2b935161fe60202fc97eccc2f410be0b7ecd810b49a6826d3262c9d40a78
-SHA512: 45ee16dc230a5fe90dc5fc88fa3c502043b29c9966ba1feb16a97e4049299ed2e6804f1ff53d8524af8ced181165914dc70bff01ae44cc78057f03bac7b5afbe
+Filename: ./ros-iron-moveit-ros-benchmarks_2.7.4-24-gde1610dc2-2023.06.10.04.40_amd64.deb
+Size: 178534
+MD5sum: e35ac103850767794a29e68ee0e93256
+SHA1: 6d9507d6274b0a7b7e4197c4d7e122dcfa580074
+SHA256: 978a299c04ebf3693ccdb14c9012d079b6231006d36db4c6e381d807cc9a079e
+SHA512: 4333e556529cc5e910a117900282d0786d6bfed49c63be0ebbe4cb16a4f2b740506d2723c9552891823d46943fbb75d0dc52c955fae0c7daa634eddc3f886410
 Homepage: http://moveit.ros.org
 Description: Enhanced tools for benchmarks in MoveIt
 
 Package: ros-iron-moveit-ros-control-interface-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.10
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.46
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-ros-control-interface
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 4111
-Depends: ros-iron-moveit-ros-control-interface (= 2.7.4-24-gde1610dc2-2023.06.08.04.10)
-Filename: ./ros-iron-moveit-ros-control-interface-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.10_amd64.ddeb
-Size: 3859808
-MD5sum: 5a6085e6bf521caa06589eae04f639af
-SHA1: 8d12b2e2a0ced234b300190661219b57e7ccc0bf
-SHA256: 09d9527ef7c5374308b5230edfc91c36f7f6eb8b5395ee59e74e5a14a26382eb
-SHA512: 5d1544546bdfe1df09a367a0d9ea6135bdc8a51e27b1c9a79c1ed42d6496f10d30744d3c9650e8e7d9111c69d7b6b1ff37afeaecf14a4dc84616f1ff7229aa0a
+Depends: ros-iron-moveit-ros-control-interface (= 2.7.4-24-gde1610dc2-2023.06.10.04.46)
+Filename: ./ros-iron-moveit-ros-control-interface-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.04.46_amd64.ddeb
+Size: 3860062
+MD5sum: a3583f93c938cd0df2385d2358ee3bf3
+SHA1: 600108578e02f9ef02bc2a077828c04544e06a7b
+SHA256: 4f32716b768e1b971cb148b7f4bb5b94fefae92977c4626da4b06453d2d887d0
+SHA512: d117952fa9e3cd41feb8770537923be9f30cc777d1ac1d9612dd062093808011c68327fe841c2bae8d88bf12e1d61b0d8596c3a788d8235cd1e1487d0aa7e896
 Description: debug symbols for ros-iron-moveit-ros-control-interface
-Build-Ids: 0c7a8e5d0dcadd65857150469343080c05c10411 55dba97cd0e356d4d7cf8014b516c0ea8851123f 58089a0dd16ff221a53996e3025ac8354cd3569a eb7f1f81ebdec2e346db52b895d4e8c059a96726
+Build-Ids: b552f0a2c236a9247391de00839ae17a315bb605 c238fba174f6d6f18809327374164cb957f681a3 c8260907578b8890c1eefc4b0bd49ae366b0c981 df1023c897ee6fbf93fe37cafc0301dabfba2f0e
 
 Package: ros-iron-moveit-ros-control-interface
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.10
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.46
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 785
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-moveit-core, ros-iron-moveit-simple-controller-manager, ros-iron-controller-manager-msgs, ros-iron-moveit-common, ros-iron-pluginlib (>= 1.11.2), ros-iron-rclcpp-action, ros-iron-trajectory-msgs
-Filename: ./ros-iron-moveit-ros-control-interface_2.7.4-24-gde1610dc2-2023.06.08.04.10_amd64.deb
-Size: 204218
-MD5sum: ce66d43704435e8f0f2dcf3e4f67f225
-SHA1: 2ca104f8db1fae0ac5be1359c8dda2619a82a36f
-SHA256: b40385f12b1ad32434518ac33008e29ea120afb22e419d191dfe3de346c3eabc
-SHA512: 71141f41f3935ab5169b7ecf5dfc9a5fef23f16520daac86b47f167b827f8d61f617f73b119389cbf62817ad9fe49ef120bc48eb69c89ae452fd8b7f3617bcb7
+Filename: ./ros-iron-moveit-ros-control-interface_2.7.4-24-gde1610dc2-2023.06.10.04.46_amd64.deb
+Size: 204230
+MD5sum: 22b8dbf97dde7e97e4e7bd9e00feaab9
+SHA1: 3444740621a175699c51cf01275a0c67ca1fd6a3
+SHA256: fe76ff1340f096c896fc48a0c3cf959cb69146038d602b52cb32e70815fe9239
+SHA512: a7fa0ecc5595737458b62178727cf70d2f4c9f035930eceb888ed7bfbb0d11032a394d8027739b6f14c57bb1e66219b975355a1d20bc7b6c41c0f83308f8e75b
 Description: ros_control controller manager interface for MoveIt
 
 Package: ros-iron-moveit-ros-move-group-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.49
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.07
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-ros-move-group
 Maintainer: Michael Görner <me@v4hn.de>
 Installed-Size: 24383
-Depends: ros-iron-moveit-ros-move-group (= 2.7.4-24-gde1610dc2-2023.06.08.03.49)
-Filename: ./ros-iron-moveit-ros-move-group-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.03.49_amd64.ddeb
-Size: 23981120
-MD5sum: 83f7127ed433927240a07aabe2506425
-SHA1: 7a6590566e0a5a14bd3d010a0ae9bc0978284ffa
-SHA256: b5607bce459902e78525b0a308f0520cf7c47d20de01ba24b4b8638389f7a7cb
-SHA512: c29fa2ec79d81b7ef33b4773318cd510df51f09436d9cf132b9e409f7ad522423f4aeba0a627961262fb298f26a4221a13a68efc8d0377cb934a8a7f3b501445
+Depends: ros-iron-moveit-ros-move-group (= 2.7.4-24-gde1610dc2-2023.06.10.04.07)
+Filename: ./ros-iron-moveit-ros-move-group-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.04.07_amd64.ddeb
+Size: 23983766
+MD5sum: b6c70d547d90dd78501e97ec3bb19d9c
+SHA1: ae9a98dd115e006b30baa5126b1fcaa7d65a15b7
+SHA256: d955d4db362277735184e5c62c7930c7a5b52b67763bcbe9b851b968e28013ce
+SHA512: 1c77bfbf842b40161861b62718e2e40de3e1601beb71d2e2892d04093fbf9cd32fa79a6441f080e406786961e946a79c93fc8ddc58f873484c6a7a61b037897c
 Description: debug symbols for ros-iron-moveit-ros-move-group
-Build-Ids: 4c47556c10d73a5940ff7076f687c264b417fdf0 797ba2db70b1d474c80f1326983137e8bd4fa15f 8fc522dad67cdf5ac060841091569922c9013057 d61f333f2d86c8628fa183444a45c1452c521f3e
+Build-Ids: 1dc8c1460a17dae5e7356c14166a3a069d3cd7d6 71f50f5acf05d5cb51a610e307d80c8fc609625b 8fb15eea24d63f69f439c5b01765086bda709885 950be2f86538576fd951af72f44ef0a64701ee47
 
 Package: ros-iron-moveit-ros-move-group
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.49
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.07
 Priority: optional
 Section: misc
 Maintainer: Michael Görner <me@v4hn.de>
 Installed-Size: 1457
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-moveit-common, ros-iron-moveit-kinematics, ros-iron-moveit-ros-occupancy-map-monitor, ros-iron-pluginlib (>= 1.11.2), ros-iron-rclcpp, ros-iron-rclcpp-action, ros-iron-std-srvs, ros-iron-tf2, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
-Filename: ./ros-iron-moveit-ros-move-group_2.7.4-24-gde1610dc2-2023.06.08.03.49_amd64.deb
-Size: 348262
-MD5sum: bef8c76dd592d4cfcd7604aa25de05d0
-SHA1: 8cb9910c22505fce9d3465775e44476a6742729b
-SHA256: cbf3c83ac9e6764c2e918901597eb7f33559f3f843a815b6ccfb956a97c8340e
-SHA512: 876e8e07af7f088ae6cb64818c5a1a4ceedb29ca1acee85c06f886deabc0718e9b2fa12f48f5ebb4120038befd205071a9fa9a2e193902f0ca7d3e09d1a6c74c
+Filename: ./ros-iron-moveit-ros-move-group_2.7.4-24-gde1610dc2-2023.06.10.04.07_amd64.deb
+Size: 348268
+MD5sum: c028d017d4fd3b463c1387fdf01f62e8
+SHA1: 18e64f8ae5524349ab6983f98e2b8db623cff533
+SHA256: 1bb31bd0b896b3bafd47942d546be597cd411d3d8434d326b356ba19bbde593a
+SHA512: 4052fdb74f71bd560e66ab45e544a9e2e82b3123226840806f1958eb9115a6f883406ff3537e32e211d450adf4206a812ceab5a43a8c5b795c12696fc8e0ca0f
 Homepage: http://moveit.ros.org
 Description: The move_group node for MoveIt
 
 Package: ros-iron-moveit-ros-occupancy-map-monitor-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.26
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.37
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-ros-occupancy-map-monitor
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 4723
-Depends: ros-iron-moveit-ros-occupancy-map-monitor (= 2.7.4-24-gde1610dc2-2023.06.08.03.26)
-Filename: ./ros-iron-moveit-ros-occupancy-map-monitor-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.03.26_amd64.ddeb
-Size: 4291636
-MD5sum: 2bdce28ba1767ae06bc3773bace11403
-SHA1: 0a47f8990c489d845ea2a72978b4094b6d35c2e4
-SHA256: 3c8b94eb0e0e508ae81e9ced88a8e3108e0226295674c28b7f1813625a854373
-SHA512: ceceec59090a6c69877ba8620fc364367f2e554d6304e0be097b2dbf7c061d0f4d1f1349eb5818e650aaff7b76bbd0cb2161187bd134527100f19acce3c9574e
+Depends: ros-iron-moveit-ros-occupancy-map-monitor (= 2.7.4-24-gde1610dc2-2023.06.10.03.37)
+Filename: ./ros-iron-moveit-ros-occupancy-map-monitor-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.03.37_amd64.ddeb
+Size: 4291632
+MD5sum: 242738a6232cd00e8215beaea2ef73ef
+SHA1: b8f037ceaa7a8e7eac773e655ce3bcb95934d0ed
+SHA256: 76dc9929dc6c8fc7867cffc0cd56ea222262b3935e3023e232dd363792455dd7
+SHA512: 6738fd58ce0ed0946358d3cf63529c7889faf34894023692efde8e1ef93be43194d448494a488a1b80a1d6987ff66e5ae87d11b47d5cd14cdcad15eb4d2aceab
 Description: debug symbols for ros-iron-moveit-ros-occupancy-map-monitor
-Build-Ids: e35f7e02733e2c4e173afc37acc964fa99fe1c1c faf77db76e79de66540eb80948b844f918a7fb67
+Build-Ids: 205b476e731c3e47f5383ad62c5b906e25c17712 91d49a4b841b3a2ef709704c5886db9dfb64ca24
 
 Package: ros-iron-moveit-ros-occupancy-map-monitor
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.26
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.37
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 912
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-octomap, libeigen3-dev, ros-iron-eigen3-cmake-module, ros-iron-geometric-shapes, ros-iron-moveit-common, ros-iron-moveit-core, ros-iron-moveit-msgs, ros-iron-pluginlib (>= 1.11.2), ros-iron-rclcpp, ros-iron-tf2-ros
-Filename: ./ros-iron-moveit-ros-occupancy-map-monitor_2.7.4-24-gde1610dc2-2023.06.08.03.26_amd64.deb
-Size: 232566
-MD5sum: ede572fe9e40c74f0facd954de5c41f2
-SHA1: 6ffd2f60e4153c98db095fdd1bf692d65d0d04e4
-SHA256: bbb77aa4217b3bf4e2da3b130b0407086761f76b2a0b6bbce62de8adfc9f2c27
-SHA512: bb4431e0c5fec63b0ce7089d118a484ed2fb08a8413eb65eec70e24b742a2f9c812d909cae0618b23490d676ebf3d702e82f29b2cb0e4f2127789b553ae16825
+Filename: ./ros-iron-moveit-ros-occupancy-map-monitor_2.7.4-24-gde1610dc2-2023.06.10.03.37_amd64.deb
+Size: 232572
+MD5sum: 64618de10e59930a072f0dc438e7e66f
+SHA1: 40b696e61775f6e47af496cf6deb0c65afb66879
+SHA256: 8e829be2a09bcace7309392a9a0cc26c341500897e891827c1e82cec7b08b016
+SHA512: b8d3fd0e1cda494596d7d09c643a078b53756a1a60c79cc2496e31bc21429f72c8c375b2cbec960d713af554d6216db8c16467d6e2c57149b739254006c9bded
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt connecting to occupancy map
 
 Package: ros-iron-moveit-ros-perception-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.54
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.14
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-ros-perception
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 9946
-Depends: ros-iron-moveit-ros-perception (= 2.7.4-24-gde1610dc2-2023.06.08.03.54)
-Filename: ./ros-iron-moveit-ros-perception-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.03.54_amd64.ddeb
-Size: 9232060
-MD5sum: 22087c0d651fa09e87752501ef794ffa
-SHA1: 6e551b24900f01184f9d4be704f205d102f3b34b
-SHA256: ba8f24cacccad6105f23e397042a1cc91dc788a4f539439ef8f8faaf95d59ede
-SHA512: 9696ae5f9e882171e7acaceac6bf6cb51301475796cd37fbe8faf39b3fb9bdfc5c7719a052ed5cd35bdec5be8f4ab7d0ea8144443d08d993d1aee28cef625465
+Depends: ros-iron-moveit-ros-perception (= 2.7.4-24-gde1610dc2-2023.06.10.04.14)
+Filename: ./ros-iron-moveit-ros-perception-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.04.14_amd64.ddeb
+Size: 9233532
+MD5sum: 30725fd338069604737fdd63a9e25805
+SHA1: adfe66899f8c6843146c78402c6ebdeb11fd88f4
+SHA256: 71d736b4019a8f13e6726f545c118bcc9227ce3c7c86eee6a6be4de634db86f4
+SHA512: 050a5da61ab48b30c34db80bb7f8af77fc8adab768d50f978cbf34835d61bb25796435984f156e3617398d500e61cfcfb243744c1ee01b1f989b10aec1fd7c24
 Description: debug symbols for ros-iron-moveit-ros-perception
-Build-Ids: 1976774b0b705b5729c62fe0018832be388ffbe7 2e867b36e63f6b490be96ec2e199c6d9262ab2a7 59360b07f4af2c824bc66623f704893f35463dd4 6ab0ba773ac24209df4642ca1794b40950cd185c 84c2030eef981614eea1da8c5c4a58f28875efc8 b9f7764136b7b0eb21ceb3312160366c9ddfd589 dc369fd7ba72dd7a05271102ba99e08687ca4cbc e1b11de14bffd8cca5a585f2edc73d6451a57705
+Build-Ids: 0395dfa98b568c2707330b88c777d5c91fb57565 28bc714028439eace1e2e0182a4315959af6d33d 3529502356a50cba71f1f2bb33350e8dce49aa84 96d9e2e34c6889b7c44fe921ef7695e54af29bea c2f7572dd6282847b7c3aadb636a749fc4358976 d8206af065f73b1c9cf65e1a5da09e970aec1af9 f86d63774e06dfba29e9586e6f0329145732c94f fac94ee1c59ff8d9b18498e21698bf71d06e6be8
 
 Package: ros-iron-moveit-ros-perception
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.54
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.14
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 1572
 Depends: freeglut3 (>= 2.8.1), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4), libglu1-mesa | libglu1, libglx0, libgomp1 (>= 4.2.1), libopengl0, libstdc++6 (>= 12), ros-iron-geometric-shapes, ros-iron-moveit-core, ros-iron-moveit-ros-occupancy-map-monitor, ros-iron-octomap, freeglut3-dev, libgl1-mesa-dev, libglew-dev, libglu1-mesa-dev, libomp-dev, ros-iron-cv-bridge, ros-iron-image-transport, ros-iron-message-filters, ros-iron-moveit-common, ros-iron-moveit-msgs, ros-iron-moveit-ros-planning, ros-iron-object-recognition-msgs, ros-iron-pluginlib (>= 1.11.2), ros-iron-rclcpp, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros, ros-iron-urdf
-Filename: ./ros-iron-moveit-ros-perception_2.7.4-24-gde1610dc2-2023.06.08.03.54_amd64.deb
-Size: 345424
-MD5sum: 0532f57b05b34fc68b1999a0edb38f6b
-SHA1: e421cb54ac0563d43a94ff31495fc01d02bd621d
-SHA256: aa8f9cff321101e85b2fcbd5d03d18f6e91e5ba39245c98c80375346074f9b1d
-SHA512: 611d53515fe8b508ed17294162035193e5dafc0353f815e87b09c94792d42597f83266737265134eb9c1911171d2f658d2cf592671e3d121c1408ba36a339997
+Filename: ./ros-iron-moveit-ros-perception_2.7.4-24-gde1610dc2-2023.06.10.04.14_amd64.deb
+Size: 345428
+MD5sum: a8aeb10a74095db7ac945fe1e82a0e0b
+SHA1: 86142979455e7dd640b914e127fb7ba98cc9953e
+SHA256: cc38cddff34409aaddbe587a7228c10faf2c66b62345169a151d300c0c5c2498
+SHA512: ba7b527f931aea38d3ed02b2c69ee17ae9e2f22d690748e7c685e6640859e9674cfc2ce9f361d51af8d5175f4750f1ec7fc586ccd8289d6b970ae64d240b442e
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt connecting to perception
 
 Package: ros-iron-moveit-ros-planning-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.28
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.40
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-ros-planning
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 66690
-Depends: ros-iron-moveit-ros-planning (= 2.7.4-24-gde1610dc2-2023.06.08.03.28)
-Filename: ./ros-iron-moveit-ros-planning-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.03.28_amd64.ddeb
-Size: 64222326
-MD5sum: bc89c1bb672a0ef4c0928a8b5131dd82
-SHA1: 9a9a2adfafe954642bfd3f5df83a617389e8c873
-SHA256: 6e966993cd8fed52fed4361c88deb230d744f152aa2cc774e9a6ef172b1d4e69
-SHA512: 617e3954d45397ff21cbd68d086bcf4d7208fd4a6909c245fb9dcccbffe134963dae5a04959a49833401fbf6c4c21f2c46081c75b579bb2950db6ede58bf2e0a
+Depends: ros-iron-moveit-ros-planning (= 2.7.4-24-gde1610dc2-2023.06.10.03.40)
+Filename: ./ros-iron-moveit-ros-planning-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.03.40_amd64.ddeb
+Size: 64224390
+MD5sum: 3350ad614f5fdf6951d86c5101e4eda6
+SHA1: 3ef4cc8f49e4f2056adb23b65529090f87f270ad
+SHA256: 5436bbad7d260a7f67e1b4fb54658556eca65336a50356dba7041764226dc22f
+SHA512: 5ca2e10f63053d24d54629231a9f73f515d1d7e061a9af7d0628fad65789ccd602041a28d60b6916f58ce0cf19bfe5fab4ecda0448a2877b63cb5a7d704959ff
 Description: debug symbols for ros-iron-moveit-ros-planning
-Build-Ids: 052583b088a0bf8eff6467e2834043d6169bd45f 22ec40830fa02991b6b18399b4753a67b374158f 24dab900d45bb4671c33c1434ea792fd9baf4b84 4032144ad95b434dd3a6553a765fac7004709a5b 4336f23b8c0bbe7dc1101df4ebf8de316a1e4766 51967feeba310099639c7b4aeed424a2b6708195 5a7561c32ec975f6bd15e69371d72025c8c8fa52 6089e5aa9a5755f6451b7536c320129b729a4890 6bc2583f69de70a9085b40830a073bf6cad9816c 93882edfb7e4afc15ecd8a4c908859039fba91a1 99f0e95661ecb935dea1ffcc94dc7c89d8fd28b1 a1c4bb9ff4af15c85b51cdfeedd1e6bc8421a137 a81bccd8881e970fe82f8e3d9174c851a5962e8d a93543fc1e969a9111122efe1dc22b7396d969bf bd550afa738a264b82af27de4a3419177107351c be41bccbcdc47750dc8668da53952cffba2db8f8 df0ca20ed39eab7700c581f4734196f9d50f4237 e0e8ddfacb4857a527ceedac814f52a08c1aafdf f05690ef286f754f7bca0560199f87d37b6f477c fc1344edf9f2ddaed967a34bcfe0f2dc4419a841
+Build-Ids: 08bb7ab227e27d1920f3f62a8061de60990c885d 1e750ffef5b7c57e80e9fedbbba879093a190f84 1faa0d67571181077a40e1a91e92661e76ccd2ed 509e1d746ccf66a3baeadad89fb6cdcdf1def724 51873ad6cb1bca5fdbc15efad93037693820d5f8 6795c12a26803e8a6bbceb42995b75a31735fcbc 6d5874d9c6c9be2ce6133550d5e606e09c3d2aeb 75a91197442d7c2907dc5a2775faefc21c626877 79473da7d719bb9a438d188c4cd1d2c93892a854 88aae95ee6363fb52376a530e19083f722b9c955 8b58a2340a0400c9eb2116a1791eab7567568e28 a0a447b6c5e27392937ac9bb7a1d6f5655c75a65 a26fafaba55199bec151e0d6fb0889c348dbf08e a42f1b023eaf5dc6db31644b5354ff498757c4d6 afb89024028fcbd0990c1b935293a67a8eb68998 d4106563df4baf8b233e11373df236a8ed786d37 d9f597d5baff793b842f41476e49b40025d8aea9 ec3e62cf59c9f6e5dd92064dbf2b5a91d3c86721 efc07f2d5e19bcc83c1c482def33b49bc888a8b2 fb9feb2389026cd0e3c8595bc7103d7d3ffd68cd
 
 Package: ros-iron-moveit-ros-planning-interface-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.12
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.48
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-ros-planning-interface
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 9621
-Depends: ros-iron-moveit-ros-planning-interface (= 2.7.4-24-gde1610dc2-2023.06.08.04.12)
-Filename: ./ros-iron-moveit-ros-planning-interface-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.12_amd64.ddeb
-Size: 9378218
-MD5sum: 9b672530817a1afb44dbeba30a2e7e1b
-SHA1: e725b6a78c422da1240453967e73c98a73feb303
-SHA256: 2c03bedf8672d2d2b94e8d9abb5cbe9c817b45d87aeece360e4babc05d8d09a0
-SHA512: 2dbf54dbed7a16fcb556c213719265ae67e399acb3344b0172a13ccd824157e15a64cd04017b13f571dedd2c4bc115735e2f9913a226232af29d27774d73cf4b
+Depends: ros-iron-moveit-ros-planning-interface (= 2.7.4-24-gde1610dc2-2023.06.10.04.48)
+Filename: ./ros-iron-moveit-ros-planning-interface-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.04.48_amd64.ddeb
+Size: 9378216
+MD5sum: 90c91eda305e4d62127109b8e68cd368
+SHA1: cefd65f6bad38a9e0a4e39748efdac933850dea2
+SHA256: 7cb2f9e7d91522f42fcff351882bab80fda7241bcef3e962c60bad1bbf73d7bf
+SHA512: dcafce8fec11704419e94546f206f34b373228298b6a83913460dd39341386095770d3495cd4624e5c708997d58e563da9703a424868194b00741b74d62c3942
 Description: debug symbols for ros-iron-moveit-ros-planning-interface
-Build-Ids: 44c8fa6dd371d9eeb4e977f464f3b0c474fcf486 48f16744c3cc5b49928d37032357df9d49ca5b80 69dcad86f9491c4b1d333150024ed1fa1fa3cf5d
+Build-Ids: 4f293cb07460469d2a78948ca893b64cf10d649a 8525c912c9e16624571fdee5004decf534a8bc0c f54d45ef571cd7e8a918e43f05558a820086f2fc
 
 Package: ros-iron-moveit-ros-planning-interface
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.12
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.48
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 979
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-moveit-ros-warehouse, python3-dev, ros-iron-geometry-msgs, ros-iron-moveit-common, ros-iron-moveit-msgs, ros-iron-moveit-ros-move-group, ros-iron-rclcpp, ros-iron-rclcpp-action, ros-iron-rclpy, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
-Filename: ./ros-iron-moveit-ros-planning-interface_2.7.4-24-gde1610dc2-2023.06.08.04.12_amd64.deb
-Size: 255614
-MD5sum: c77b0814c12f7be8f6a575f1f55888b0
-SHA1: 9de42aaac3718a61ef3713a4cbd3fedc197760a7
-SHA256: 5744792e3c4356e3cfca898c71a4d33b9995c3a27a29e739fda3cd1f932665c5
-SHA512: 4fe65c55475c75fc705cbc9701aa8b96d265f27b2b34aaf0c2de048b8eea6482d272fb9d512024a1ce715964d00318621655d604cc87a80b72017673a6fa2a35
+Filename: ./ros-iron-moveit-ros-planning-interface_2.7.4-24-gde1610dc2-2023.06.10.04.48_amd64.deb
+Size: 255608
+MD5sum: bf4d964614afe50ac259069c1b87e190
+SHA1: f8917ee9ac27269cbdb94a8875dc1f6f6897e700
+SHA256: 9c8c74ccd2add2b552b4882b5e787e5337c311f7c0bb6e66e2ea321a632fabf3
+SHA512: b6e60ecaac1d07a310b86dfa5c2070ed24a87829c77d8a82c698e527de4e081ac2f3bfcc1920eeeca9e1c80a5f59a3a493b290c9237e30b435c32dcae7b9324c
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt that offer simpler remote (as from another ROS 2 node) interfaces to planning and execution
 
 Package: ros-iron-moveit-ros-planning
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.28
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.40
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
@@ -887,157 +887,157 @@ Installed-Size: 5863
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12), libtinyxml2-9 (>= 8.0.0), ros-iron-geometric-shapes, ros-iron-moveit-core, ros-iron-moveit-ros-occupancy-map-monitor, ros-iron-srdfdom, libeigen3-dev, ros-iron-ament-index-cpp, ros-iron-eigen3-cmake-module, ros-iron-generate-parameter-library, ros-iron-message-filters, ros-iron-moveit-common, ros-iron-moveit-msgs, ros-iron-pluginlib (>= 1.11.2), ros-iron-rclcpp, ros-iron-rclcpp-action, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-msgs, ros-iron-tf2-ros, ros-iron-urdf
 Conflicts: ros-iron-moveit-ros-planning-interface (<< 2.1.5)
 Replaces: ros-iron-moveit-ros-planning-interface (<< 2.1.5)
-Filename: ./ros-iron-moveit-ros-planning_2.7.4-24-gde1610dc2-2023.06.08.03.28_amd64.deb
-Size: 1089840
-MD5sum: d135a70d36a410a0b50fdf6103b10946
-SHA1: ca362135334bcbd402a090d35df33496b031aeab
-SHA256: a8ab21051c85e0f4a4cf58923e03d735184792a358216784444f2150668bfd54
-SHA512: 52012c9a2da3c0fd1fef4fd415872f4a1a05d495a331fc606e4cc33443a4c7e56b8a14e8bd2d14cca1dbc4dd03936f8d6690596e4869aa8c66a700bd3c21827e
+Filename: ./ros-iron-moveit-ros-planning_2.7.4-24-gde1610dc2-2023.06.10.03.40_amd64.deb
+Size: 1089856
+MD5sum: 1c5f68aefbaddb0a4e42f2855d12d4a3
+SHA1: 251f0631333d096cef21ed11cd436abeee8eb39a
+SHA256: 0bd132b4338f643c754f63d2300d87aff95672f3222ec352e8c5d04f934bc291
+SHA512: a2329fef97e94d41ff06ad67ef1b178ea6cb7cbbaba710ca9708f102e950e8cd9f9a5c06068fab241da52403dbee5d460424bb223417d212260cea54a279cfd4
 Homepage: http://moveit.ros.org
 Description: Planning components of MoveIt that use ROS
 
 Package: ros-iron-moveit-ros-robot-interaction-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.59
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.31
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-ros-robot-interaction
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 6708
-Depends: ros-iron-moveit-ros-robot-interaction (= 2.7.4-24-gde1610dc2-2023.06.08.03.59)
-Filename: ./ros-iron-moveit-ros-robot-interaction-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.03.59_amd64.ddeb
+Depends: ros-iron-moveit-ros-robot-interaction (= 2.7.4-24-gde1610dc2-2023.06.10.04.31)
+Filename: ./ros-iron-moveit-ros-robot-interaction-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.04.31_amd64.ddeb
 Size: 6430098
-MD5sum: dac025f6a34c90be157e9718fd39f9f3
-SHA1: 5d3cddcece9e8de3a18d7da01269b50a96e780b1
-SHA256: b91bc938e4b204fe74f132e79f95bd1596f96f4a42d6cb173c9c7ab5a7c939f4
-SHA512: f0373b59ea94903e7ff06e244cb165696aa3b14c75c5b4432cdcf70069663f4cece753716ddf0a374702975fd7c1ca7ea45bf69ffd8ab5cd72d8d3350be82b33
+MD5sum: ab633cad093331debf41f2f6134896ee
+SHA1: 49fbf5b1723aeca793b8161d906eac13f1b51e31
+SHA256: 1009346ec856e3a32a1d8788c9d12f017bc1ab5756e6a568042bc1df7a948362
+SHA512: f358cec88a80ed1a186da9229427b52dfd66aa4ba01a879c41a83aeb07101c1142535185eb7167c42f97b583070dfdc1113769bb3ddd6d880d339dc6eb30e54e
 Description: debug symbols for ros-iron-moveit-ros-robot-interaction
-Build-Ids: 0f3e49589833de8255d1466015c29b43749c0a0a
+Build-Ids: d66cc3f6827fd719330ad8a8e6af63fb30a9efe0
 
 Package: ros-iron-moveit-ros-robot-interaction
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.59
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.31
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 674
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 12), ros-iron-moveit-core, ros-iron-interactive-markers, ros-iron-moveit-common, ros-iron-moveit-ros-planning, ros-iron-rclcpp, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
-Filename: ./ros-iron-moveit-ros-robot-interaction_2.7.4-24-gde1610dc2-2023.06.08.03.59_amd64.deb
-Size: 163064
-MD5sum: 700cebb831d547cba273fdce701c2ef1
-SHA1: ae9b0fc361ef47e8f65e7a910715539547315956
-SHA256: 2498a98d99c478dbeac20440b89dd1e6810f869c79f03f3f680a8142fec843a9
-SHA512: ebd5d1679b7a37c13266f05874eb4a0955b550443b34a56e7d9d8c8e44e37f452378705d8fb173f6d20b1733e3fcfd388b1adc85b04c0df3f665c9051a433acd
+Filename: ./ros-iron-moveit-ros-robot-interaction_2.7.4-24-gde1610dc2-2023.06.10.04.31_amd64.deb
+Size: 163070
+MD5sum: 0a6fa30bfa332dbe00f20a2dc1d93cf2
+SHA1: 9c189537a9c81fcc84122a87b2b42f507c4ecb8d
+SHA256: df3be6e1d87bcaaa5a3436e8abab9a67f09ae6c3d87df36797f66d3dd41ea65c
+SHA512: c54ab0b6744b97fb944e87d1cba76c8de07d3b98bd77c333c149547efc1c4200f8a31d7a724d0d869118151982ccc89d74581f737b205aa36937d84ca65b5cd3
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt that offer interaction via interactive markers
 
 Package: ros-iron-moveit-ros-visualization-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.24
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.04
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-ros-visualization
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 42111
-Depends: ros-iron-moveit-ros-visualization (= 2.7.4-24-gde1610dc2-2023.06.08.04.24)
-Filename: ./ros-iron-moveit-ros-visualization-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.24_amd64.ddeb
-Size: 40322530
-MD5sum: 0b05a69f4dcb6d423fb480bde7c4121e
-SHA1: c328339ebe5ef425c869bcfe4d22c5410e4c1bc4
-SHA256: 9e1c3618ab0466879130c74989d3988210854e6269df5736273efc4bf5aaada4
-SHA512: 215c3d90ae7be921acbc674013ae30e039f361fc570441e2b33b0adf578f54028d09f49f6bb85d646d8f268cae34baa7df65d8b6f87bd9bad267c9535da55a88
+Depends: ros-iron-moveit-ros-visualization (= 2.7.4-24-gde1610dc2-2023.06.10.05.04)
+Filename: ./ros-iron-moveit-ros-visualization-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.05.04_amd64.ddeb
+Size: 40316606
+MD5sum: c6c8b525aa1a3b34e3f221f87d032d05
+SHA1: c8cddee0c3ded2fc1f20ee03a839e6bc3d4065ba
+SHA256: 6cabe54e4805964a79b946a51cb533683058fc50fe680e4d64f6b40cacc1aac5
+SHA512: 63099233f63dca1ea4ccf299532ab3518dae0b18eba0669cd0abf5bebdab1332ff7207b4b832a4e6d34207b1eea9fa61390d4e44727ab177f6c9ef3ec5f9c0ca
 Description: debug symbols for ros-iron-moveit-ros-visualization
-Build-Ids: 03b4aaea0ac7dc30ac06b4dc64537543ac88fb8b 0c3aa74af9a83a2d77768b75f8d0bfbcbef97c1c 2c76db0d0e590a12340b1938a828a613195d989f 7b1ce58667ff1b66e6227cfff9ab9b810bb67a6b 833c7713f108f5a39d0d21a055148f7e8adf0a79 8df25a035b91d9f7580b9c9bdfad9ec0ed5abe9e bc5aec2eed4e5742bf825db86604acf650c4785f c97ed597eda0f0ce35f56ffd6501e45c8825f621 f500ee8ca22d71a5a0023c7e523807ed6493b6a1
+Build-Ids: 0500be13655dd31dcb64e14a1324081673d39199 14a84e0f8fb1b56d428b434a314b6ed1e240b5f5 1b7b5ef204a169fcd8485c14cb51d73ef20da89c 31b056bd9f86e3b7f85ecebc3307edc753b465f7 42300947b4b7e1f9cb4ba6a6eb1a44fe179137d9 8347d3d5e00ccaff1ac93d5f8a358050ee6a9ca9 a7d266af673451d858eb76a3297feb93cbd4e11b a84042accbecff7a9113a1f258d1109c08573543 ffe8e859e0f64849c383d5628f1a5dd5513af175
 
 Package: ros-iron-moveit-ros-visualization
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.24
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.04
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 3440
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopengl0, liborocos-kdl1.5 (>= 1.5.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 12), ros-iron-geometric-shapes, ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-moveit-ros-planning-interface, ros-iron-moveit-ros-robot-interaction, ros-iron-moveit-ros-warehouse, ros-iron-rviz-ogre-vendor, ros-iron-interactive-markers, ros-iron-moveit-common, ros-iron-object-recognition-msgs, ros-iron-pluginlib (>= 1.11.2), ros-iron-rclcpp, ros-iron-rclpy, ros-iron-rviz2, ros-iron-tf2-eigen
-Filename: ./ros-iron-moveit-ros-visualization_2.7.4-24-gde1610dc2-2023.06.08.04.24_amd64.deb
-Size: 690734
-MD5sum: 36e807f27aa1c5a3615b15ac8eb6530e
-SHA1: 773b7096dfd154ce0e59dd247bdd7567668dfb74
-SHA256: aaf51da2c2b07551712f25045c97c4730a29568f13255016faedede4f315568d
-SHA512: d569943a009a5a1e1c5ed5d4a926f93a114967697b4774713cb96eb360d2208db67288fe33ea090548e0e6a79e36fd2d3b4a243b0ffb6789d3f7d168c9dbfb1e
+Filename: ./ros-iron-moveit-ros-visualization_2.7.4-24-gde1610dc2-2023.06.10.05.04_amd64.deb
+Size: 690736
+MD5sum: db2ab383ef1a2e592e63562652380e01
+SHA1: df8fc567ba6b76d4f4a3226cefc51385b11ae14e
+SHA256: e303482e0e2a3f92d291ae84d0604a6f22436251d20c7dbeba4415468146b56b
+SHA512: 435e45fcfa01328bbd1ea11baedb2e4f897d8a647f04e964cdd907f206ed699616d1ff677e6877d3142fa395f5f62cd0d353052389902a197b83806d9a1e37c3
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt that offer visualization
 
 Package: ros-iron-moveit-ros-warehouse-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.01
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.35
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-ros-warehouse
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 18934
-Depends: ros-iron-moveit-ros-warehouse (= 2.7.4-24-gde1610dc2-2023.06.08.04.01)
-Filename: ./ros-iron-moveit-ros-warehouse-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.01_amd64.ddeb
-Size: 17710358
-MD5sum: d5d701065500477e9c4f44e2869478e1
-SHA1: bafeeb38cd2ec0bf014a1d8b69c4a06661b7d6ba
-SHA256: 8faa8236a330e08320eedf7be0060234a5dcbecc50a5c7f5925603ef6ce32de8
-SHA512: c73869a14b9b681dcca12564710395108d7915682580683614b1ba333aa6159f053d0be1abed20bdd88556942a7b79925dda52e90c32f97d4fbee57595de0304
+Depends: ros-iron-moveit-ros-warehouse (= 2.7.4-24-gde1610dc2-2023.06.10.04.35)
+Filename: ./ros-iron-moveit-ros-warehouse-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.04.35_amd64.ddeb
+Size: 17708016
+MD5sum: 1b3580742c9321b957836bf81d249fac
+SHA1: 37e61de73ab65a21b1facf4b8930fbb43bbc9351
+SHA256: 62024a710a1ec7c9ff0bad378e25e2f4dd6779c6ce0f15c7ef99443f1c8b0ff6
+SHA512: a9434e51e717119025d63b8bebcb91a7251701a8674c429e386cef709950a3037b7b1421344c2cc9b14099ea496cf5b29d0d936cac140644938069edf5cf6eac
 Description: debug symbols for ros-iron-moveit-ros-warehouse
-Build-Ids: 02dab92383e3e321c3bf2f7db951b0aee97e6618 1f472d5f34517d729f8052db444e5edfb0e8103d 3cf13ad32a11a944cbe67e84ffd1680a027a7dd4 6a4a4e0fd4124e20cb906171a69d1e4af4762fd1 87f743032d69cfb0714b50a2083170e9d2d07c43 8c97c41fa16dace6bce6243291a5e4da87a47fbd 9282ffade68615a7a0e4e4ef8bd4852f3b2c391e
+Build-Ids: 2369d9992bed3d3dca402b4b3c1de142a715e0eb 3d1d83b158760c73688009524c0f3d2040a7d83c 7bb488e7e9aea235c1ae3df95ebbe51d95546118 803ae48edf0429133dd6523050ca61085ddb9d6a 934af7d088ffeda599911a8e6421b68b19bbbd8b c6b7431cdc358298288cd64c8048d78adb231cb1 fb25b39c335997133d65bf22eae41ad33408c86d
 
 Package: ros-iron-moveit-ros-warehouse
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.01
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.35
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 2193
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-moveit-common, ros-iron-rclcpp, ros-iron-tf2-eigen, ros-iron-tf2-ros, ros-iron-warehouse-ros
-Filename: ./ros-iron-moveit-ros-warehouse_2.7.4-24-gde1610dc2-2023.06.08.04.01_amd64.deb
-Size: 432552
-MD5sum: 810d7bc7c46c787dc2aec8283b6c0fbf
-SHA1: 673aa75e48589957123e01ab84baeec7cddd1b0a
-SHA256: 96ca6c9525efaab8f943a25165edea448d585aa58b1eb2c2f14002c25945f304
-SHA512: 7087f8f8dfda1495f38b51e9c5850cb5fd334346f680789d651154e5aa448843b1509dd00fca1f39abe61125a55c77a3fb1ece08b177455b37502d5202690650
+Filename: ./ros-iron-moveit-ros-warehouse_2.7.4-24-gde1610dc2-2023.06.10.04.35_amd64.deb
+Size: 432530
+MD5sum: 5b0b71050eb44d8bc354492dbbdd2264
+SHA1: 9d75ede95dbc7e0c34efd27343f77f04b02cb482
+SHA256: 7de7aef4150120182f1afb8bf42be51602c976b35ede7b59c23c449d4cc4bfec
+SHA512: fc1a89748b77cf1a27f66ef13346b9179f660fa85691b305f6882d884dd3e31f3a52c9568a04bf7feb6ed49e7ba6cae6c077a158b9491c84f720cbaa219a348a
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt connecting to MongoDB
 
 Package: ros-iron-moveit-ros
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.03.25
+Version: 2.7.4-24-gde1610dc2-2023.06.10.03.36
 Priority: optional
 Section: misc
 Maintainer: Michael Görner <me@v4hn.de>
 Installed-Size: 42
 Depends: ros-iron-moveit-ros-benchmarks, ros-iron-moveit-ros-move-group, ros-iron-moveit-ros-planning, ros-iron-moveit-ros-planning-interface, ros-iron-moveit-ros-robot-interaction, ros-iron-moveit-ros-visualization, ros-iron-moveit-ros-warehouse
-Filename: ./ros-iron-moveit-ros_2.7.4-24-gde1610dc2-2023.06.08.03.25_amd64.deb
-Size: 6784
-MD5sum: 83734ea90bff7259d8a60eab667f1f0f
-SHA1: e6844508b3f619506d54d40c06e77e4097567c2e
-SHA256: 04f547ba66b0f8f00eb5672c13fc68a11db132d8e42a39e972e695c7bfbf7762
-SHA512: fed70baa444480cfaf32e7ae9bb169968a677d5f8b2ae95eb19dca5aaef96330ceba735dd6f4bade236b4b025dcdc1e4a7ae08038bcbc139dde5d299a6eb1790
+Filename: ./ros-iron-moveit-ros_2.7.4-24-gde1610dc2-2023.06.10.03.36_amd64.deb
+Size: 6792
+MD5sum: 7cd6ea04124484b6f9ba261e1dd8a3e1
+SHA1: e5d0fe4fb1e934e184307dc65ec97f60fca25e04
+SHA256: 26f6d3e0b256bb6929efc5a3b353232a99b5e039b631cc9175de1f983f1e6dde
+SHA512: b7c5d71bbf0498d0ccbae15f17ae49ece237384defcb1c937b7bce7a33ede0239d05d547ba607fd9dc62554fff4c829d8780ae9bcd8748f3506b9fdba14a3dde
 Homepage: http://moveit.ros.org
 Description: Components of MoveIt that use ROS
 
 Package: ros-iron-moveit-runtime
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.08
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.43
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 42
 Depends: ros-iron-moveit-core, ros-iron-moveit-planners, ros-iron-moveit-plugins, ros-iron-moveit-ros-move-group, ros-iron-moveit-ros-perception, ros-iron-moveit-ros-planning, ros-iron-moveit-ros-planning-interface, ros-iron-moveit-ros-warehouse
-Filename: ./ros-iron-moveit-runtime_2.7.4-24-gde1610dc2-2023.06.08.04.08_amd64.deb
+Filename: ./ros-iron-moveit-runtime_2.7.4-24-gde1610dc2-2023.06.10.04.43_amd64.deb
 Size: 6316
-MD5sum: 5cadd345f859413791c5b7a14dc2cb49
-SHA1: e3049659893b33887fb1f634ca38b60840c242c9
-SHA256: ee4c4d71f10d885cb2d8101325a4657c3092e772b4d8109ae1a550a8262045c6
-SHA512: 5d953cd3877ae6f4effa275c46b9a60639af8dfea02d818d67e302f0aad3875615443ed66c651938dd87a0ca15ec6f9e58c73dff7d998c96b4ac97a143c81c9b
+MD5sum: bd7dead64ea012ba4cc940e8bb433d79
+SHA1: 0f76967affe0152f3b85301a87a96c3d38c4e9c6
+SHA256: 10510069a725d2130d66bce14aa5159e2673fb45b3ce7a957c956b7fceba27d1
+SHA512: 8810427b1bcdba62e68cc574e495f9fadd07e4f27bf394f7951c74426cc91bfeb6edee17a53fe8ae3e2063eddcf28d80abd2939cf561453fedc67249f3c4e3e4
 Homepage: http://moveit.ros.org
 Description: moveit_runtime meta package contains MoveIt packages that are essential for its runtime (e.g.
  running MoveIt on robots).
@@ -1045,710 +1045,710 @@ Description: moveit_runtime meta package contains MoveIt packages that are essen
 Package: ros-iron-moveit-servo-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.34
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.17
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-servo
 Maintainer: Blake Anderson <blakeanderson@utexas.edu>
 Installed-Size: 30567
-Depends: ros-iron-moveit-servo (= 2.7.4-24-gde1610dc2-2023.06.08.04.34)
-Filename: ./ros-iron-moveit-servo-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.34_amd64.ddeb
-Size: 28884036
-MD5sum: b73a938c4b80121d502f5e4a36f3f7eb
-SHA1: c8c21a2064be4d686cac97a02971e3c649b27b20
-SHA256: f67017386a413a35a8020385f6e4f7f49b7e78dce1a52f37544b104c5dc4d082
-SHA512: c9f7d9635fd5278364a40be7b4351df194f8a9f8ee5d903922b8dd89f24cfb9b6986192e77fad26c8959964d9b84e10ea4cb281f87e07cfb558e31403f204baa
+Depends: ros-iron-moveit-servo (= 2.7.4-24-gde1610dc2-2023.06.10.05.17)
+Filename: ./ros-iron-moveit-servo-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.05.17_amd64.ddeb
+Size: 28878214
+MD5sum: 7cc28aac734f82328370052f1016e676
+SHA1: 07f9ac21ae795fce1930ae61c2c6020641a517fe
+SHA256: bb886b497193255980a00a58b854fb5299e63b86e348d4b28ada6e94cd87ed68
+SHA512: 85302bc2201ef9c05dae829158f04d5df59ba46c80398db65ce2b56c81951c7f17f6decced8e39ad961a9fc2ed4cea1ad6039bd104c1e8089a72187b68b0c4fd
 Description: debug symbols for ros-iron-moveit-servo
-Build-Ids: 55f175d380dde4d0c1a03f4365b34595f4ace0c1 9d3a4b02caf1642c2f5bc1d17d87626053595c84 aca816b97eed1133d389ec77bc0714020e7dec8a b55f7bfb8936d0238292b55ad18c566092c7d3c6 c0588d96ec0fc9f2926b7cd582953177f1c3c0e4 c1ae25cefb55f0b26c05c41a5fce4906073372e6 ffd643f95d6f5555121bcf6096c44e35a4dfcc2c
+Build-Ids: 397ad6d173adc31a46c1a223804498b5221ec4f9 83038d939b1b15862599a69653713eefb3c18de5 b7d2d7527da7a321ff6aea3707b85c0a2459f2d8 bdcabd091183d51581235fbec861540b1f5f8572 c1a5f3e5a9806490b3b6d4ca4886dcb7472eefff d7f38190200e132931ef7e14f9f66ece1f6dbbfa f8f17fd616727b0d2a2b0619691922e34cda263d
 
 Package: ros-iron-moveit-servo
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.34
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.17
 Priority: optional
 Section: misc
 Maintainer: Blake Anderson <blakeanderson@utexas.edu>
 Installed-Size: 3290
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 12), libtinyxml2-9 (>= 8.0.0), ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-control-msgs, ros-iron-control-toolbox, ros-iron-controller-manager, ros-iron-generate-parameter-library, ros-iron-geometry-msgs, ros-iron-gripper-controllers, ros-iron-joint-state-broadcaster, ros-iron-joint-trajectory-controller, ros-iron-joy, ros-iron-launch-param-builder, ros-iron-moveit-common, ros-iron-moveit-configs-utils, ros-iron-moveit-msgs, ros-iron-moveit-ros-planning-interface, ros-iron-pluginlib, ros-iron-realtime-tools, ros-iron-robot-state-publisher, ros-iron-sensor-msgs, ros-iron-std-msgs, ros-iron-std-srvs, ros-iron-tf2-eigen, ros-iron-tf2-ros, ros-iron-trajectory-msgs
-Filename: ./ros-iron-moveit-servo_2.7.4-24-gde1610dc2-2023.06.08.04.34_amd64.deb
-Size: 648282
-MD5sum: f42d14471f3b117a98892215e02ede53
-SHA1: 7070b790964bb95a9328853b6060420a42a58059
-SHA256: 2577f4ce8736aaa87474f7fc4a6bfcca6b535d1d5ae31e7927e14edf91a35d75
-SHA512: c7ce325cb498cf8ebaaba556bc15469d01a53ae704bbc5c89e1651b6344475e77058adff26af4ca8108668bef17a2dafc8772679d942717b2e1979206bcda79f
+Filename: ./ros-iron-moveit-servo_2.7.4-24-gde1610dc2-2023.06.10.05.17_amd64.deb
+Size: 648276
+MD5sum: 3ff25ea957490aeab6a104ad3f2db761
+SHA1: 44c737e299a893c6e08d6c35704bac8b1aaad524
+SHA256: 50f1fd0c2da64f8aa09462a5b9ad098a11cad330008c9dc5c2c6653e3f5e1c11
+SHA512: 5e1e34a9ff519ca2bf7828df150664d0a0279b51e942f0157bee69da94dedd80609ea038bc24c014fbbb45b916224f28b0fe1576d04f9edf8fc3cbaa700989c6
 Homepage: https://ros-planning.github.io/moveit_tutorials
 Description: Provides real-time manipulator Cartesian and joint servoing.
 
 Package: ros-iron-moveit-setup-app-plugins-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.44
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.30
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-setup-app-plugins
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 3728
-Depends: ros-iron-moveit-setup-app-plugins (= 2.7.4-24-gde1610dc2-2023.06.08.04.44)
-Filename: ./ros-iron-moveit-setup-app-plugins-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.44_amd64.ddeb
+Depends: ros-iron-moveit-setup-app-plugins (= 2.7.4-24-gde1610dc2-2023.06.10.05.30)
+Filename: ./ros-iron-moveit-setup-app-plugins-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.05.30_amd64.ddeb
 Size: 3704080
-MD5sum: 52515c18124a7e9884cd70676f9d82fe
-SHA1: 3a42b493d04b10f4aa639c9c8a645537cc2298b7
-SHA256: e107d20e91c6966886e0048213bcc67dca16f982af6826744b2755cc9831724d
-SHA512: 753d5d18177b2f30c0ddf4949155c2cbf8af132d2d617de17062b9005ffe9f23de588dace777d700c63b8b1669fa0c2a5f32af0a7a5b60ad056105c58b639d9d
+MD5sum: 5934796f2f92dd468f81a3304ae34941
+SHA1: eae3ebf798d141284115425c6069af475567a580
+SHA256: 2593035ddb56c12cc1921d88e8058c357734c1358aadcc70cb3cdad5e1aa859c
+SHA512: 68d8b8025136c5f6f4c99434aef8e7ebb95eafc6d21ea1ae4f0c09c142d1d86f5c878cf37b88e7ada8f6d4eac177b86ff92c250d756adaf267a2a5bd398544ba
 Description: debug symbols for ros-iron-moveit-setup-app-plugins
-Build-Ids: 77914f40d934ed8fd2800adfb63e70a60f2821a9
+Build-Ids: 7c32e25096a5699b7fae4dcf9cc9cf83e2c8222f
 
 Package: ros-iron-moveit-setup-app-plugins
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.44
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.30
 Priority: optional
 Section: misc
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 271
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-iron-ament-index-cpp, ros-iron-moveit-configs-utils, ros-iron-moveit-ros-visualization, ros-iron-moveit-setup-framework, ros-iron-pluginlib, ros-iron-rclcpp
-Filename: ./ros-iron-moveit-setup-app-plugins_2.7.4-24-gde1610dc2-2023.06.08.04.44_amd64.deb
-Size: 72154
-MD5sum: 946e5072d814e60f415e78c0030261a1
-SHA1: ad703d80e9fee28d9f7d9cb4b024a969be027da6
-SHA256: 89eedc5afd244e9789e1ca9e2d860b9f6d6f5780f0624a818b07ffbde7afeeeb
-SHA512: edef4fe37d656990db413e9dd8df1f43bfbdc28026474436af7aebe4bd7b72c8cb37d108951a879b89ff2fb61e022821d195f10786f21605e0b600504e692c60
+Filename: ./ros-iron-moveit-setup-app-plugins_2.7.4-24-gde1610dc2-2023.06.10.05.30_amd64.deb
+Size: 72158
+MD5sum: 14bfd4b8306396fc3d6a3e640384e2a9
+SHA1: 0283cdc04d3ffa65ab0470e9488cef4202d212a0
+SHA256: a33bfaec2edb893a7fd10e870b581b124ed07d38e6f476785493d8501cdf5ab2
+SHA512: 489949e5d1dcc54eafbd48b11c8ab9ae7e25695687c4d4d073207b73568ca9dfde5307c1f46abc9fcd9f9247c1766f1cf521021ff477c1cf34609fc326062ce5
 Description: Various specialty plugins for MoveIt Setup Assistant
 
 Package: ros-iron-moveit-setup-assistant-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.05.03
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.54
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-setup-assistant
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 7501
-Depends: ros-iron-moveit-setup-assistant (= 2.7.4-24-gde1610dc2-2023.06.08.05.03)
-Filename: ./ros-iron-moveit-setup-assistant-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.05.03_amd64.ddeb
-Size: 7335990
-MD5sum: f2da84d045bf0a558da71018a790aec0
-SHA1: 706a4175af53347804a0138c9ddbcfa3237be477
-SHA256: 3364f40ba815fd6205e71e5b84469145dd9c04c98bb636dfd81464de409830d9
-SHA512: b8814ffc36b15313b31082dc7a533233a78fa7c3713ca06ab6b2627383bcc8370e355405a45e7662910273864b6f8a3a09ab8f6e743ff8a48a0020fc767e900e
+Depends: ros-iron-moveit-setup-assistant (= 2.7.4-24-gde1610dc2-2023.06.10.05.54)
+Filename: ./ros-iron-moveit-setup-assistant-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.05.54_amd64.ddeb
+Size: 7335998
+MD5sum: f39685b5d746468c07e0f67fb3a7a9b5
+SHA1: 388225754e6a43171bc0f228e343b0ae3c254877
+SHA256: 838beaa6e2e74110e2b80b5fdf2e646dcfb713b2413caea3c01afd2940deb0cc
+SHA512: baa6bcccbcb0f969dcc9a63a30fadbcc3913a27dac5ede530b2d896feb1f326a89d66b69320f11a6defd3c644c9c414305a72e41d4a8ba44838522bd3a756b42
 Description: debug symbols for ros-iron-moveit-setup-assistant
-Build-Ids: 1eca09d060609d989621631f8f8ebdec109106d0 550911c6352b0d7d38c05e56501f03bbd7db54ae
+Build-Ids: 08eff10fb3009eb49b6e324c4ca616c03a2eac39 9e7b468f17b575aebfb863656515fc70e661d407
 
 Package: ros-iron-moveit-setup-assistant
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.05.03
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.54
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 866
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-moveit-ros-planning, ros-iron-srdfdom, qtbase5-dev, ros-iron-ament-index-cpp, ros-iron-moveit-setup-app-plugins, ros-iron-moveit-setup-controllers, ros-iron-moveit-setup-core-plugins, ros-iron-moveit-setup-framework, ros-iron-moveit-setup-srdf-plugins, ros-iron-pluginlib, ros-iron-rclcpp
-Filename: ./ros-iron-moveit-setup-assistant_2.7.4-24-gde1610dc2-2023.06.08.05.03_amd64.deb
-Size: 295880
-MD5sum: 99b3009ab834ca424774c8a41cfee631
-SHA1: e376c9e62fc7ae1cc772245458af681d04630900
-SHA256: 12afc84d5969551cae711c82eefbf33a5efd207a4a4573084af6d0d09bd07acd
-SHA512: a8b56b31d38b04aa3eb028b1042c6572a98908ccef539a51b9eb10a00431fadb1ef78982277d0d944a9bf12c7e753493f567330647b4b8b4d10303ed3c9e12b8
+Filename: ./ros-iron-moveit-setup-assistant_2.7.4-24-gde1610dc2-2023.06.10.05.54_amd64.deb
+Size: 295878
+MD5sum: b67e502c387ac420813ce44f47a12a4f
+SHA1: a12acce2645140d759b5210724e510c6adb63282
+SHA256: cd92b848e1790c7b8f14b3ddcbe523f48b98eeb476a21e3ad01ff63e96f7938b
+SHA512: 587f118db713e733bd48ef0676d1d4d3059b13679063651baa5c318bd5aba0633a60584660e59500c59f3e84678448da20a170da82a81cf34ecd0d99247ed481
 Homepage: http://moveit.ros.org
 Description: Generates a configuration package that makes it easy to use MoveIt
 
 Package: ros-iron-moveit-setup-controllers-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.48
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.35
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-setup-controllers
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 11754
-Depends: ros-iron-moveit-setup-controllers (= 2.7.4-24-gde1610dc2-2023.06.08.04.48)
-Filename: ./ros-iron-moveit-setup-controllers-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.48_amd64.ddeb
+Depends: ros-iron-moveit-setup-controllers (= 2.7.4-24-gde1610dc2-2023.06.10.05.35)
+Filename: ./ros-iron-moveit-setup-controllers-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.05.35_amd64.ddeb
 Size: 11691168
-MD5sum: 5b5ce1232b0e9edbf9b42668f467938e
-SHA1: 437ae1f1d01e14d9c06859536b70f69ee241bee3
-SHA256: 02a423555625ea8abef99864c73cbb214f35097ed8e357c40f418573cf180e70
-SHA512: 571efd446c1620c7373317bc900e594dc65ad1cb1d1deed896ea4b319c271a9cd16eaaa8f5680d14f6a6a7d435722d0f6fc303b4071327f66582dbecdf33fc87
+MD5sum: 061cb78a1a85d1607dd19657b2ffbca4
+SHA1: 40242408e5b5afdf79cb435cd77b91fdead1bfa0
+SHA256: 950caea1ddae2d6bf386d8a84304f0cef19ed8e9d0ad9f0822f0dd72d01048af
+SHA512: e32cae4006c94b93138eadd8f6b69d510690311b81f0cb6409d5d643cb7ca126af63a02e0f5383bb3420d0a4c146896846a64ec2a1eee5b70d3689d8303c10be
 Description: debug symbols for ros-iron-moveit-setup-controllers
-Build-Ids: b856114fd359082a5a9fc45542b95aaeb95bc5c7
+Build-Ids: 33b4b26f85bfaf1720a06cc151fd137dc2a6e5ce
 
 Package: ros-iron-moveit-setup-controllers
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.48
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.35
 Priority: optional
 Section: misc
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 576
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libyaml-cpp0.7 (>= 0.7.0), ros-iron-moveit-core, ros-iron-ament-index-cpp, ros-iron-moveit-setup-framework, ros-iron-pluginlib, ros-iron-rclcpp
-Filename: ./ros-iron-moveit-setup-controllers_2.7.4-24-gde1610dc2-2023.06.08.04.48_amd64.deb
-Size: 165858
-MD5sum: 879942f3a56f3e1723c94377080902ab
-SHA1: 5be2eeba9e8b2b9090237e231ce83e06436adb7f
-SHA256: 5ebeb18a94f2118850071ed50d71d88724685d2017cace8887a2bb314e0c7411
-SHA512: 264b01e097237355d9ec064c329babc323c5182a1c2897e4ff3c1f918953fcb3b9cc28dd597dff4679919af97ee7c19334254f1ca48f13ec0352e68d99972bb1
+Filename: ./ros-iron-moveit-setup-controllers_2.7.4-24-gde1610dc2-2023.06.10.05.35_amd64.deb
+Size: 165852
+MD5sum: a9fd97d7f098638e115c540745b8b535
+SHA1: bff79eb926441a524267dcb1c3991f9363cd4609
+SHA256: cbd40d905d326ffe6620609b9e6895ba6870b91d78c430fd6838083670c4fc79
+SHA512: 3fa38a23e85ae191575744e85c6629e0e5a51114b030d4c3287b13386a3183375144a8da6fd5601b852c8d79c3eda6ec43c591f0e1276815985b2fb8a46e3a3b
 Description: MoveIt Setup Steps for ROS 2 Control
 
 Package: ros-iron-moveit-setup-core-plugins-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.52
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.41
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-setup-core-plugins
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 5612
-Depends: ros-iron-moveit-setup-core-plugins (= 2.7.4-24-gde1610dc2-2023.06.08.04.52)
-Filename: ./ros-iron-moveit-setup-core-plugins-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.52_amd64.ddeb
-Size: 5618736
-MD5sum: 3ce9208c1ffd20c8b0d92ae4fd71c08d
-SHA1: 6c644284e6b6993d5b142e17fcccdaf03e1c0933
-SHA256: e8bdc07f2c15b5526657f85d7a0079a986a01be9a41e5970b2738f9c4a2cec9a
-SHA512: e94da6a0776634412f30373bd12d4cf2da20768979e000ceed9adf8ee4679ba8abc7e6fe7bb8e4c8004c139b3c07de7d3a6c8d46fddbaf62913aaf2048d24a6b
+Depends: ros-iron-moveit-setup-core-plugins (= 2.7.4-24-gde1610dc2-2023.06.10.05.41)
+Filename: ./ros-iron-moveit-setup-core-plugins-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.05.41_amd64.ddeb
+Size: 5618730
+MD5sum: adcec9b48ed8c75499569d82e2dc73e9
+SHA1: 064527c419483c3586ac9e032d0ce20590de3044
+SHA256: 562faf9b53e2190b8c8cefc6b3b49250489b3f1789fc9aa3564d03b15b8a4ce7
+SHA512: 59da0eb1c5bed083869981182a631bf6f8ca7f750976c282a23119cb6f27d3c9fc6ebaf7bad314642dffb0032168cf7745363904e5ab4177549497b3ef3337df
 Description: debug symbols for ros-iron-moveit-setup-core-plugins
-Build-Ids: 4f097c980716ac28849f52afa43881148b9b8dcf
+Build-Ids: b8c06f909ba8821d52bc73100372d372666a0a4f
 
 Package: ros-iron-moveit-setup-core-plugins
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.52
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.41
 Priority: optional
 Section: misc
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 245
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), ros-iron-moveit-core, ros-iron-ament-index-cpp, ros-iron-moveit-ros-visualization, ros-iron-moveit-setup-framework, ros-iron-pluginlib, ros-iron-rclcpp, ros-iron-srdfdom, ros-iron-urdf
-Filename: ./ros-iron-moveit-setup-core-plugins_2.7.4-24-gde1610dc2-2023.06.08.04.52_amd64.deb
-Size: 63368
-MD5sum: 68af0ad3fa30934aa30b7d67ee09223a
-SHA1: 4b8997b970d1220a9af1259695c65f7650b28707
-SHA256: 36b91316200ed8ceb3dd22eff85c9269839750fb9109d6d898d5da020cd68bf1
-SHA512: 11ee58343c28a3bc1992cf7e8ad1e36db8012d907f6240202d117e36fc74856354e5062599251a796cc6a5da8868b2779c4f1f6d04e329a111283e026b5bb7d6
+Filename: ./ros-iron-moveit-setup-core-plugins_2.7.4-24-gde1610dc2-2023.06.10.05.41_amd64.deb
+Size: 63352
+MD5sum: 7a5cceb8f0bf242d7fbf36480d18aa40
+SHA1: 85242442d7ec38903021a7221e7ea3ea28fc36c5
+SHA256: f2ff5075c92af7d0cd84db09b441f822e2918fe8d477a926e335fcca2177dd47
+SHA512: 783f5f7c374bf026127f040768df2342936039e5666a1630751757973b08c4bc8c6ddca810c1b7069f1fec068b62d0afa1737f24b762a0d0cbe1aa6a5b9886a7
 Description: Core (meta) plugins for MoveIt Setup Assistant
 
 Package: ros-iron-moveit-setup-framework-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.41
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.26
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-setup-framework
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 6978
-Depends: ros-iron-moveit-setup-framework (= 2.7.4-24-gde1610dc2-2023.06.08.04.41)
-Filename: ./ros-iron-moveit-setup-framework-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.41_amd64.ddeb
-Size: 6883564
-MD5sum: e527515dc2b289a9dada775ca7a23b42
-SHA1: c791b93a08c33fdc27692a31cea1456e4c346aa4
-SHA256: 2fabf6a1c506ee9e4b3af6b14855c9034e6040598dc65b35c366ff551feb495c
-SHA512: c0e2dcf2d4110c3c22af98f691a1a412b85f2d313b56c25dda2ad82adda88a8cd4dd08825131332357c47a7e759a278be24f7d38da773a0bc2f2601fdfbd8fee
+Depends: ros-iron-moveit-setup-framework (= 2.7.4-24-gde1610dc2-2023.06.10.05.26)
+Filename: ./ros-iron-moveit-setup-framework-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.05.26_amd64.ddeb
+Size: 6883566
+MD5sum: 28f044a2fe941f4dfc89c85048bd358d
+SHA1: 9e59170cb0a4e19d4f0b01b0261281bc9a76d00c
+SHA256: 21d8ac93260b8869312980eb28364827f62f476d19988f5052f379dc0f670fb1
+SHA512: 1f17bef21c78c1e5169741293ee712fe08cc402a2f87b6184584bcfc1496e859f684e7dd72a7c4e1d10b2967fc946e4eee89516bec5b8981585c2d23c421c83d
 Description: debug symbols for ros-iron-moveit-setup-framework
-Build-Ids: b6028808751d58acf137a20e589e4b17b04d881b
+Build-Ids: d957785c4c5d3f65646b9d4ac28afed17069383f
 
 Package: ros-iron-moveit-setup-framework
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.41
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.26
 Priority: optional
 Section: misc
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 658
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libyaml-cpp0.7 (>= 0.7.0), ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-moveit-ros-visualization, ros-iron-srdfdom, ros-iron-ament-index-cpp, ros-iron-moveit-common, ros-iron-pluginlib, ros-iron-rclcpp, ros-iron-rviz-common, ros-iron-rviz-rendering, ros-iron-urdf
-Filename: ./ros-iron-moveit-setup-framework_2.7.4-24-gde1610dc2-2023.06.08.04.41_amd64.deb
-Size: 189990
-MD5sum: 9bf7692b1e1f7f4212c0411fa53d0b37
-SHA1: 5cf5ac041cae5d2501e6a05bbcce4d398455879d
-SHA256: 982030af6571e4250422a64e8a0a35e77083ed7e2357d66f378d855dc058d6e4
-SHA512: e8e3a75754014a2367fe2db70eeea83f306d86233a53924cd4c3ddfe715711c5b713743cd5eded793252ca92fece866e40ef6f1cd03eec5d77d23c19e1d61581
+Filename: ./ros-iron-moveit-setup-framework_2.7.4-24-gde1610dc2-2023.06.10.05.26_amd64.deb
+Size: 189994
+MD5sum: d7bad1eb788fb15ae9322b48d299970a
+SHA1: 6ef389567a7c12dbc5aeec8f2fc07d35355cefdf
+SHA256: ac8ebf920569c45890a93a5ad55611687ea432a89fedb835025a84f9b47114af
+SHA512: ffc81cf93978014a8ff47425dccd3319f84d0d525a85ec7a0878b9ff8d4839d521c6e39842d8bad41fe422022661897137ad31a42b286bec4106832d1c749787
 Description: C++ Interface for defining setup steps for MoveIt Setup Assistant
 
 Package: ros-iron-moveit-setup-srdf-plugins-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.56
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.45
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-setup-srdf-plugins
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 19828
-Depends: ros-iron-moveit-setup-srdf-plugins (= 2.7.4-24-gde1610dc2-2023.06.08.04.56)
-Filename: ./ros-iron-moveit-setup-srdf-plugins-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.56_amd64.ddeb
+Depends: ros-iron-moveit-setup-srdf-plugins (= 2.7.4-24-gde1610dc2-2023.06.10.05.45)
+Filename: ./ros-iron-moveit-setup-srdf-plugins-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.05.45_amd64.ddeb
 Size: 19723888
-MD5sum: 7d4c9e8c74d97c3d3d5f2881f78cb75c
-SHA1: 1c2eea6cbf7d8e3142c4b2e044cf30cc2724ee43
-SHA256: 5fa1b5defa97e517e20bad46e0c4126c2bcf0e3ed0e8902a9535038eb08bc62f
-SHA512: 73f8405d6a4f726771686da2e5859e6f50c4281e79585a5f3e2697132c9f1b40aabfe16a927e88caa5b02ca2821b3efa3119cf65ac96522bdccc317997ef445a
+MD5sum: 66ca1cc6b6d8d6239988abe053d19dd7
+SHA1: bccb34db3d695b18bdb45e7cf3d117d93e8eae9a
+SHA256: 2cb933e83696d2543194e1d4c30f92e09fa6c29dc0bc03e95bd22ed0cf89abae
+SHA512: ff6c49df66f741859a8693da66ce1fc68083ac2d5193da133c9f727a0d7429c3c92fc2f5eea5577fdd5c4e4abd16e838791b5d8bbc6c3424c693dbe38d632973
 Description: debug symbols for ros-iron-moveit-setup-srdf-plugins
-Build-Ids: 0e37a4de5ba34e10226da71c4c01e8e98b4158d6
+Build-Ids: 43f4f616f52112fdcab531ac7896f785f12a332f
 
 Package: ros-iron-moveit-setup-srdf-plugins
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.56
+Version: 2.7.4-24-gde1610dc2-2023.06.10.05.45
 Priority: optional
 Section: misc
 Maintainer: David V. Lu!! <davidvlu@gmail.com>
 Installed-Size: 1037
 Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libyaml-cpp0.7 (>= 0.7.0), ros-iron-moveit-core, ros-iron-moveit-setup-framework, ros-iron-pluginlib
-Filename: ./ros-iron-moveit-setup-srdf-plugins_2.7.4-24-gde1610dc2-2023.06.08.04.56_amd64.deb
-Size: 306446
-MD5sum: 4b89ae26d30f6f6eda87b066f1ebf663
-SHA1: b9221ee50ca9ac64075e40ce1aa99fced7310cf0
-SHA256: c88ce82839eab928822a139d35ff89cada0701a712676aaa7d3c20964aba3874
-SHA512: 21faf6e6c109706ff5afbabc5b7dafe7120f12fd3b0e2afaa9bb25d6505b235f82718c4325d345ccad3f3c17b521690e5068dc0bfcf54fbac9b62a3a910a1987
+Filename: ./ros-iron-moveit-setup-srdf-plugins_2.7.4-24-gde1610dc2-2023.06.10.05.45_amd64.deb
+Size: 306448
+MD5sum: ebed1d19d7511d7e8909c8e8e0fc1762
+SHA1: 7840ae96ac210c89f96098c85d3b0dfbdcf10e4a
+SHA256: ce12fcc5ef14ce39347e9ab4078dcaed04cb079919489b93b83c44c55e06b09c
+SHA512: 6ad61dd386ae4dc6f9c8a9156dd8b351494579f0d2a68d39b6258344d64cf393b33aef8d99fde044c4304541abdf844f55aa62806fae62e6a859b8683ad67b7a
 Description: SRDF-based plugins for MoveIt Setup Assistant
 
 Package: ros-iron-moveit-simple-controller-manager-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.08
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.44
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-simple-controller-manager
 Maintainer: Michael Görner <me@v4hn.de>
 Installed-Size: 1682
-Depends: ros-iron-moveit-simple-controller-manager (= 2.7.4-24-gde1610dc2-2023.06.08.04.08)
-Filename: ./ros-iron-moveit-simple-controller-manager-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.04.08_amd64.ddeb
-Size: 1534364
-MD5sum: fd4e02b8a9eb738453a64ec6e9f6f599
-SHA1: a0346d6a247537caaa7b7ce05bd2ae996d9ef212
-SHA256: 11ccfae0776d849e544227dec29324042bf28e829830df8bffae9d7c5c2dbe49
-SHA512: ffe694e5bc8f57d7bee0ac016b5f3ab41ee980e21bdf576478f3a05ec498431f4f25f102da4d7ae14fb03663b0decdb58f89edb9073767e0b8ce9f45607ba6ba
+Depends: ros-iron-moveit-simple-controller-manager (= 2.7.4-24-gde1610dc2-2023.06.10.04.44)
+Filename: ./ros-iron-moveit-simple-controller-manager-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.04.44_amd64.ddeb
+Size: 1534358
+MD5sum: 6a20cea3ce80fe6fcd9dccdfbf3f6eba
+SHA1: 3fc11dc9cdb0aca6b8fdcd7c0898631bb54d8357
+SHA256: 63d25ca41570340ae748cfd138bcc0430e692f19f7cb74b2f88cea9e0505fe48
+SHA512: 81e937c9e60f0fbcdfce1f66417dbf34a9f15dde5a6036a34e5183eabd215cf0cd80bfded7a1a60ca24edc0c9ef3d7ef8969d042dca2a7667829e293678972ad
 Description: debug symbols for ros-iron-moveit-simple-controller-manager
-Build-Ids: 603d9f1fd86a3115872af26ee886e9ab839f2457
+Build-Ids: af54d7ea97092309c715632253f9a35c060352c5
 
 Package: ros-iron-moveit-simple-controller-manager
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.04.08
+Version: 2.7.4-24-gde1610dc2-2023.06.10.04.44
 Priority: optional
 Section: misc
 Maintainer: Michael Görner <me@v4hn.de>
 Installed-Size: 396
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-control-msgs, ros-iron-moveit-common, ros-iron-moveit-core, ros-iron-pluginlib (>= 1.11.2), ros-iron-rclcpp, ros-iron-rclcpp-action
-Filename: ./ros-iron-moveit-simple-controller-manager_2.7.4-24-gde1610dc2-2023.06.08.04.08_amd64.deb
-Size: 102218
-MD5sum: aa89c1fc5d3ed1c756d954f10b8f850b
-SHA1: 174aea8d09c1c1317b9092785073474904c849e9
-SHA256: 9e60070cf22ace63d3fc84a98494b72277aa342057b12f04e663719f25e0ce36
-SHA512: f9c86b5bddbf057807e97e4f2c4f2b564d2ad79b3fd1eace6fa4b00fea6194e893a9cd6aa89383c389e4c63f2c9480c763a086acb49257b4a7ebbbd8d0a3c676
+Filename: ./ros-iron-moveit-simple-controller-manager_2.7.4-24-gde1610dc2-2023.06.10.04.44_amd64.deb
+Size: 102214
+MD5sum: 4c3592f09c2f5ecebe439170e10245b9
+SHA1: 9b3ba21b298684bdc6cb65a2e40f615fcc282fad
+SHA256: ed907c0d3b22afb9f965134fc6df3236496e27786c020975ac9ebf48b99da26a
+SHA512: 5196bdaba8b33ec75053e69bbad3693232e450ea938025d5b4f44354ffa11adf49d0459bd5c7ad70613b74fb78e7655b78367d8c2d009438b7b50b5af48bb2b5
 Homepage: http://moveit.ros.org
 Description: A generic, simple controller manager plugin for MoveIt.
 
 Package: ros-iron-moveit-task-constructor-capabilities-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2023.06.08.05.36
+Version: 0-2023.06.10.06.36
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-task-constructor-capabilities
 Maintainer: Michael v4hn Goerner <me@v4hn.de>
 Installed-Size: 2484
-Depends: ros-iron-moveit-task-constructor-capabilities (= 0-2023.06.08.05.36)
-Filename: ./ros-iron-moveit-task-constructor-capabilities-dbgsym_0-2023.06.08.05.36_amd64.ddeb
-Size: 2447302
-MD5sum: 1224d81435db4baba3d6b4143c7199ee
-SHA1: d74870e608607267654888c5772a38f702660804
-SHA256: 4328c089ec5af714161cebb35a8dad5ec0f0ec8f43948337c9c55ed3c6aed07d
-SHA512: b5d0c744882ef88057a032a1f21763d6057922e8eef5a2b9ea9772515a6cfbe466a0e81d4e5752a710216ffaab79c32e70fd83e903fbde02f6fdffb95c8ca083
+Depends: ros-iron-moveit-task-constructor-capabilities (= 0-2023.06.10.06.36)
+Filename: ./ros-iron-moveit-task-constructor-capabilities-dbgsym_0-2023.06.10.06.36_amd64.ddeb
+Size: 2447300
+MD5sum: e98f91002f4143e1284303c078a22f62
+SHA1: 1e70e7e6122c5ee28157b84782b60c8806390c28
+SHA256: 68e4b3a4f60dcd2fcae6edf027d0c80d7f18428f99171c84fb2d605a6e2f23a8
+SHA512: 6930830f316d2cb8dbc6c05ff0de971351058c9a922e3b807faabb4240cf50d11b8b5121abe786eb928cb54f9acf5752264f3fccd23c5b73491898c91243b84f
 Description: debug symbols for ros-iron-moveit-task-constructor-capabilities
-Build-Ids: f175213c428918b5c6c4ab8e39feef6f0040e56d
+Build-Ids: 5f9be45d5ff8d189a4918c68b46c848e928c2029
 
 Package: ros-iron-moveit-task-constructor-capabilities
 Architecture: amd64
-Version: 0-2023.06.08.05.36
+Version: 0-2023.06.10.06.36
 Priority: optional
 Section: misc
 Maintainer: Michael v4hn Goerner <me@v4hn.de>
 Installed-Size: 189
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-moveit-ros-move-group, ros-iron-moveit-task-constructor-core, ros-iron-moveit-task-constructor-msgs, ros-iron-pluginlib, ros-iron-rclcpp-action, ros-iron-std-msgs
-Filename: ./ros-iron-moveit-task-constructor-capabilities_0-2023.06.08.05.36_amd64.deb
-Size: 49658
-MD5sum: e0042999eb51a1a85734b55c4512613f
-SHA1: 8983c2e8d53ff0720e5d09a7ee253773f37bbcaf
-SHA256: 426219ff5be86bcd9c4acdb3d433971a7cb795fe80bd534561f9cc46dff1e6de
-SHA512: bd0d6dda31045897f42d17cfabe5fbe430299985eb911e707e40c32ca4ed4e676668b0c1610001f10da400cf4478e6fba823f6e54cfbe53ba796369f02380f1f
+Filename: ./ros-iron-moveit-task-constructor-capabilities_0-2023.06.10.06.36_amd64.deb
+Size: 49650
+MD5sum: fec060e65eda085131767b491f93d889
+SHA1: 901fe5272b4d56749e694e4039164a1164be62d7
+SHA256: 2b63d84d4f391adfce9e0aba2c43a280acecd690d69f47221575d2c70744dd56
+SHA512: 20278d062ed4343071a99d162eb8a261d842852a47312a401dc88e681e0978de1c581b09b54857efb0aef9f6c27b94e7f54d331f052f367ce6798265ff72bba6
 Description: MoveGroupCapabilites to interact with MoveIt
 
 Package: ros-iron-moveit-task-constructor-core-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2023.06.08.05.24
+Version: 0-2023.06.10.06.22
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-task-constructor-core
 Maintainer: Michael Goerner <me@v4hn.de>
 Installed-Size: 39425
-Depends: ros-iron-moveit-task-constructor-core (= 0-2023.06.08.05.24)
-Filename: ./ros-iron-moveit-task-constructor-core-dbgsym_0-2023.06.08.05.24_amd64.ddeb
-Size: 39194896
-MD5sum: 8ba456f153e7b1fb4a91a30b8279df78
-SHA1: 11d20ea6ded2d6fb859dd13ee6da98a484af6146
-SHA256: fa9ba301f426d66df8228cccfdbab80eadd381e897e0ad4a36a1c096ec6b4000
-SHA512: 54c3b7a5dd59d838942e7eb4d61b521a681a2c30ecdeedc7a453e4d2fd3e9cf916bc5eccf6bdc06aab71d3d8376c0be9ee0bade9bbd7648a25c855508f7e6ce0
+Depends: ros-iron-moveit-task-constructor-core (= 0-2023.06.10.06.22)
+Filename: ./ros-iron-moveit-task-constructor-core-dbgsym_0-2023.06.10.06.22_amd64.ddeb
+Size: 39195806
+MD5sum: b0b568c517b35bc1a274812fbc9baf37
+SHA1: 84811a44c4d4e46a9c33d75d8be6d947a5634278
+SHA256: 2bcdb5eca8f873ccbf041037fb5518fa7b78d2c47a3c1c7dda5ce463a61ca846
+SHA512: 0fd7b6b1d907b5d7448d7e92caa8fdf1ed1bbdfa53c078a908a8a904deefde7281d70d084df1e586488ab8a3204383d3b2275c1195d74575c35c6848b0788114
 Description: debug symbols for ros-iron-moveit-task-constructor-core
-Build-Ids: 6545a65e8ff310695813c4ee8e2d5a8e26b5939d a4452626c71cbf14dda2034b5035765982124dbe c72ec8d3c7e08e980eb0bff787dbcc88af4a8a20
+Build-Ids: 01f07358e58141546dd0afb8483c6311859be672 7568b2d98830a681b31975419e2df78844bf06fb cdc16b06c802c1d869eb80657af51cf8ac4b16f4
 
 Package: ros-iron-moveit-task-constructor-core
 Architecture: amd64
-Version: 0-2023.06.08.05.24
+Version: 0-2023.06.10.06.22
 Priority: optional
 Section: misc
 Maintainer: Michael Goerner <me@v4hn.de>
 Installed-Size: 1760
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-geometry-msgs, ros-iron-moveit-ros-planning-interface, ros-iron-moveit-task-constructor-msgs, ros-iron-rclcpp, ros-iron-rviz-marker-tools, ros-iron-tf2-eigen, ros-iron-visualization-msgs
-Filename: ./ros-iron-moveit-task-constructor-core_0-2023.06.08.05.24_amd64.deb
-Size: 502774
-MD5sum: 19da98d3ea68b8b2240948597cb7a4ff
-SHA1: 805b9b1c217455f28e4683630e6c50eeb172630b
-SHA256: b8ba310c7bfa0ed90252b360d8fb384836c8f39f40a46687dd424112faf9edf1
-SHA512: bd848379e8f85368ef9ecf2807124231c6334afdc821de5997336946355a5a83b55b5a73acf1f7552362d41270f79faf47aa3a6c0a4e396e721cfef26ef89b2b
+Filename: ./ros-iron-moveit-task-constructor-core_0-2023.06.10.06.22_amd64.deb
+Size: 502770
+MD5sum: 068989f1cba691280d85961b8d204b7a
+SHA1: 262ab49c9d20ad879c8f51d713d95e3af60ae4b7
+SHA256: 87f316e738cd80ed4730598fe968a8330d25827139bbd1c7cb6891f4264e4d61
+SHA512: 4ce0ac8a2075078662d6d26221048b8f4728a36d44308138259059f204c56370a9624514524342c9523b3b5295734580d1f53bf859f15600cf79647ab0a68861
 Homepage: https://github.com/ros-planning/moveit_task_constructor
 Description: MoveIt Task Pipeline
 
 Package: ros-iron-moveit-task-constructor-demo-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2023.06.08.05.38
+Version: 0-2023.06.10.06.39
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-task-constructor-demo
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 13952
-Depends: ros-iron-moveit-task-constructor-demo (= 0-2023.06.08.05.38)
-Filename: ./ros-iron-moveit-task-constructor-demo-dbgsym_0-2023.06.08.05.38_amd64.ddeb
-Size: 13951052
-MD5sum: 1bfb44c0abcbd0353ccf5155a29bc2cd
-SHA1: 83aa58e4ea9fc29a31d688291d84d193a5c438ef
-SHA256: 2ff4f178bb25d62dc2ebe0b3bcac25df06136a7b461e4067636dd4631523ef84
-SHA512: 33bd459a4e85ff5953cf98ce34143177228b1dc1fe21026e208ca84ced3fcc022c4d90a01cfe045e06a97232d0d97fa299d9b696f869b4abd0dbb8fcd9c22647
+Depends: ros-iron-moveit-task-constructor-demo (= 0-2023.06.10.06.39)
+Filename: ./ros-iron-moveit-task-constructor-demo-dbgsym_0-2023.06.10.06.39_amd64.ddeb
+Size: 13952012
+MD5sum: 26c7187726d405b7d328ac8929ae13f2
+SHA1: 2e1e0f66713b7c618e142da5ba543673dc2ee9b0
+SHA256: 9eac033110cc58fc2659eb145d1d87a9c8494dd0d4dc0b33cdf163b1e13d6314
+SHA512: 19b9b449d07827a9799e2ff50ad8008553c5547b6ef5711fda5b9fc41575908da37485b7c9c0b8480c2c5fea5df71b52272d10d25cd1723cb83d929bc7bec937
 Description: debug symbols for ros-iron-moveit-task-constructor-demo
-Build-Ids: 26881a9db6ca8c18b50517d0958002c63f731f7c 49b5f5153c67cbd2b4d5f479b6c4e220f3ad08af 4c3042f6a9e2d30dab42b2fae9c723d96259aac7 874f002f758e1ea8e3b51b84cab05e834d16eb0a abfbbd5d48ebc104b0ad7121cc4e3711124a59f7 c2142ff7a761eb8c6bbd4c425f59e40134af1091 eaa5a4553824822a13b58f3872bdb712f533de06
+Build-Ids: 3d7ccaf56f7bd1e77ffa8de0136a971921cdd615 41903fba07b147616ee9772f24acb6aeb27f639a 7b4edec2a39b2959d249e26fd2b5ff404083cc8b 99c04aecbfd842e0b9f37c5caf5aacfe75486319 c4400234b4024c40589d9eed2ce2c7218c827086 c8aa59a2cc3438c5930b3b11edd22011ba0fca5f cf26d15799df88cd57670f3c69e9db4aa168b40b
 
 Package: ros-iron-moveit-task-constructor-demo
 Architecture: amd64
-Version: 0-2023.06.08.05.38
+Version: 0-2023.06.10.06.39
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 533
 Depends: libc6 (>= 2.34), libdw1 (>= 0.126), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-moveit-core, ros-iron-moveit-ros-planning-interface, ros-iron-generate-parameter-library, ros-iron-moveit-configs-utils, ros-iron-moveit-resources-panda-moveit-config, ros-iron-moveit-task-constructor-capabilities, ros-iron-moveit-task-constructor-core
-Filename: ./ros-iron-moveit-task-constructor-demo_0-2023.06.08.05.38_amd64.deb
-Size: 107728
-MD5sum: 8405bc43cdf891a83ad2ef3221064e97
-SHA1: 39c3b42f051cb8df88a5dd03412c6df5e4d3158c
-SHA256: 2b8b81f740787ac3e6926ca38d41fd3d430d1dc7b5d250d95292faa08b63c9a7
-SHA512: 1b0bb95404a755c295f8d62c765b7af8179bd7089bf1c1ac07c9ccaedf9492c51ab34a2eeab337e2742edbac07584eab4cdf418d1d3ce265f681a7f191224df1
+Filename: ./ros-iron-moveit-task-constructor-demo_0-2023.06.10.06.39_amd64.deb
+Size: 107744
+MD5sum: 578f58549073c696d4599ad3cd4bc3af
+SHA1: c554282ea6037e2f0ac7dd6a64acad6fe37d2aed
+SHA256: cd701f9169acba96615890406f9350260403b2e85d0b82af66b2ce36c64c296a
+SHA512: 7ceb0fd93bec00ec78264c6b36c00342f98d06d7391b6677fa48f4419ee95d09d4daf45f97e16f1c8c8f311e2cc07480b44050716e1707944d7108ad85b4a109
 Description: demo tasks illustrating various capabilities of MTC.
 
 Package: ros-iron-moveit-task-constructor-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2023.06.08.05.06
+Version: 0-2023.06.10.05.58
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-task-constructor-msgs
 Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
-Installed-Size: 4714
-Depends: ros-iron-moveit-task-constructor-msgs (= 0-2023.06.08.05.06)
-Filename: ./ros-iron-moveit-task-constructor-msgs-dbgsym_0-2023.06.08.05.06_amd64.ddeb
-Size: 3969650
-MD5sum: 144f4306bc2c37c77133a5cb120b5272
-SHA1: cb4666e34b39a7132dff763e99086486de7dd5e3
-SHA256: 65d6f3f99758cadd04641efd3fc6bc9d4f1a7a16de3362fe078fca142d384248
-SHA512: e7a4ec4da384f284f88758f2b0dc52e32862fcc547303ab9e5906e04d108ead9dbaae2d7855fde5c2bee35deef769d27212d52f8f07c2425dcadf6a50b384ff3
+Installed-Size: 4713
+Depends: ros-iron-moveit-task-constructor-msgs (= 0-2023.06.10.05.58)
+Filename: ./ros-iron-moveit-task-constructor-msgs-dbgsym_0-2023.06.10.05.58_amd64.ddeb
+Size: 3969014
+MD5sum: 2eabd8f7d387dd8317df43762340ee18
+SHA1: f06284442becd499524c6a0b5f949f038cc25f66
+SHA256: a0101bc429e2ee625f8bdb52afabc7c766c73831021f5f58c1f3c4223de4dfea
+SHA512: 7bf2877f49dc3a6476f14f54f6c54a2e290e82a9671c935cfac94d94af160550a49d7d656c4aa5b24ec1bdce002ef1e8f2cd33e60e8178ab28fb8e298f3d8258
 Description: debug symbols for ros-iron-moveit-task-constructor-msgs
-Build-Ids: 01ab375f9474c666ec8ea17c6b4b60fd5f186289 1b4d05946d09e42b594d1caa9f06857e3f4b380c 40cd454ee71c2d17e6932a645f2d9ed96e891037 69dcaddac6631a567ea53eac16c308d31154ab17 8cf595dd98e423039a6fccdef2c6de054edf8f4a 8d819138a7bce8d978a3516cbf0c74f4cef103e2 9042d0d19774d4f47967d2da9205fa9b37e99b49 a7dcca09d03f70ff8a09e7b4e9aced5888ac3521 ae76825a0189913c4454f87ef20baf8f9447095d d304a8f580a620ebe5566ef9edd29e0ea73e66dc de6050bb3734ad62f639f6cb6cefd41e7b07ee16 f47a5da27cdd9c239036a459b2181c63a8aae0ca
+Build-Ids: 2e20cef63efe30e3770dd0972e03bbf0d54d4d3e 5916d3e77689ed74d2e9923339b146a3ececf4df 59a07df60e8ecbe87eb77780d96429ab307981f4 88fcf8e0700098d427c69782e58b8c594c957311 895c3fde5faa315b5ee7eb805f95060ec07b47bf 9ab1e71f542ca2fca60a18592d1ed2fe2badb8ab a393b06a67b676c1e3ca4951940392ad465f71f8 a8c729550772316b751baad799d2deef870b5d41 af5db791647cd757de9b051154eab178656fdf8f eb84e94211b28b03e9daf85ad004a84182a4cb55 f6faaaec6d9f7797f686f1e22d85ded8e18b05ab fc5f1879e9a9923462ad04362492d2b154e7b48d
 
 Package: ros-iron-moveit-task-constructor-msgs
 Architecture: amd64
-Version: 0-2023.06.08.05.06
+Version: 0-2023.06.10.05.58
 Priority: optional
 Section: misc
 Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
 Installed-Size: 4257
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-moveit-msgs, ros-iron-rosidl-default-runtime, ros-iron-visualization-msgs
-Filename: ./ros-iron-moveit-task-constructor-msgs_0-2023.06.08.05.06_amd64.deb
-Size: 311372
-MD5sum: c6a483d60dbf51837ac46d486c4e6dca
-SHA1: d9a12615e343a28324bf3fa5b152b659f78ef643
-SHA256: afad6f8833696e7f2064c95cda68c2b20276dcf92e761c8603bdc4eb5401fa23
-SHA512: 3a13f1f12a72161673351a1de04d7dea260320ce73087dff35eb53281a34dca13ceafa7e7b0ed28281749e4ab4514c6b844b054448b2ec3ac67a5bbcdc4afef0
+Filename: ./ros-iron-moveit-task-constructor-msgs_0-2023.06.10.05.58_amd64.deb
+Size: 311396
+MD5sum: 78da7b85065f80fb19b2df035aa84453
+SHA1: 210342a551f01451568d0dcb110a70882c93a597
+SHA256: 56ae93e57681fbcbb3acb5220f58330a3fb12145ea92510eea5202a4b12b6c03
+SHA512: d9a4a932752e4f25b386429b2fec10c38e6f9fe71b6a774e06532706fac78a96ddee381d4f0ae81cc1a48abbd4b9286a14bac7b6f45a9fe994baafaab663832a
 Description: Messages for MoveIt Task Pipeline
 
 Package: ros-iron-moveit-task-constructor-visualization-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2023.06.08.05.41
+Version: 0-2023.06.10.06.43
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-task-constructor-visualization
 Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
 Installed-Size: 17851
-Depends: ros-iron-moveit-task-constructor-visualization (= 0-2023.06.08.05.41)
-Filename: ./ros-iron-moveit-task-constructor-visualization-dbgsym_0-2023.06.08.05.41_amd64.ddeb
-Size: 16833558
-MD5sum: e15e9b54532a206896288909ea8d775e
-SHA1: fc9a777ea044b83aaeeb24d83180808de9846529
-SHA256: f9b63d1f65ab34cf3d3a95a290f31fd11a3c0b8e8aa2eaa524d90ec3834a7d6c
-SHA512: d957a7a446ce351e74e6308bdb934a96d386ad2dc22fa9620e952e001cb03c6a52d3f4a637f64996909fc861cb30f7236764ee83d3072089beaf8b979ba95240
+Depends: ros-iron-moveit-task-constructor-visualization (= 0-2023.06.10.06.43)
+Filename: ./ros-iron-moveit-task-constructor-visualization-dbgsym_0-2023.06.10.06.43_amd64.ddeb
+Size: 16839678
+MD5sum: c0d13e8966102c0bb85ca0a0b536345c
+SHA1: 139c59bcdc51dff0a237fc11de7f2054d307a0e4
+SHA256: 17d48d7317098597d54c0acdb132a6da145f32cf8fb1a1551bf98c16b3eb8da8
+SHA512: eb2851db6548a0073510f6d78fe5e618ad4457801865b4e0e1b90b3a98b02878dbd174e14f3810c49095e3d0109e1744c8e38a6de295a31345658c71aca2cafb
 Description: debug symbols for ros-iron-moveit-task-constructor-visualization
-Build-Ids: 1bc5c4924c888a338d445904a29d2dfc992b072e bf5a1406466ba7d5c01943c28e43dc0f37a0c5e6 c1d8e45f0132a07d9ab7336e05445d373313f4ed eb23c135c4957401adfdcfe408b23f19611f95d6
+Build-Ids: 0c4d0f18257d3f3fb242865fa12e0d2a1b80a5a2 da105ee521e91638b0f0e0ad806e967a7163c600 dff1afa3e25332d280e36eca0a3f26d403176bb1 e8300d361d3f8736913c3d93711817d4b3c861c5
 
 Package: ros-iron-moveit-task-constructor-visualization
 Architecture: amd64
-Version: 0-2023.06.08.05.41
+Version: 0-2023.06.10.06.43
 Priority: optional
 Section: misc
 Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
 Installed-Size: 2028
 Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libyaml-0-2, ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-moveit-ros-visualization, ros-iron-rviz-ogre-vendor, ros-iron-moveit-task-constructor-core, ros-iron-moveit-task-constructor-msgs, ros-iron-rclcpp, ros-iron-rviz2
-Filename: ./ros-iron-moveit-task-constructor-visualization_0-2023.06.08.05.41_amd64.deb
-Size: 472318
-MD5sum: 495dbe9fdd7886279fff1d6473f52e83
-SHA1: 0c904c1a7d8ff14c0c299e19690761723fbb4aa3
-SHA256: eeda891f850c7d8c21ab20a0f266dbb23d04c3a006beafc8c4fb602a742a67d8
-SHA512: 61484c96f96642ada5bab137b4649adaf7e9f87e802b5a39c6bd63b4a6b04ca5221363c1c69f58de760e2525866e3b43b39691c86e7a146b8073dd2801d23e60
+Filename: ./ros-iron-moveit-task-constructor-visualization_0-2023.06.10.06.43_amd64.deb
+Size: 472300
+MD5sum: 66ef4b28bb57eb3b13837b6ea38fa16f
+SHA1: cd7b052a5415b74afb96df8e9d5c5fa8e556436a
+SHA256: c29e4b165610fab01f21ebb9f7d8ac893c94966d6cbe801cb027abe97a409455
+SHA512: 1138532f09948d9b2a64fcadcc4543f12ef186af3eec22cee74cb389c07ee5c44e33b2d9dd40308085196aeb0c4f6a2e55c516a6abdea42bb45e2828bb3f849d
 Description: Visualization tools for MoveIt Task Pipeline
 
 Package: ros-iron-moveit-visual-tools-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 4.1.0-6-g8578433-2023.06.08.05.50
+Version: 4.1.0-6-g8578433-2023.06.10.06.54
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-moveit-visual-tools
 Maintainer: Dave Coleman <dave@picknik.ai>
 Installed-Size: 8712
-Depends: ros-iron-moveit-visual-tools (= 4.1.0-6-g8578433-2023.06.08.05.50)
-Filename: ./ros-iron-moveit-visual-tools-dbgsym_4.1.0-6-g8578433-2023.06.08.05.50_amd64.ddeb
-Size: 8659770
-MD5sum: 11c7531e97cb9fcb14e01532c05e8513
-SHA1: a7059882cecf2fb4ef8a737b50dc5ffb2acd492a
-SHA256: 01b09426eb9a961db72a38ba26f67d6c3045140989bc6538eb128b8678b59eec
-SHA512: 10ad1197248b13f11829a8d501f40a9e0d8c649922ae6a74d4eaf025676cdba05b62cf15f79bc2daf2b754ba2b1fe50089d1ab9033b7f8b3f9e75e338f8d2eb1
+Depends: ros-iron-moveit-visual-tools (= 4.1.0-6-g8578433-2023.06.10.06.54)
+Filename: ./ros-iron-moveit-visual-tools-dbgsym_4.1.0-6-g8578433-2023.06.10.06.54_amd64.ddeb
+Size: 8659566
+MD5sum: 72bccbd4eafc31c2d0c5097164cc932a
+SHA1: df00c2b67e138799394310ea49ce202797d2d2b5
+SHA256: 800a765669d17a6a60604208c388f1bd2dffbafea4f7a0ada3bb544044c18708
+SHA512: 24d6dc0a993e1002d762551b9960507af29593d4cc3b47255c3ea10a05c2da4a97bb01833bdb0f75109d0638eadd491696ae93fbd5a2aee717193760887d6e7b
 Description: debug symbols for ros-iron-moveit-visual-tools
-Build-Ids: 077223ccee8b557b1c50e5ebc5ed62065476b5cd d91a0fc18152cf12ac0429db2d3fd67feb8cf19d
+Build-Ids: 236f009edb0df7318730234dabec4aed42067464 47d9b05a68c4ebac01431ad1b13b38f3cf606908
 
 Package: ros-iron-moveit-visual-tools
 Architecture: amd64
-Version: 4.1.0-6-g8578433-2023.06.08.05.50
+Version: 4.1.0-6-g8578433-2023.06.10.06.54
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <dave@picknik.ai>
 Installed-Size: 749
 Depends: libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.34), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-geometric-shapes, ros-iron-moveit-core, ros-iron-moveit-ros-planning, ros-iron-geometry-msgs, ros-iron-graph-msgs, ros-iron-moveit-common, ros-iron-rclcpp, ros-iron-rviz-visual-tools, ros-iron-std-msgs, ros-iron-tf2-eigen, ros-iron-tf2-ros, ros-iron-trajectory-msgs, ros-iron-visualization-msgs
-Filename: ./ros-iron-moveit-visual-tools_4.1.0-6-g8578433-2023.06.08.05.50_amd64.deb
-Size: 297502
-MD5sum: 3d2d7fdbe6c92ac30db46d968d883fa8
-SHA1: a62547b8412efeb71010fdd4866f45edaca9f154
-SHA256: 6d8406675d2ea88831dc652f80e3aa01cee15d9684b38030a2f5829757328e2c
-SHA512: b70e5e9ad5d496c006846b55ece72554ccb98a7a541f8685e7294709966ee81a241d80baad540b2bb20db1c804e8c4232b4bc4f6e8de19dfefa9115eda98e1be
+Filename: ./ros-iron-moveit-visual-tools_4.1.0-6-g8578433-2023.06.10.06.54_amd64.deb
+Size: 297492
+MD5sum: e9f5ee5e13e8daee98e75463125caa1d
+SHA1: 3385d2d5f499fa52be317900b6ae9828fd2d0595
+SHA256: d57268c162797152f4e5ab9fbdca60461cd304ce5d8ab7519411b521a17ace41
+SHA512: b450ab88f0aba82903ff89e0dc5a9bdbb83ff018cd1cc94c6539ce3e94f1842f55b7a0d36aa874eb2fa61b41e936018bb6ac167adb8aeb61858ed700ea2cf117
 Homepage: https://github.com/ros-planning/moveit_visual_tools
 Description: Helper functions for displaying and debugging MoveIt data in Rviz via published markers
 
 Package: ros-iron-moveit
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.02.41
+Version: 2.7.4-24-gde1610dc2-2023.06.10.02.32
 Priority: optional
 Section: misc
 Maintainer: Henning Kayser <henningkayser@picknik.ai>
 Installed-Size: 48
 Depends: ros-iron-moveit-core, ros-iron-moveit-planners, ros-iron-moveit-plugins, ros-iron-moveit-ros, ros-iron-moveit-setup-assistant
-Filename: ./ros-iron-moveit_2.7.4-24-gde1610dc2-2023.06.08.02.41_amd64.deb
-Size: 13120
-MD5sum: e49ef9a6039f5259a9b49ed834835bb0
-SHA1: 59bde088c19f97bfb1c1dc3eeedd6b69f80974cd
-SHA256: 5256e9ca43e8f532d1a74bdd6a1929b2afb9df589ec1d6ec459c08472d4332b2
-SHA512: fea148ebba7404f614956710184da72393e46e44a3a9a84751af0b464d5b0de3875e6097ec546227e3f1cf9d330c5c9bf19ba3cf5cc1d9c884de9123afd706fc
+Filename: ./ros-iron-moveit_2.7.4-24-gde1610dc2-2023.06.10.02.32_amd64.deb
+Size: 13072
+MD5sum: 33cbe567d151f3392e6bfd0b9a3d2ef3
+SHA1: edc3cae8e176db8420f1a6cc90117c7cba738581
+SHA256: b9194478cb625a89a743845fb4ed9ae00f28efe15fd8902f59fbb8f989b7e4a6
+SHA512: 18b4747fc13ab8445eabfe6cb533ae7cd50199d756dffcba59eed3537e69b3193ebe9ceb2e3808f899fdd85dd20552b19f0c7ee1fd311b75f62d20cd8702b1d3
 Homepage: http://moveit.ros.org
 Description: Meta package that contains all essential packages of MoveIt 2
 
 Package: ros-iron-pilz-industrial-motion-planner-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.05.10
+Version: 2.7.4-24-gde1610dc2-2023.06.10.06.04
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-pilz-industrial-motion-planner
 Maintainer: Christian Henkel <c.henkel@pilz.de>
-Installed-Size: 98658
-Depends: ros-iron-pilz-industrial-motion-planner (= 2.7.4-24-gde1610dc2-2023.06.08.05.10)
-Filename: ./ros-iron-pilz-industrial-motion-planner-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.05.10_amd64.ddeb
-Size: 95714462
-MD5sum: e3380d9d3235e2cffc3d9bfef7e2c081
-SHA1: 82aebc0caea8cbe41cfd21d7b23b5168f5afef69
-SHA256: 63962647787bb93ad8cacdcd5eebd5b659e8d9910c4c2c4d5594ef9f5f8b53c3
-SHA512: f20c844caa3974eebd031edee05095c98a26d293149ceb5294a64fb412ecfc238efd0a9c0e10e8a187fd8a6665a392d552859d17f0b384defc6c83e3818a0805
+Installed-Size: 98659
+Depends: ros-iron-pilz-industrial-motion-planner (= 2.7.4-24-gde1610dc2-2023.06.10.06.04)
+Filename: ./ros-iron-pilz-industrial-motion-planner-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.06.04_amd64.ddeb
+Size: 95730220
+MD5sum: d0c85a194eb79d302c14a0bf9bbc606e
+SHA1: 76be217b3b069f6c2866e0a5ba19cf2f0458c43e
+SHA256: 1c25a24fac8e7ea09438730e2d6c78cf210ae546d1fd1384b674e00b32e1f2d4
+SHA512: e0c9be0acbd793f8b2a48d7ef2f4a382caccf5ea82393f7489f99f8a1ce6f24a653d9865d6213cfdfd02599ad0e6e670e8011985ef6c7310e4c58501dc40852c
 Description: debug symbols for ros-iron-pilz-industrial-motion-planner
-Build-Ids: 120eca443c999e25a69a597c24bbdd0539a2ede4 196edc1c575501056f0e5fec4c4067b6e3c4fe8c 19b487b98d951c765d377c19f08a68768210a3ed 214091b3990c0b337f347a86ae625b0e41a06a2f 279c8ab6f16433ed7a4e6ba1d0fb5a753ec2080a 2815029a702946abc10e433ea327be8323bbdbe1 31d7661e050c66b4a01e5596240405bbc477700c 58d5eabf89797c4fc96f075c34e116a2b1f3a191 5a20ebb04b0815fdd36a5d27273e0eb4bcfe46e0 5d149a4d19f467832f4eb97634760c9f4b02856d 6de6e441d39da5be03b3d64436b2ca914fd8e1e4 76ef254e596dce5a0ea5cd7ce4058cd2441f095e 82fe9ab31d150bd45aa724c7b9b7a2456fd3b588 912c9a0588a78a6c72da83641f436b131b3640e4 915a400210288b1565405f1565f3d4da5eb07b06 98c89df9a83f26f000932d97e03edcfa0d1f9a46 a4d1f8ea9ac930dd09ebebf60d3500e17eacf8e4 b0842e18fa3a7e99a5e1331cdfcf5977f3d01ccc c519cfaab2e70e8600bf03e7cd71022fb07efdf0 c535c8349c27ee10905f6257090e3043b5164dd7 d343280a34f98a6807a9a19da9dfcc13efcc7663 dcc2339b260573dae1fe118b075fde23246f7ead dec25e549bf5d07c4bb09e50b3fc6a4509126e85 e2b1e56b4c7a416b30faca5efb6d46675ebb0f51 eee4ea9b1a6c9a624a84a877f07f8fc496235c01 f6dd7d1260ce226ff9aad101276be5db9b0dd352
+Build-Ids: 0cf487c0c15ddaf90b78bc913630ed93bebc4e71 1fd5ffabac70520d2c9d9d4b542832b5bcd1e8df 481ced3f0430b8da72fcabb51f6474499ebd573a 55bb1169ad5d5d404f2a5c982859d6a39a70a103 5cfaead3575aa9cc97ec3c9183263fcbeaba4075 5f3e9bff1cb975cef3326f5ccf524d1a4deb9984 6205c319d8190bbbed99a8d81acfb62f2dc6ac7a 62b3b5049a687595dfdcdd835319ef33b0e6c0b2 6d682be44b8ab1f29a99b1b3e20f2796c46aaa27 7be21b24ef61f431112139609699bf3c25c78444 812c2e0ae8ef8a035c9652e22a2a4528633a75cc 8afbe5b6dfb150b8e152930f13aa844790bdaa17 8e21b8c81b4205a31d9d2883eaeb3017640667d5 9c87fc7e09681c34139f17322ae457eb258c9d9f a0021f5d3c30145a77d755af59cde24359a235ff ac7d1380811656a1e53ed0cd22c18cf9d3db06fe b263e462e3c7205cdf14a3a5cd0a556c4e740ec2 c217d7d8952ffcad62b919cda0808b67c933fc75 c8a207139d72e38a78b467c07ad4b0a64efcc8b1 d4cd535e3ceff1d070ddd74642c190d05215f27e d9604dd4938b5034939cef47690a5cf8474055e0 da7552378b339db203042bda773ed20a44509a51 dae2740610f4f8ecb3797dcdb11858c6ddb892d2 e183e985777daa3507319c3a655ced2ec54086a1 ed2cc3bc534ad2ace9bdc4e58d6f09b3199a1b03 f2624f5ee05894b0066bf0ed094abf2fe926e383
 
 Package: ros-iron-pilz-industrial-motion-planner-testutils-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.05.08
+Version: 2.7.4-24-gde1610dc2-2023.06.10.06.01
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-pilz-industrial-motion-planner-testutils
 Maintainer: Christian Henkel <c.henkel@pilz.de>
 Installed-Size: 5212
-Depends: ros-iron-pilz-industrial-motion-planner-testutils (= 2.7.4-24-gde1610dc2-2023.06.08.05.08)
-Filename: ./ros-iron-pilz-industrial-motion-planner-testutils-dbgsym_2.7.4-24-gde1610dc2-2023.06.08.05.08_amd64.ddeb
-Size: 5095216
-MD5sum: a02a083262b83a6d13352c42b0384b10
-SHA1: 8caf962f191f2308d76d46eeafafc595e3487baa
-SHA256: 2b9411b1f3a5c4f03449fc238af8b6790d68e506b30a3b8e9112039ccf8e9e0c
-SHA512: 409d841918add49f1616828bd235280d4ca98aa8bf59de5cace8e84a23c56924888f027c1e1e225736f6d34d4cd28e4f3473f98b0eaa5b75cd8f3237f58b74a9
+Depends: ros-iron-pilz-industrial-motion-planner-testutils (= 2.7.4-24-gde1610dc2-2023.06.10.06.01)
+Filename: ./ros-iron-pilz-industrial-motion-planner-testutils-dbgsym_2.7.4-24-gde1610dc2-2023.06.10.06.01_amd64.ddeb
+Size: 5095212
+MD5sum: f6dbfd3bdaf1d33d1151b8f210dfd411
+SHA1: 475d9780ba18a715c4f157a6fa78ddac126b5039
+SHA256: 6c2e06f2af59c0eedbabe9ed5d494e801200b44b826984270b7d0a2423cfeb34
+SHA512: cfde4fd9c7ab2aa1350949fa8772837d35f327d477ac7c9f43115cdf572c50eb61a40c589c5e06736aade368eff9315499c800e809a493a1ee4eee6b0171749e
 Description: debug symbols for ros-iron-pilz-industrial-motion-planner-testutils
-Build-Ids: c21158a771dc379c95d41bfb960f56de3b749e55
+Build-Ids: c6df2a6245e749df9c48f8619e1a7414ff412424
 
 Package: ros-iron-pilz-industrial-motion-planner-testutils
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.05.08
+Version: 2.7.4-24-gde1610dc2-2023.06.10.06.01
 Priority: optional
 Section: misc
 Maintainer: Christian Henkel <c.henkel@pilz.de>
 Installed-Size: 465
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-moveit-core, ros-iron-eigen3-cmake-module, ros-iron-moveit-common, ros-iron-moveit-msgs, ros-iron-rclcpp
-Filename: ./ros-iron-pilz-industrial-motion-planner-testutils_2.7.4-24-gde1610dc2-2023.06.08.05.08_amd64.deb
-Size: 105604
-MD5sum: 702cf9392a1f609e4e3e485df97eb7cd
-SHA1: f9bebf11637e24175fcf24fb2bf876076ede7069
-SHA256: e46cc621d7992fa682e902a10b884e5a41b06004e42f982a90c4b83e8fa63a88
-SHA512: b6b1cfcbf686386b07152c549697dce4497f1cacd92693b8ec001537e62ba6777f7e10309e7178500b02949a4c86b8ddd584b37632fcc969bbec905675ac26e3
+Filename: ./ros-iron-pilz-industrial-motion-planner-testutils_2.7.4-24-gde1610dc2-2023.06.10.06.01_amd64.deb
+Size: 105580
+MD5sum: e884d923bdfe0b1fa0be87a8e43c8bff
+SHA1: 7fbd219ef31314d624ca362574a71b99ef808d1c
+SHA256: 95fb8f9aa9f91faa29d29a005e27227f9a21a614cd7ab5853c8be8cb31530f6f
+SHA512: 92ce4bf088e5145ad3fb867234a61c30ef3c70b3ca55199cfe1e28899b5c1d01f55fc0f1f1630ddb769e00925ec27be0a574eba6ec345aa4caeb3609c7b3472e
 Homepage: http://moveit.ros.org
 Description: Helper scripts and functionality to test industrial motion generation
 
 Package: ros-iron-pilz-industrial-motion-planner
 Architecture: amd64
-Version: 2.7.4-24-gde1610dc2-2023.06.08.05.10
+Version: 2.7.4-24-gde1610dc2-2023.06.10.06.04
 Priority: optional
 Section: misc
 Maintainer: Christian Henkel <c.henkel@pilz.de>
 Installed-Size: 11668
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdw1 (>= 0.126), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-moveit-core, ros-iron-moveit-ros-move-group, ros-iron-moveit-ros-planning, ros-iron-eigen3-cmake-module, ros-iron-generate-parameter-library, ros-iron-geometry-msgs, ros-iron-moveit-common, ros-iron-moveit-msgs, ros-iron-moveit-ros-planning-interface, ros-iron-orocos-kdl-vendor, ros-iron-pluginlib, ros-iron-rclcpp, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-eigen-kdl, ros-iron-tf2-geometry-msgs, ros-iron-tf2-kdl, ros-iron-tf2-ros
-Filename: ./ros-iron-pilz-industrial-motion-planner_2.7.4-24-gde1610dc2-2023.06.08.05.10_amd64.deb
-Size: 2221968
-MD5sum: 720a8d97f70a5acc3fbd6e16f423cf41
-SHA1: fc0aa7191f73e5a3551076663d203b2d872f62aa
-SHA256: 5d0662a77b43579a17d331bed2fdb3717921f142b9f800b247a8d8f8ec278ebe
-SHA512: c1f57128ad954f71f31095acf79498c05f93646133d465b09380b52510d8907b0bc6d4184c30d7949221553bd0de69cad251085a79998291ce037aadf14d5526
+Filename: ./ros-iron-pilz-industrial-motion-planner_2.7.4-24-gde1610dc2-2023.06.10.06.04_amd64.deb
+Size: 2222036
+MD5sum: 79b16aeb99bd8a6e2c4a2d06af09eea0
+SHA1: 2850b8945e1d28e9c670a984b5392580804d54cd
+SHA256: 2371380e640edc840b5625acd861d2e3baa7e6b5a9b2ef4dd1c0fbb2c4668f6b
+SHA512: 0ff27cc5cbb88c902e0615fef74cd65fa0f578b3ad59f53180fa733b38264770670c62e7e874afaae350a0cbdef4480d4625ce0fae6903c9caf97794fed6c681
 Homepage: http://moveit.ros.org
 Description: MoveIt plugin to generate industrial trajectories PTP, LIN, CIRC and sequences thereof.
 
 Package: ros-iron-rosparam-shortcuts-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.5.0-2023.06.08.05.21
+Version: 0.5.0-2023.06.10.06.18
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-rosparam-shortcuts
 Maintainer: Dave Coleman <davetcoleman@gmail.com>
 Installed-Size: 1798
-Depends: ros-iron-rosparam-shortcuts (= 0.5.0-2023.06.08.05.21)
-Filename: ./ros-iron-rosparam-shortcuts-dbgsym_0.5.0-2023.06.08.05.21_amd64.ddeb
-Size: 1754888
-MD5sum: f9694058ad5c687af1c8ac5666e4e0eb
-SHA1: 74d771fcc09e83751cb345fb1758485ce6806fd2
-SHA256: c96eb87c01502bb5205334635b6bd0e1c52fcdac9732cf928e3f638cbe7bf97f
-SHA512: 6a449ff02adddab9eaa0e71996a8e2e701a86d122eba77026fc019379f4393ddf7a432004e0f7e076b41817d6fa2f66115778dc1342288a2bb8f850e66c15b4e
+Depends: ros-iron-rosparam-shortcuts (= 0.5.0-2023.06.10.06.18)
+Filename: ./ros-iron-rosparam-shortcuts-dbgsym_0.5.0-2023.06.10.06.18_amd64.ddeb
+Size: 1754886
+MD5sum: 82e9b54dcdbd1611532c1e4b4fe91db2
+SHA1: d526b961d632cbd4a1e3c71af2b3fba67fa3d36f
+SHA256: ef127314eb933fcadf46b0e1e7b9b48a3dcd3d6e976800bbcd746377c3247e80
+SHA512: d89e4b5b37a8d975e3c7f78ec67dc05574e60ba71d43067efbd0555495523a880fe9d48bdc09b1e9d6352032a9dfae22050fd081ccd23129b9cce165f6d22362
 Description: debug symbols for ros-iron-rosparam-shortcuts
-Build-Ids: 18a03021b1041af9815455df3a162a73aa91592c 9a423b33cec2d3f3049cf1f2fc3a78d04437eeee ab90fce795767f30c37052bf7144c61243917bbb
+Build-Ids: 555c784051f07e974a3b1a7fd4ad2870f5b85dd1 e06b0a0761daee0beb0a2b9640df87eb7f89a3be ebcc2e6ded4d9781c58bf2c9322e91b034d9841f
 
 Package: ros-iron-rosparam-shortcuts
 Architecture: amd64
-Version: 0.5.0-2023.06.08.05.21
+Version: 0.5.0-2023.06.10.06.18
 Priority: optional
 Section: misc
 Maintainer: Dave Coleman <davetcoleman@gmail.com>
 Installed-Size: 275
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libeigen3-dev, ros-iron-eigen3-cmake-module, ros-iron-geometry-msgs, ros-iron-rclcpp, ros-iron-tf2-eigen
-Filename: ./ros-iron-rosparam-shortcuts_0.5.0-2023.06.08.05.21_amd64.deb
-Size: 67180
-MD5sum: f18f422e1ca9f9d2a442025e5fd09abd
-SHA1: 1db5d5c9ee516bd3bfa59730291878bf69661a82
-SHA256: aed2c5a03c3a26138331c3b80243ef6ef05d0b291cc178a8ef5fabdd08e32824
-SHA512: 87c57dc17ad22f124ed1cc19847dbfe1eac47e0aa94614f3b610f6b64c4f56f2e720671434780241c050657807bdaaa189558d8db9f946cdcab7a30eede3d1ca
+Filename: ./ros-iron-rosparam-shortcuts_0.5.0-2023.06.10.06.18_amd64.deb
+Size: 67172
+MD5sum: f9d91ef630c8f3a98571d089f786644d
+SHA1: 1679da2e352f29b52afeaae684aeba6db1db192a
+SHA256: b068ef5632a794106887504b3e171025d456de99015e1d50959cad2801628f57
+SHA512: 0004ddbf8bd879b496332c589e39582a29826f6bac7d51285cbd96af58cba1b53dc2d878777c258d8f4471496dcd4a1a4ee2e27afdb1e08793d40b6449ef28c5
 Homepage: https://github.com/davetcoleman/rosparam_shortcuts
 Description: Quickly load variables from rosparam with good command line error checking.
 
 Package: ros-iron-rviz-marker-tools-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2023.06.08.05.23
+Version: 0-2023.06.10.06.20
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-rviz-marker-tools
 Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
 Installed-Size: 838
-Depends: ros-iron-rviz-marker-tools (= 0-2023.06.08.05.23)
-Filename: ./ros-iron-rviz-marker-tools-dbgsym_0-2023.06.08.05.23_amd64.ddeb
-Size: 833578
-MD5sum: cd4d0fba3244542ca46a4d8ebf7397eb
-SHA1: a15a02f6b27bd5633c968f2594e1cc37f98ce340
-SHA256: ffe155146be9c142a6479cbb59c6fa54d6b6bbc03af0660a9d186efd20445801
-SHA512: 90f1e777d3bd5acc5dee30c1bfe2f5d60cf6a55847a8d2d1cf54fbede9a5f0d3141c54a1bd7f72f1f280bb18ea875d5746e5c203a0f504ed5f02090959c1175f
+Depends: ros-iron-rviz-marker-tools (= 0-2023.06.10.06.20)
+Filename: ./ros-iron-rviz-marker-tools-dbgsym_0-2023.06.10.06.20_amd64.ddeb
+Size: 833576
+MD5sum: f091e045658e2436f9b4fe97fef35436
+SHA1: e2ce90b702010f521b57de68ac22e62298f90c94
+SHA256: 3d251a24fc1deab7c0dc789283459564eb4ae229b68a9b12db571cdd8ffa73e3
+SHA512: 1b9d12228d5b9fae4fa146eec43fb5ca100bdc3007f23cf7ba09e94cc02d6283fb4b73ff94e11a940ac7a23f0b2bea036fe3c032700a07f1483a2880bb540679
 Description: debug symbols for ros-iron-rviz-marker-tools
-Build-Ids: c378a95213ede4b45af73685d987d5b47e10b3da
+Build-Ids: 09cff1c23aa94c480beb65bb5001df6f19b54e77
 
 Package: ros-iron-rviz-marker-tools
 Architecture: amd64
-Version: 0-2023.06.08.05.23
+Version: 0-2023.06.10.06.20
 Priority: optional
 Section: misc
 Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
 Installed-Size: 93
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-eigen3-cmake-module, ros-iron-geometry-msgs, ros-iron-moveit-common, ros-iron-rclcpp, ros-iron-rviz2, ros-iron-tf2-eigen, ros-iron-urdfdom-headers, ros-iron-visualization-msgs
-Filename: ./ros-iron-rviz-marker-tools_0-2023.06.08.05.23_amd64.deb
-Size: 18886
-MD5sum: 4e62a773700e9b373bb2f338d70b0346
-SHA1: 4ea6399bab6ce48743c7af2b3595392ab941bd22
-SHA256: d7b0cf100cb70f6f43d1cc83ad77b65ce56fe30e9034e5d1decea78064bd7f6b
-SHA512: 0be340c0f3ae4ad0147380ea5e4a912cbf1b01c48328131c10849d2b16f6d91efd1537b0130fd6e52b10c6c761d00727692b55d9d931f35f175c68614e021e0b
+Filename: ./ros-iron-rviz-marker-tools_0-2023.06.10.06.20_amd64.deb
+Size: 18890
+MD5sum: 9ca2d1fa2311922b4e51251d6e08fe54
+SHA1: cd0255d1b06b408a54d53229846089ba925fdac4
+SHA256: d32bdaf2fb44fa7339dc0e3b1c4d48fa5a6485228f7029b0e4d0bb56e2609458
+SHA512: af8baeaccadc8dfe46af29a9e82ae65a8c94aa85c4a04467111b172471c317b50e04c0caad3b3e9b39aff3396f6b506c44241e994287b01127836b98aceecc75
 Description: Tools for marker creation / handling
 
 Package: ros-iron-rviz-visual-tools-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 4.1.4-1-gb8de762-2023.06.08.05.47
+Version: 4.1.4-1-gb8de762-2023.06.10.06.50
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-rviz-visual-tools
 Maintainer: Mike Lautman <mike@picknik.ai>
 Installed-Size: 11246
-Depends: ros-iron-rviz-visual-tools (= 4.1.4-1-gb8de762-2023.06.08.05.47)
-Filename: ./ros-iron-rviz-visual-tools-dbgsym_4.1.4-1-gb8de762-2023.06.08.05.47_amd64.ddeb
-Size: 10619610
-MD5sum: 8d0e7110523d1ead076bf1a77734c387
-SHA1: 9f389a77c3cf25d1c0172cf2f966bb972b900dee
-SHA256: d0c7269039955bd27d38bffbacc7fdcca64fed7f81aecd1ae9ef5d3588271a14
-SHA512: 647beed4e61fe3732b01d4c4696fd0190c523427177d960fa52c55cc7502f756bc8565c1945af1b556d2355c37533ed2c5dc9ac11db83e92352a11e14a6afec7
+Depends: ros-iron-rviz-visual-tools (= 4.1.4-1-gb8de762-2023.06.10.06.50)
+Filename: ./ros-iron-rviz-visual-tools-dbgsym_4.1.4-1-gb8de762-2023.06.10.06.50_amd64.ddeb
+Size: 10621576
+MD5sum: 35f0a42c402c20839b0b0c758b0b55d4
+SHA1: dbdbd32de9e0999f30c7c09fea42b72b8b0191f7
+SHA256: 004c93c270657a94047aa6fcd3bfb0acffb22e23f2b29fa0d916715509d73b8c
+SHA512: 1d709e59abe3e3d593c7f6ded0712f81ea75e3a97ec545e6cbf9f6db62896054e41dbb9c6937ede6952ee14f5e6cee3be776319d1f5e32f0218121b3cc9fc4f8
 Description: debug symbols for ros-iron-rviz-visual-tools
-Build-Ids: 0b61e40738f1887010354f14acee56b84cdaab51 2941ca394a8a21cca70633c4362a4d725522de94 4b6771ac47932a54059a2eca35416567299f43a1 8f3d82c391ec2116c451722d0c23ced94e5e8178 b3c8cabb4189be7e857a2ed338660a2e1367356d be1eda5803f021e1836bc12562fd8ca019b086c7
+Build-Ids: 2b72ac9a1c72d8ac1ddc7313b14016ed0de9dcf5 408c4ac6bddaad278be4671ea124f488c6cb6c0a 48d7857441d5f2094b1b26f74b8806fa1a3ca75f 56bcd2d7a11472fe9e1df5d5b7cf370332eaf83c 816e7388f78fbaa0b06beb70451b22db2b18d992 b7b16c955a1d29b20940034348e513bba9139f0d
 
 Package: ros-iron-rviz-visual-tools
 Architecture: amd64
-Version: 4.1.4-1-gb8de762-2023.06.08.05.47
+Version: 4.1.4-1-gb8de762-2023.06.10.06.50
 Priority: optional
 Section: misc
 Maintainer: Mike Lautman <mike@picknik.ai>
 Installed-Size: 1374
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 12), libeigen3-dev, ros-iron-ament-index-python, ros-iron-eigen-stl-containers, ros-iron-eigen3-cmake-module, ros-iron-geometry-msgs, ros-iron-interactive-markers, ros-iron-launch, ros-iron-launch-ros, ros-iron-pluginlib, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rviz-common, ros-iron-rviz-default-plugins, ros-iron-rviz-ogre-vendor, ros-iron-rviz-rendering, ros-iron-rviz2, ros-iron-sensor-msgs, ros-iron-shape-msgs, ros-iron-std-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-trajectory-msgs, ros-iron-visualization-msgs
-Filename: ./ros-iron-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.08.05.47_amd64.deb
-Size: 280722
-MD5sum: 5615446d8d7432c09f62454c7ce11b0a
-SHA1: a0098568b446d16f0af0caa779b4bdbe5a9123e2
-SHA256: a7e4a0288956120020eb13bcc142f7fa723d63f52c17b991e1b83016fbd628a8
-SHA512: e2a8fbd8b3cae2341029851de54a85c9a4290167ecfdc8feef0e145b230dd2a3a83bc44151cbe098d1d7a198344230651b02827d23d8ac7a946e49046ff0683b
+Filename: ./ros-iron-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.10.06.50_amd64.deb
+Size: 280706
+MD5sum: 344f57238861aeef7f3643a15b9aa1ef
+SHA1: 222b4ee79e9e0cd264d5ebf9b4b8ef55534044e6
+SHA256: 5104c163aaaed511acf5f2d53467461f654a9d1b7d7bc4e436ae5f78360c1e39
+SHA512: a990b28b0f71ec2ab123a6ae4f78cc4ce4b89dbced8109d7325128c1e02925752c953f4ba0ae01db6ae6d4d669ef786938eb94a8b1732ca9b77f28d2316d6182
 Homepage: https://github.com/PickNikRobotics/rviz_visual_tools
 Description: Utility functions for displaying and debugging data in Rviz via published markers
 
