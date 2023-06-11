@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 09 May 2022 00:00:00 -0000
+Source: ros-iron-moveit-visual-tools
+Binary: ros-iron-moveit-visual-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.1.0-6-g8578433-2023.06.11.05.44
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ ros-iron-moveit-visual-tools - Helper functions for displaying and debugging MoveIt data in Rviz
+Changes:
+ ros-iron-moveit-visual-tools (4.1.0-6-g8578433-2023.06.11.05.44) jammy; urgency=high
+ .
+   * Update black version (#117 <https://github.com/ros-planning/moveit_visual_tools/issues/117>)
+   * Jammy fixes and clang-format-12 (#116 <https://github.com/ros-planning/moveit_visual_tools/issues/116>)
+   * Fixed deprecated call to PlanningSceneMonitor's constructor (#108 <https://github.com/ros-planning/moveit_visual_tools/issues/108>)
+   * Remove Foxy CI builds (#111 <https://github.com/ros-planning/moveit_visual_tools/issues/111>)
+   * Generate license using ament_copyright (#105 <https://github.com/ros-planning/moveit_visual_tools/issues/105>)
+   * Contributors: Jafar Abdi, Stephanie Eng, Vatan Aksoy Tezer
+Checksums-Sha1:
+ 09d811c37b2530b5a6918493f9f83cbf2947cf9b 8659774 ros-iron-moveit-visual-tools-dbgsym_4.1.0-6-g8578433-2023.06.11.05.44_amd64.ddeb
+ ebe72124ddfbdd8b0ddff04a4e136ae287b61018 34364 ros-iron-moveit-visual-tools_4.1.0-6-g8578433-2023.06.11.05.44_amd64.buildinfo
+ 80cc258d7b2f741cc7a706b09d2f3c99cb08814a 297504 ros-iron-moveit-visual-tools_4.1.0-6-g8578433-2023.06.11.05.44_amd64.deb
+Checksums-Sha256:
+ da5c6de867fdfe0392b41ab9aaa9311da65ad91f0441451067180c447e4157ee 8659774 ros-iron-moveit-visual-tools-dbgsym_4.1.0-6-g8578433-2023.06.11.05.44_amd64.ddeb
+ d246facbafba6d33c54087226b15d607c52ce433292440a2971718548b029361 34364 ros-iron-moveit-visual-tools_4.1.0-6-g8578433-2023.06.11.05.44_amd64.buildinfo
+ 24f0d1a9e67a70b1050d2a41be62e0e3bede7dfbcf6aa69f3d4c996b09d4ab2b 297504 ros-iron-moveit-visual-tools_4.1.0-6-g8578433-2023.06.11.05.44_amd64.deb
+Files:
+ 4d8c3abe6872393d1e5060ffbc76246b 8659774 debug optional ros-iron-moveit-visual-tools-dbgsym_4.1.0-6-g8578433-2023.06.11.05.44_amd64.ddeb
+ 0bd189e12b8090b805231287f1265fb9 34364 misc optional ros-iron-moveit-visual-tools_4.1.0-6-g8578433-2023.06.11.05.44_amd64.buildinfo
+ d2db2264f6a80ffbab30802a65241143 297504 misc optional ros-iron-moveit-visual-tools_4.1.0-6-g8578433-2023.06.11.05.44_amd64.deb
