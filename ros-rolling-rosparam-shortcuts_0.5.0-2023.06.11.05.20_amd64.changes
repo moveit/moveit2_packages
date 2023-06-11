@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Wed, 16 Feb 2022 00:00:00 -0000
+Source: ros-rolling-rosparam-shortcuts
+Binary: ros-rolling-rosparam-shortcuts
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.5.0-2023.06.11.05.20
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Changed-By: Dave Coleman <davetcoleman@gmail.com>
+Description:
+ ros-rolling-rosparam-shortcuts - Quickly load variables from rosparam with good command line error
+Changes:
+ ros-rolling-rosparam-shortcuts (0.5.0-2023.06.11.05.20) jammy; urgency=high
+ .
+   * Fix warnings (#25 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/25>)
+   * Galactic and rolling fixes (#23 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/23>)
+   * Dynamic parameters (#16 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/16>)
+     Allows a node to contain an object capable of handling dynamic parameters.
+     Contains methods for user defined parameter validation callbacks and
+     notifies the user if the parameters changed.
+   * Port rosparam_shortcuts to ROS 2 (#15 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/15>)
+   * bump cmake version (#13 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/13>)
+     get rid of CMP0048 warning.
+     https://github.com/ros-planning/geometric_shapes/pull/129
+   * Contributors: Boston Cleek, Jafar Abdi, Michael Görner, Nathan Brooks
+Checksums-Sha1:
+ e927671efd3ac8a7bbbc255286be434d0543ee0f 1754712 ros-rolling-rosparam-shortcuts-dbgsym_0.5.0-2023.06.11.05.20_amd64.ddeb
+ b06bd79f25d7608d56082738e92c2e71bf5970c7 19010 ros-rolling-rosparam-shortcuts_0.5.0-2023.06.11.05.20_amd64.buildinfo
+ e4252472115caae46815fab7caa1a2924a55dc81 67192 ros-rolling-rosparam-shortcuts_0.5.0-2023.06.11.05.20_amd64.deb
+Checksums-Sha256:
+ e50185b20712ec894fb2c79e0f742fb83155de01613f3554946895b4687c4806 1754712 ros-rolling-rosparam-shortcuts-dbgsym_0.5.0-2023.06.11.05.20_amd64.ddeb
+ a4c632e5dcb2c3ff0c37bebb1ab99d2801e12d283c5b3663b4ec8fe724378584 19010 ros-rolling-rosparam-shortcuts_0.5.0-2023.06.11.05.20_amd64.buildinfo
+ aa43c5d364e16ddb96dc6ccd31a8200daa9ba0bd0fb6fb3037733b0876fba2cb 67192 ros-rolling-rosparam-shortcuts_0.5.0-2023.06.11.05.20_amd64.deb
+Files:
+ 2c987007b5677c0f75e8d76ff396c062 1754712 debug optional ros-rolling-rosparam-shortcuts-dbgsym_0.5.0-2023.06.11.05.20_amd64.ddeb
+ 926c0cff382f57f06ef70fd44c45c8eb 19010 misc optional ros-rolling-rosparam-shortcuts_0.5.0-2023.06.11.05.20_amd64.buildinfo
+ bbb2bdbc3391eb6c862beb2941a285ff 67192 misc optional ros-rolling-rosparam-shortcuts_0.5.0-2023.06.11.05.20_amd64.deb
