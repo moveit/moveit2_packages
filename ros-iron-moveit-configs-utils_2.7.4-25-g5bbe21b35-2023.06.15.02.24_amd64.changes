@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-iron-moveit-configs-utils
+Binary: ros-iron-moveit-configs-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-25-g5bbe21b35-2023.06.15.02.24
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-iron-moveit-configs-utils - Python library for loading moveit config parameters in launch fil
+Changes:
+ ros-iron-moveit-configs-utils (2.7.4-25-g5bbe21b35-2023.06.15.02.24) jammy; urgency=high
+ .
+   * Parse xacro args from .setup_assistant config in MoveIt Configs Builder (#2172 <https://github.com/ros-planning/moveit2/issues/2172>)
+     Co-authored-by: Jafar <mailto:jafar.uruc@gmail.com>
+   * Update default planning configs to use AddTimeOptimalParameterization (#2167 <https://github.com/ros-planning/moveit2/issues/2167>)
+   * Contributors: Anthony Baker
+Checksums-Sha1:
+ 7391faf000ff590c3ce3eb2350a936c0831e3738 9967 ros-iron-moveit-configs-utils_2.7.4-25-g5bbe21b35-2023.06.15.02.24_amd64.buildinfo
+ 38649ab4718674f443fea01202d21f57608ddd25 23582 ros-iron-moveit-configs-utils_2.7.4-25-g5bbe21b35-2023.06.15.02.24_amd64.deb
+Checksums-Sha256:
+ dbad3bbcac6d77288dda9ebd8a9820d9f46abca05ad0cfa1e97e66f6d563bfa2 9967 ros-iron-moveit-configs-utils_2.7.4-25-g5bbe21b35-2023.06.15.02.24_amd64.buildinfo
+ f24519c514076475d09035214860a08367fba9828e02a027bb2d8647a148c740 23582 ros-iron-moveit-configs-utils_2.7.4-25-g5bbe21b35-2023.06.15.02.24_amd64.deb
+Files:
+ 6dc8b8265c51fc1a9c4c919de1eacd6f 9967 misc optional ros-iron-moveit-configs-utils_2.7.4-25-g5bbe21b35-2023.06.15.02.24_amd64.buildinfo
+ cfa86cf7902d57c9db4fed79eb20a8d5 23582 misc optional ros-iron-moveit-configs-utils_2.7.4-25-g5bbe21b35-2023.06.15.02.24_amd64.deb

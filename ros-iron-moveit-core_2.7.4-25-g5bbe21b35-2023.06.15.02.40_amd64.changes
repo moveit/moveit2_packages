@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-iron-moveit-core
+Binary: ros-iron-moveit-core
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-25-g5bbe21b35-2023.06.15.02.40
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-iron-moveit-core - Core libraries used by MoveIt
+Changes:
+ ros-iron-moveit-core (2.7.4-25-g5bbe21b35-2023.06.15.02.40) jammy; urgency=high
+ .
+   * Add documentation and cleanups for PlanningRequestAdapter and PlanningRequestAdapterChain classes (#2142 <https://github.com/ros-planning/moveit2/issues/2142>)
+     * Cleanups
+     * Add documentation and more cleanups
+     * Revert size_t change
+   * Fix collision checking in VisibilityConstraint (#1986 <https://github.com/ros-planning/moveit2/issues/1986>)
+   * Alphabetize, smart pointer not needed (#2148 <https://github.com/ros-planning/moveit2/issues/2148>)
+     * Alphabetize, smart pointer not needed
+     * Readability
+   * Fix getting variable bounds in mimic joints for TOTG (#2030 <https://github.com/ros-planning/moveit2/issues/2030>)
+     * Fix getting variable bounds in mimic joints for TOTG
+     * Formatting
+     * Remove unnecessary code
+     * Do not include mimic joints in timing calculations
+     * Change joint variable bounds at mimic creation time
+     * Braces take you places
+     * Fix other single-line if-else without braces in file for clang_tidy
+     * Remove mimic bounds modification
+     * Variable renaming and a comment
+     * Fix index naming
+     ---------
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+     Co-authored-by: Jafar <mailto:cafer.abdi@gmail.com>
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+   * Contributors: AndyZe, Joseph Schornak, Sebastian Castro, Sebastian Jahr
+Checksums-Sha1:
+ 602e749494c17787f5d25564435cd18418374962 68806602 ros-iron-moveit-core-dbgsym_2.7.4-25-g5bbe21b35-2023.06.15.02.40_amd64.ddeb
+ ec95297b0eebe99214d5e2ac852dd7902f80bf25 32565 ros-iron-moveit-core_2.7.4-25-g5bbe21b35-2023.06.15.02.40_amd64.buildinfo
+ a7d7a846bc45734d8b544ed9a76c806e674f2244 1207218 ros-iron-moveit-core_2.7.4-25-g5bbe21b35-2023.06.15.02.40_amd64.deb
+Checksums-Sha256:
+ cc9efe9fed3fa48bdc162d38def8305943a6882f8c2dbffd746893cfcc2aa2ce 68806602 ros-iron-moveit-core-dbgsym_2.7.4-25-g5bbe21b35-2023.06.15.02.40_amd64.ddeb
+ 5847018050e2f044440ff28a35f3f5daf4ae54b2729c038b902991241c8855ea 32565 ros-iron-moveit-core_2.7.4-25-g5bbe21b35-2023.06.15.02.40_amd64.buildinfo
+ 22836c76c00558a3ec305dbd61d55350eed881b06c6d6f163aaedad380b92cd1 1207218 ros-iron-moveit-core_2.7.4-25-g5bbe21b35-2023.06.15.02.40_amd64.deb
+Files:
+ b914629dd47cba1eb7f27a3331341605 68806602 debug optional ros-iron-moveit-core-dbgsym_2.7.4-25-g5bbe21b35-2023.06.15.02.40_amd64.ddeb
+ 7de4614f46253bd535436c0c802432ee 32565 misc optional ros-iron-moveit-core_2.7.4-25-g5bbe21b35-2023.06.15.02.40_amd64.buildinfo
+ 0105d440e2b939763eb6d1c1782e26d5 1207218 misc optional ros-iron-moveit-core_2.7.4-25-g5bbe21b35-2023.06.15.02.40_amd64.deb
