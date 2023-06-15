@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 05 Jan 2023 00:00:00 -0000
+Source: ros-rolling-rviz-visual-tools
+Binary: ros-rolling-rviz-visual-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.1.4-1-gb8de762-2023.06.15.06.11
+Distribution: jammy
+Urgency: high
+Maintainer: Mike Lautman <mike@picknik.ai>
+Changed-By: Mike Lautman <mike@picknik.ai>
+Description:
+ ros-rolling-rviz-visual-tools - Utility functions for displaying and debugging data in Rviz via p
+Changes:
+ ros-rolling-rviz-visual-tools (4.1.4-1-gb8de762-2023.06.15.06.11) jammy; urgency=high
+ .
+   * Migrate to Ogre.h (#226 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/226>)
+   * Remove galactic jobs since they are deprecated (#232 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/232>)
+   * Add arbitrary color option to publishCuboid (#227 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/227>)
+   * Bump clang-format version to 14 (#228 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/228>)
+   * Contributors: Sebastian Castro, Stephanie Eng, Vatan Aksoy Tezer
+Checksums-Sha1:
+ f41e41e42187b56add18adc9ab454df3e0d4dac8 10621246 ros-rolling-rviz-visual-tools-dbgsym_4.1.4-1-gb8de762-2023.06.15.06.11_amd64.ddeb
+ 9c43ac926e8995b01e695b30329eeb8e3125de58 25813 ros-rolling-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.15.06.11_amd64.buildinfo
+ d804b3ebcd3548d1b42b14a0c9555d094829f619 280642 ros-rolling-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.15.06.11_amd64.deb
+Checksums-Sha256:
+ daed01ab162a50426a1630324666eb0747926d8de31ec70def4af4cb4aa4c0c3 10621246 ros-rolling-rviz-visual-tools-dbgsym_4.1.4-1-gb8de762-2023.06.15.06.11_amd64.ddeb
+ 6026fb51be6a3be12a090bf35668a7ea549370230fefadd0c790359c1fb63df7 25813 ros-rolling-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.15.06.11_amd64.buildinfo
+ de8cb40ebf8150a3548b7ec6c503f4d344e3debde64ef303f0ebc41141532f95 280642 ros-rolling-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.15.06.11_amd64.deb
+Files:
+ 35f2ba7dbbc2d275dfae02aa496b462a 10621246 debug optional ros-rolling-rviz-visual-tools-dbgsym_4.1.4-1-gb8de762-2023.06.15.06.11_amd64.ddeb
+ d4c2b504ed4da9499f2568fbac4008f1 25813 misc optional ros-rolling-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.15.06.11_amd64.buildinfo
+ e0b4d95a62e0393eb0add2ea971f0163 280642 misc optional ros-rolling-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.15.06.11_amd64.deb

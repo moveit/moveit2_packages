@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 12 May 2023 00:00:00 -0000
+Source: ros-rolling-moveit-msgs
+Binary: ros-rolling-moveit-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.2-2023.06.15.02.26
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-rolling-moveit-msgs - Messages, services and actions used by MoveIt
+Changes:
+ ros-rolling-moveit-msgs (2.2.2-2023.06.15.02.26) jammy; urgency=high
+ .
+   * Remove disclaimer from CollisionObject pose (#126 <https://github.com/ros-planning/moveit_msgs/issues/126>)
+   * Add fields in GetCartesianPath srv to scale velocity and acceleration (#154 <https://github.com/ros-planning/moveit_msgs/issues/154>)
+   * Fix clang-format-14 version in Format CI job (#151 <https://github.com/ros-planning/moveit_msgs/issues/151>)
+   * Switch to clang-format-14 (#150 <https://github.com/ros-planning/moveit_msgs/issues/150>)
+   * move_group: Delete unused ExecuteKnownTrajectory.srv (#149 <https://github.com/ros-planning/moveit_msgs/issues/149>)
+   * Contributors: AndyZe, Felix von Drigalski, Henning Kayser, Yadu
+Checksums-Sha1:
+ c08ea11b5b97eddd8b2f482fb18cfd9d937bfa93 23719944 ros-rolling-moveit-msgs-dbgsym_2.2.2-2023.06.15.02.26_amd64.ddeb
+ b3b542bdeb7e63b9e2cc0e78a474035855ab0f50 13894 ros-rolling-moveit-msgs_2.2.2-2023.06.15.02.26_amd64.buildinfo
+ 660fdc7edcd8f2a57d19fd95c46c0a97f26c7736 1991038 ros-rolling-moveit-msgs_2.2.2-2023.06.15.02.26_amd64.deb
+Checksums-Sha256:
+ f65ad4768825c613b118ffe0cb71bb37e1885c8f5178b6945a1a1cd55f0f15d8 23719944 ros-rolling-moveit-msgs-dbgsym_2.2.2-2023.06.15.02.26_amd64.ddeb
+ c6e231c0e504b8439f1158a832c1f25c7347be4aa8efc32a09fd34439de1065a 13894 ros-rolling-moveit-msgs_2.2.2-2023.06.15.02.26_amd64.buildinfo
+ 0bea3f850be5cc469794ab74040f40d0fd363e512cbb2f925d7e11ee98facc48 1991038 ros-rolling-moveit-msgs_2.2.2-2023.06.15.02.26_amd64.deb
+Files:
+ 89dd19e45cf8d7409ced374522137fc1 23719944 debug optional ros-rolling-moveit-msgs-dbgsym_2.2.2-2023.06.15.02.26_amd64.ddeb
+ aadd6938d4f98de5f60ffb499a184349 13894 misc optional ros-rolling-moveit-msgs_2.2.2-2023.06.15.02.26_amd64.buildinfo
+ b4e3466fdb46f9ef904b02432c837d09 1991038 misc optional ros-rolling-moveit-msgs_2.2.2-2023.06.15.02.26_amd64.deb
