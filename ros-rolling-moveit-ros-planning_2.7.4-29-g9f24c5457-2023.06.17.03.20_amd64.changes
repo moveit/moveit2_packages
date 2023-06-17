@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-rolling-moveit-ros-planning
+Binary: ros-rolling-moveit-ros-planning
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-29-g9f24c5457-2023.06.17.03.20
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-planning - Planning components of MoveIt that use ROS
+Changes:
+ ros-rolling-moveit-ros-planning (2.7.4-29-g9f24c5457-2023.06.17.03.20) jammy; urgency=high
+ .
+   * Update default planning configs to use AddTimeOptimalParameterization (#2167 <https://github.com/ros-planning/moveit2/issues/2167>)
+   * Deprecate MoveItCpp::execute() use of blocking flag (#1984 <https://github.com/ros-planning/moveit2/issues/1984>)
+   * Contributors: Anthony Baker, Lucas Wendland
+Checksums-Sha1:
+ 6408e41be67e79b84ce084087b78ce9e4b7da08f 64226366 ros-rolling-moveit-ros-planning-dbgsym_2.7.4-29-g9f24c5457-2023.06.17.03.20_amd64.ddeb
+ cb0624d4f34c80bd02431ad69730da269a78d67f 33976 ros-rolling-moveit-ros-planning_2.7.4-29-g9f24c5457-2023.06.17.03.20_amd64.buildinfo
+ 5cff9bcdae1a757667df4ee7b16300cd628151cb 1090810 ros-rolling-moveit-ros-planning_2.7.4-29-g9f24c5457-2023.06.17.03.20_amd64.deb
+Checksums-Sha256:
+ 0250aa26f90da84fa25624bcce9fd657e8f4dff13ecde4e229689829d252cc0a 64226366 ros-rolling-moveit-ros-planning-dbgsym_2.7.4-29-g9f24c5457-2023.06.17.03.20_amd64.ddeb
+ a59a1f395f8889c994b299839702476061251fea87bdd6016a901c19ecef1e79 33976 ros-rolling-moveit-ros-planning_2.7.4-29-g9f24c5457-2023.06.17.03.20_amd64.buildinfo
+ 75dc346c1887bee7e880702d7310452c5d277dbf4b525bb8dd12f39816adacac 1090810 ros-rolling-moveit-ros-planning_2.7.4-29-g9f24c5457-2023.06.17.03.20_amd64.deb
+Files:
+ 50073f198bf8bd68d88dd4ea6a8863d8 64226366 debug optional ros-rolling-moveit-ros-planning-dbgsym_2.7.4-29-g9f24c5457-2023.06.17.03.20_amd64.ddeb
+ e50df365814ccf808fd2f8bd1d2cf763 33976 misc optional ros-rolling-moveit-ros-planning_2.7.4-29-g9f24c5457-2023.06.17.03.20_amd64.buildinfo
+ c09b8c04462bea56cbd8e40a9193de62 1090810 misc optional ros-rolling-moveit-ros-planning_2.7.4-29-g9f24c5457-2023.06.17.03.20_amd64.deb
