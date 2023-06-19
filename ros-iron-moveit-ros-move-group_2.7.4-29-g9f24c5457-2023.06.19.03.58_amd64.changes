@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-iron-moveit-ros-move-group
+Binary: ros-iron-moveit-ros-move-group
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-29-g9f24c5457-2023.06.19.03.58
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-iron-moveit-ros-move-group - The move_group node for MoveIt
+Changes:
+ ros-iron-moveit-ros-move-group (2.7.4-29-g9f24c5457-2023.06.19.03.58) jammy; urgency=high
+ .
+   * Fix MoveGroup action cancel callback (#2118 <https://github.com/ros-planning/moveit2/issues/2118>)
+     Moves the execution callback into its own thread to avoid blocking and actually calls the preempt function in with the cancel callback.
+   * Scale acceleration and velocity of cartesian interpolations (#1968 <https://github.com/ros-planning/moveit2/issues/1968>)
+   * Contributors: Jonathan Grebe, Yadu
+Checksums-Sha1:
+ 7a1f43e655800b2a10aa315aaf2f30e71e2e8436 23985140 ros-iron-moveit-ros-move-group-dbgsym_2.7.4-29-g9f24c5457-2023.06.19.03.58_amd64.ddeb
+ 46778c6ad438ded5cc676d7ce836b203da7da25c 28852 ros-iron-moveit-ros-move-group_2.7.4-29-g9f24c5457-2023.06.19.03.58_amd64.buildinfo
+ d3d0e6c91be87b05c5aaa0d020660b2bc11f56e5 348270 ros-iron-moveit-ros-move-group_2.7.4-29-g9f24c5457-2023.06.19.03.58_amd64.deb
+Checksums-Sha256:
+ 3ef458ac593bb010fe399b4d192a640d73a1471a6f383197393fff595cd0b8e6 23985140 ros-iron-moveit-ros-move-group-dbgsym_2.7.4-29-g9f24c5457-2023.06.19.03.58_amd64.ddeb
+ 58a4fc6c3295ec6eca7a6538fd486f7e7ce248b3c881d311f47030ccd748018d 28852 ros-iron-moveit-ros-move-group_2.7.4-29-g9f24c5457-2023.06.19.03.58_amd64.buildinfo
+ a9ae701fca35f1c2090d910fe2445b8510b28301e55c0a3ca488861555ca1fd4 348270 ros-iron-moveit-ros-move-group_2.7.4-29-g9f24c5457-2023.06.19.03.58_amd64.deb
+Files:
+ 5fe2afb21eddb7c8387ce84b7e39ac9f 23985140 debug optional ros-iron-moveit-ros-move-group-dbgsym_2.7.4-29-g9f24c5457-2023.06.19.03.58_amd64.ddeb
+ b493022fe52854c5238c67dfb08818c7 28852 misc optional ros-iron-moveit-ros-move-group_2.7.4-29-g9f24c5457-2023.06.19.03.58_amd64.buildinfo
+ 5eaa490f9f70dca319150c8d1c46702a 348270 misc optional ros-iron-moveit-ros-move-group_2.7.4-29-g9f24c5457-2023.06.19.03.58_amd64.deb
