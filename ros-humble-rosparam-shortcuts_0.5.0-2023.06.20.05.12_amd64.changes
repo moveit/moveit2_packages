@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Wed, 16 Feb 2022 00:00:00 -0000
+Source: ros-humble-rosparam-shortcuts
+Binary: ros-humble-rosparam-shortcuts
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.5.0-2023.06.20.05.12
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Changed-By: Dave Coleman <davetcoleman@gmail.com>
+Description:
+ ros-humble-rosparam-shortcuts - Quickly load variables from rosparam with good command line error
+Changes:
+ ros-humble-rosparam-shortcuts (0.5.0-2023.06.20.05.12) jammy; urgency=high
+ .
+   * Fix warnings (#25 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/25>)
+   * Galactic and rolling fixes (#23 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/23>)
+   * Dynamic parameters (#16 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/16>)
+     Allows a node to contain an object capable of handling dynamic parameters.
+     Contains methods for user defined parameter validation callbacks and
+     notifies the user if the parameters changed.
+   * Port rosparam_shortcuts to ROS 2 (#15 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/15>)
+   * bump cmake version (#13 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/13>)
+     get rid of CMP0048 warning.
+     https://github.com/ros-planning/geometric_shapes/pull/129
+   * Contributors: Boston Cleek, Jafar Abdi, Michael Görner, Nathan Brooks
+Checksums-Sha1:
+ eaeef9d087ac23085be0af1316f4f50c882aed4f 1735794 ros-humble-rosparam-shortcuts-dbgsym_0.5.0-2023.06.20.05.12_amd64.ddeb
+ c8430fa5331405cb0aaadd1fad038682e6d1414e 18003 ros-humble-rosparam-shortcuts_0.5.0-2023.06.20.05.12_amd64.buildinfo
+ f1523b63862449cf7af0e3ca9e00b781f8210e2e 66130 ros-humble-rosparam-shortcuts_0.5.0-2023.06.20.05.12_amd64.deb
+Checksums-Sha256:
+ ac44d1b28cd05edad690c9075162614c65466156aedbc9f4800ecb751bcd5130 1735794 ros-humble-rosparam-shortcuts-dbgsym_0.5.0-2023.06.20.05.12_amd64.ddeb
+ c7c541d968fbb70d4c5507f04ea4bd7f160da6a4174ead3af8d5d3e5e4899afe 18003 ros-humble-rosparam-shortcuts_0.5.0-2023.06.20.05.12_amd64.buildinfo
+ f6b2d7c8d4d25adab943b141782586673b8625adab3debe055a03b33d046c907 66130 ros-humble-rosparam-shortcuts_0.5.0-2023.06.20.05.12_amd64.deb
+Files:
+ 09f76cd9aa4e4aaaf896e128954f8d27 1735794 debug optional ros-humble-rosparam-shortcuts-dbgsym_0.5.0-2023.06.20.05.12_amd64.ddeb
+ 7574aed9fd6350c8749636fbe4d0c8ff 18003 misc optional ros-humble-rosparam-shortcuts_0.5.0-2023.06.20.05.12_amd64.buildinfo
+ 401f028b920d250d70442853423fb876 66130 misc optional ros-humble-rosparam-shortcuts_0.5.0-2023.06.20.05.12_amd64.deb
