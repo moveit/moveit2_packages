@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-rolling-moveit-core
+Binary: ros-rolling-moveit-core
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-31-g636b98849-2023.06.24.03.04
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-core - Core libraries used by MoveIt
+Changes:
+ ros-rolling-moveit-core (2.7.4-31-g636b98849-2023.06.24.03.04) jammy; urgency=high
+ .
+   * Add documentation and cleanups for PlanningRequestAdapter and PlanningRequestAdapterChain classes (#2142 <https://github.com/ros-planning/moveit2/issues/2142>)
+     * Cleanups
+     * Add documentation and more cleanups
+     * Revert size_t change
+   * Fix collision checking in VisibilityConstraint (#1986 <https://github.com/ros-planning/moveit2/issues/1986>)
+   * Alphabetize, smart pointer not needed (#2148 <https://github.com/ros-planning/moveit2/issues/2148>)
+     * Alphabetize, smart pointer not needed
+     * Readability
+   * Fix getting variable bounds in mimic joints for TOTG (#2030 <https://github.com/ros-planning/moveit2/issues/2030>)
+     * Fix getting variable bounds in mimic joints for TOTG
+     * Formatting
+     * Remove unnecessary code
+     * Do not include mimic joints in timing calculations
+     * Change joint variable bounds at mimic creation time
+     * Braces take you places
+     * Fix other single-line if-else without braces in file for clang_tidy
+     * Remove mimic bounds modification
+     * Variable renaming and a comment
+     * Fix index naming
+     ---------
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+     Co-authored-by: Jafar <mailto:cafer.abdi@gmail.com>
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+   * Contributors: AndyZe, Joseph Schornak, Sebastian Castro, Sebastian Jahr
+Checksums-Sha1:
+ 75d7f977a780b2a7a24c3106b90876c8810d8ac9 68802728 ros-rolling-moveit-core-dbgsym_2.7.4-31-g636b98849-2023.06.24.03.04_amd64.ddeb
+ 4cf127ad194ea1cd7cc68cf76e76396f1d9550b7 33130 ros-rolling-moveit-core_2.7.4-31-g636b98849-2023.06.24.03.04_amd64.buildinfo
+ ca64ebc33da440f71c9763155851e56e77cf4638 1207722 ros-rolling-moveit-core_2.7.4-31-g636b98849-2023.06.24.03.04_amd64.deb
+Checksums-Sha256:
+ 99321c71866e2b3226b09dd5bdc8a3b1f673507f9758b0fee6264b531ac61b2d 68802728 ros-rolling-moveit-core-dbgsym_2.7.4-31-g636b98849-2023.06.24.03.04_amd64.ddeb
+ 400db816b46b6cc53d3f78b65092e67685a6ca5c6269c60682bd7c8cea9bca40 33130 ros-rolling-moveit-core_2.7.4-31-g636b98849-2023.06.24.03.04_amd64.buildinfo
+ f5eff5480034f4111d3dacea78cdef521899ac0758c9e6bab46a4f0bb698c409 1207722 ros-rolling-moveit-core_2.7.4-31-g636b98849-2023.06.24.03.04_amd64.deb
+Files:
+ da174390129d6bd768d53713111926b4 68802728 debug optional ros-rolling-moveit-core-dbgsym_2.7.4-31-g636b98849-2023.06.24.03.04_amd64.ddeb
+ 1919522a1237f25a291409683b050aab 33130 misc optional ros-rolling-moveit-core_2.7.4-31-g636b98849-2023.06.24.03.04_amd64.buildinfo
+ 46d388ec4aaeabfe11c459d34934bf2e 1207722 misc optional ros-rolling-moveit-core_2.7.4-31-g636b98849-2023.06.24.03.04_amd64.deb
