@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 05 Jan 2023 00:00:00 -0000
+Source: ros-humble-rviz-visual-tools
+Binary: ros-humble-rviz-visual-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.1.4-1-gb8de762-2023.06.25.06.38
+Distribution: jammy
+Urgency: high
+Maintainer: Mike Lautman <mike@picknik.ai>
+Changed-By: Mike Lautman <mike@picknik.ai>
+Description:
+ ros-humble-rviz-visual-tools - Utility functions for displaying and debugging data in Rviz via p
+Changes:
+ ros-humble-rviz-visual-tools (4.1.4-1-gb8de762-2023.06.25.06.38) jammy; urgency=high
+ .
+   * Migrate to Ogre.h (#226 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/226>)
+   * Remove galactic jobs since they are deprecated (#232 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/232>)
+   * Add arbitrary color option to publishCuboid (#227 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/227>)
+   * Bump clang-format version to 14 (#228 <https://github.com/PickNikRobotics/rviz_visual_tools/issues/228>)
+   * Contributors: Sebastian Castro, Stephanie Eng, Vatan Aksoy Tezer
+Checksums-Sha1:
+ 9e95b4065351079c58c31a23495e84b283a42ccd 11632176 ros-humble-rviz-visual-tools-dbgsym_4.1.4-1-gb8de762-2023.06.25.06.38_amd64.ddeb
+ ebaeb24d2fc0e24cb78cf8280d7008ad64c0d9d0 24809 ros-humble-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.25.06.38_amd64.buildinfo
+ 7de9b8333639637193fd3c87c78593192a7b55f3 302324 ros-humble-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.25.06.38_amd64.deb
+Checksums-Sha256:
+ 7c91b0309886ebded57281070092728fe43f52e289e10aa0248fb85bcfa05fae 11632176 ros-humble-rviz-visual-tools-dbgsym_4.1.4-1-gb8de762-2023.06.25.06.38_amd64.ddeb
+ 5ca28ca3498ebf9a2e611c2fb8e18f6770bb996b0bf580c58b98e78c0c39e84d 24809 ros-humble-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.25.06.38_amd64.buildinfo
+ 8af97f57b3df2feb7a1e329cd9737995077fb522b26aec25fecbf4883e66f414 302324 ros-humble-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.25.06.38_amd64.deb
+Files:
+ 6bc7af227ef151c0ba859a8edc7b303b 11632176 debug optional ros-humble-rviz-visual-tools-dbgsym_4.1.4-1-gb8de762-2023.06.25.06.38_amd64.ddeb
+ 51cb5149b63057239a5b19b542b52575 24809 misc optional ros-humble-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.25.06.38_amd64.buildinfo
+ 1487e15fd91372b8f0a951a22a45ad9d 302324 misc optional ros-humble-rviz-visual-tools_4.1.4-1-gb8de762-2023.06.25.06.38_amd64.deb
