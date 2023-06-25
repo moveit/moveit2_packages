@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-iron-moveit-py
+Binary: ros-iron-moveit-py
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-31-g636b98849-2023.06.25.04.35
+Distribution: jammy
+Urgency: high
+Maintainer: Peter David Fagan <peterdavidfagan@gmail.com>
+Changed-By: Peter David Fagan <peterdavidfagan@gmail.com>
+Description:
+ ros-iron-moveit-py - Python binding for MoveIt 2
+Changes:
+ ros-iron-moveit-py (2.7.4-31-g636b98849-2023.06.25.04.35) jammy; urgency=high
+ .
+   * Rename named_target_state_values to get_named_target_state_values (#2181 <https://github.com/ros-planning/moveit2/issues/2181>)
+   * Deprecate MoveItCpp::execute() use of blocking flag (#1984 <https://github.com/ros-planning/moveit2/issues/1984>)
+   * Add Python binding for link_model_names and get_only_one_end_effector_tip + update stubs (#1985 <https://github.com/ros-planning/moveit2/issues/1985>)
+   * Contributors: Jafar, Lucas Wendland
+Checksums-Sha1:
+ edacdb87f0e1b2982eb1815e5d54c39a9850b761 876384 ros-iron-moveit-py-dbgsym_2.7.4-31-g636b98849-2023.06.25.04.35_amd64.ddeb
+ 89e0b9ca1f0931926059b932d7e09f3614b538d0 27114 ros-iron-moveit-py_2.7.4-31-g636b98849-2023.06.25.04.35_amd64.buildinfo
+ 0ff771af3b7d3fd9fc62e0f3b883385b8ec8923f 302882 ros-iron-moveit-py_2.7.4-31-g636b98849-2023.06.25.04.35_amd64.deb
+Checksums-Sha256:
+ 0478848a9b6b275dc737059072de98d87065c19eb3ad92531e371b63f0692b9c 876384 ros-iron-moveit-py-dbgsym_2.7.4-31-g636b98849-2023.06.25.04.35_amd64.ddeb
+ 2363558c3482e6303d1025cc732c2eb40467c12db8156ba1f6eff9e95d8feb1b 27114 ros-iron-moveit-py_2.7.4-31-g636b98849-2023.06.25.04.35_amd64.buildinfo
+ 2a8064a980328cd424b87e6692eab6fae1635a5ab2b195a205169a5c4ddc0bc2 302882 ros-iron-moveit-py_2.7.4-31-g636b98849-2023.06.25.04.35_amd64.deb
+Files:
+ cc38dbaef7fccaa1841b44de5ae6e88f 876384 debug optional ros-iron-moveit-py-dbgsym_2.7.4-31-g636b98849-2023.06.25.04.35_amd64.ddeb
+ 6dd6c2369da0c78fc1a20ffd250752a1 27114 misc optional ros-iron-moveit-py_2.7.4-31-g636b98849-2023.06.25.04.35_amd64.buildinfo
+ 0648367591bf0dc20b044e576a6411f2 302882 misc optional ros-iron-moveit-py_2.7.4-31-g636b98849-2023.06.25.04.35_amd64.deb
