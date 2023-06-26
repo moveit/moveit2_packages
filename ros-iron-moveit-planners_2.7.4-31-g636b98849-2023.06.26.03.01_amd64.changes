@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-iron-moveit-planners
+Binary: ros-iron-moveit-planners
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-31-g636b98849-2023.06.26.03.01
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-iron-moveit-planners - Meta package that installs all available planners for MoveIt
+Changes:
+ ros-iron-moveit-planners (2.7.4-31-g636b98849-2023.06.26.03.01) jammy; urgency=high
+ .
+   * Migrate STOMP from ros-planning/stomp_moveit (#2158 <https://github.com/ros-planning/moveit2/issues/2158>)
+   * Migrate stomp_moveit into moveit_planners
+     * Move package into moveit_planners subdirectory
+     * Rename stomp_moveit package to moveit_planners_stomp
+     * List moveit_planners_stomp as package dependency
+   * Contributors: Henning Kayser
+Checksums-Sha1:
+ 6d62f3e23c7c4b4dd92850e570f0482225edd99d 10876 ros-iron-moveit-planners_2.7.4-31-g636b98849-2023.06.26.03.01_amd64.buildinfo
+ 87bdca82d26bedc45fc4738914124b53df92452d 6334 ros-iron-moveit-planners_2.7.4-31-g636b98849-2023.06.26.03.01_amd64.deb
+Checksums-Sha256:
+ bb5a982c62885293c0c9a736e4e0e77991658d01ab2f2079ef3082db3290f5e7 10876 ros-iron-moveit-planners_2.7.4-31-g636b98849-2023.06.26.03.01_amd64.buildinfo
+ d8f365dec7548ca0ff1314d5a1c9ab2d901065d4d8de2c1d438245553a52af47 6334 ros-iron-moveit-planners_2.7.4-31-g636b98849-2023.06.26.03.01_amd64.deb
+Files:
+ c1783227b51251f0f0a1725d46b4c05e 10876 misc optional ros-iron-moveit-planners_2.7.4-31-g636b98849-2023.06.26.03.01_amd64.buildinfo
+ d41b9d74e83d208a5c67813054b13022 6334 misc optional ros-iron-moveit-planners_2.7.4-31-g636b98849-2023.06.26.03.01_amd64.deb
