@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-iron-moveit-planners-stomp
+Binary: ros-iron-moveit-planners-stomp
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-33-gc9a9e407b-2023.06.27.03.21
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-iron-moveit-planners-stomp - STOMP Motion Planner for MoveIt
+Changes:
+ ros-iron-moveit-planners-stomp (2.7.4-33-gc9a9e407b-2023.06.27.03.21) jammy; urgency=high
+ .
+   * Migrate STOMP from ros-planning/stomp_moveit (#2158 <https://github.com/ros-planning/moveit2/issues/2158>)
+   * Fix clang-tidy warnings
+   * Improve Documentation and Readability
+   * Remove MVT example
+   * Migrate stomp_moveit into moveit_planners
+     * Move package into moveit_planners subdirectory
+     * Rename stomp_moveit package to moveit_planners_stomp
+     * List moveit_planners_stomp as package dependency
+   * Contributors: Henning Kayser
+Checksums-Sha1:
+ dccbb063cbaa961043742f8ebc54d091ab02fd83 6201134 ros-iron-moveit-planners-stomp-dbgsym_2.7.4-33-gc9a9e407b-2023.06.27.03.21_amd64.ddeb
+ 2c46502448d16330b604d0287f1cf25285c0752e 28390 ros-iron-moveit-planners-stomp_2.7.4-33-gc9a9e407b-2023.06.27.03.21_amd64.buildinfo
+ b907ecbbe846f2dfe8b14c5eb1d118c813b0fbc0 139114 ros-iron-moveit-planners-stomp_2.7.4-33-gc9a9e407b-2023.06.27.03.21_amd64.deb
+Checksums-Sha256:
+ ba53dafe857e44496933e3e1bb3ac73a9e2d369db96d2d386dec21a81c069028 6201134 ros-iron-moveit-planners-stomp-dbgsym_2.7.4-33-gc9a9e407b-2023.06.27.03.21_amd64.ddeb
+ 6b2462ddceacfed81de2207adde7e654f6b3e1eabbb8202efa9923f7aabbf84c 28390 ros-iron-moveit-planners-stomp_2.7.4-33-gc9a9e407b-2023.06.27.03.21_amd64.buildinfo
+ b6aa63d750b7d42d6f9d09ca9ce9f5ff106da90d53e284bc2814d871326d1d8f 139114 ros-iron-moveit-planners-stomp_2.7.4-33-gc9a9e407b-2023.06.27.03.21_amd64.deb
+Files:
+ f38fa7ae1087c3f375d8ba211a7b885d 6201134 debug optional ros-iron-moveit-planners-stomp-dbgsym_2.7.4-33-gc9a9e407b-2023.06.27.03.21_amd64.ddeb
+ cd1f0f7ca3de1daa420d2797f15d8308 28390 misc optional ros-iron-moveit-planners-stomp_2.7.4-33-gc9a9e407b-2023.06.27.03.21_amd64.buildinfo
+ c13a98b59bacd14943401452ff58a883 139114 misc optional ros-iron-moveit-planners-stomp_2.7.4-33-gc9a9e407b-2023.06.27.03.21_amd64.deb
