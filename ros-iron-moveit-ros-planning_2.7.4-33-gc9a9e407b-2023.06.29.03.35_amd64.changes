@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-iron-moveit-ros-planning
+Binary: ros-iron-moveit-ros-planning
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-33-gc9a9e407b-2023.06.29.03.35
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-iron-moveit-ros-planning - Planning components of MoveIt that use ROS
+Changes:
+ ros-iron-moveit-ros-planning (2.7.4-33-gc9a9e407b-2023.06.29.03.35) jammy; urgency=high
+ .
+   * Update default planning configs to use AddTimeOptimalParameterization (#2167 <https://github.com/ros-planning/moveit2/issues/2167>)
+   * Deprecate MoveItCpp::execute() use of blocking flag (#1984 <https://github.com/ros-planning/moveit2/issues/1984>)
+   * Contributors: Anthony Baker, Lucas Wendland
+Checksums-Sha1:
+ 4663553b0acae8b283af7cea94bcceea00bf8381 64216756 ros-iron-moveit-ros-planning-dbgsym_2.7.4-33-gc9a9e407b-2023.06.29.03.35_amd64.ddeb
+ 179b83421002d5e79d7e2fa9626c272179f7654b 33402 ros-iron-moveit-ros-planning_2.7.4-33-gc9a9e407b-2023.06.29.03.35_amd64.buildinfo
+ 39763b4e3d38359fd979b22161c0d4068a5c7790 1090262 ros-iron-moveit-ros-planning_2.7.4-33-gc9a9e407b-2023.06.29.03.35_amd64.deb
+Checksums-Sha256:
+ 81d47e2c1cda672a0188e8076084abd3c2d0051748d680d37f2989585e2bcbc6 64216756 ros-iron-moveit-ros-planning-dbgsym_2.7.4-33-gc9a9e407b-2023.06.29.03.35_amd64.ddeb
+ f27c3b81407594893779a11f59a670618a9672a506c873e67862350e038c4262 33402 ros-iron-moveit-ros-planning_2.7.4-33-gc9a9e407b-2023.06.29.03.35_amd64.buildinfo
+ f7740df2b0126f27fe075b40578e004678e146ae239dc26db6d8a1e0237f391e 1090262 ros-iron-moveit-ros-planning_2.7.4-33-gc9a9e407b-2023.06.29.03.35_amd64.deb
+Files:
+ 7e7064ae0f89dd0dbf387b66815a2531 64216756 debug optional ros-iron-moveit-ros-planning-dbgsym_2.7.4-33-gc9a9e407b-2023.06.29.03.35_amd64.ddeb
+ 82431af6a79d51ad08bff57e942f807c 33402 misc optional ros-iron-moveit-ros-planning_2.7.4-33-gc9a9e407b-2023.06.29.03.35_amd64.buildinfo
+ 884e0291dd58938d396d9deac202ab69 1090262 misc optional ros-iron-moveit-ros-planning_2.7.4-33-gc9a9e407b-2023.06.29.03.35_amd64.deb
