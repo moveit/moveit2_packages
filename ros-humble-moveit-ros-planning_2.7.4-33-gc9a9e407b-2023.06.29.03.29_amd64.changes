@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-humble-moveit-ros-planning
+Binary: ros-humble-moveit-ros-planning
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-33-gc9a9e407b-2023.06.29.03.29
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-planning - Planning components of MoveIt that use ROS
+Changes:
+ ros-humble-moveit-ros-planning (2.7.4-33-gc9a9e407b-2023.06.29.03.29) jammy; urgency=high
+ .
+   * Update default planning configs to use AddTimeOptimalParameterization (#2167 <https://github.com/ros-planning/moveit2/issues/2167>)
+   * Deprecate MoveItCpp::execute() use of blocking flag (#1984 <https://github.com/ros-planning/moveit2/issues/1984>)
+   * Contributors: Anthony Baker, Lucas Wendland
+Checksums-Sha1:
+ cae20244f4614ed00e0fe400f7c6f82aad35eb33 65970850 ros-humble-moveit-ros-planning-dbgsym_2.7.4-33-gc9a9e407b-2023.06.29.03.29_amd64.ddeb
+ d74b79ace2aa74fe0e9ad46d9f8eeb27aa42c08d 32933 ros-humble-moveit-ros-planning_2.7.4-33-gc9a9e407b-2023.06.29.03.29_amd64.buildinfo
+ 5fb59a52003231e393eb77c1dbcdd21c16066bc4 1128046 ros-humble-moveit-ros-planning_2.7.4-33-gc9a9e407b-2023.06.29.03.29_amd64.deb
+Checksums-Sha256:
+ 09ccdb1b4322a6724fc16c5408731a872c951d9acc97dc0e2074982ffc2505c4 65970850 ros-humble-moveit-ros-planning-dbgsym_2.7.4-33-gc9a9e407b-2023.06.29.03.29_amd64.ddeb
+ b933c538e195c9f3cbe066986b81167f2cc2f32cc5db0f8491206f00a4275fd2 32933 ros-humble-moveit-ros-planning_2.7.4-33-gc9a9e407b-2023.06.29.03.29_amd64.buildinfo
+ 215b96dd9ffa8b0ace11cf45408c1d8529f0078cff43d8a2e045db38530984d9 1128046 ros-humble-moveit-ros-planning_2.7.4-33-gc9a9e407b-2023.06.29.03.29_amd64.deb
+Files:
+ 8a749b7e2c04f84335698e1b58059864 65970850 debug optional ros-humble-moveit-ros-planning-dbgsym_2.7.4-33-gc9a9e407b-2023.06.29.03.29_amd64.ddeb
+ e2f37939ab3cb92c608879de7e98372d 32933 misc optional ros-humble-moveit-ros-planning_2.7.4-33-gc9a9e407b-2023.06.29.03.29_amd64.buildinfo
+ bb4081d4ee412cf9094704445cd42844 1128046 misc optional ros-humble-moveit-ros-planning_2.7.4-33-gc9a9e407b-2023.06.29.03.29_amd64.deb
