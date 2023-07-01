@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-iron-moveit-planners-ompl
+Binary: ros-iron-moveit-planners-ompl
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-33-gc9a9e407b-2023.07.01.04.04
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-iron-moveit-planners-ompl - MoveIt interface to OMPL
+Changes:
+ ros-iron-moveit-planners-ompl (2.7.4-33-gc9a9e407b-2023.07.01.04.04) jammy; urgency=high
+ .
+   * Fix Constraint Planning Segfault (#2130 <https://github.com/ros-planning/moveit2/issues/2130>)
+     * Fix Constraint Planning Segfault
+     * Reuse planner data
+     * apply clang formatting
+     * apply clang formatting round 2
+     * add FIXME note and verbose output of planning graph size
+     ---------
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: Marq Rasmussen
+Checksums-Sha1:
+ 69944b2aeec5834bbc59ca65302dc72fbb00a9b7 22882058 ros-iron-moveit-planners-ompl-dbgsym_2.7.4-33-gc9a9e407b-2023.07.01.04.04_amd64.ddeb
+ f655375e9402af6e90a81ff5fb32d449832c6eb9 33960 ros-iron-moveit-planners-ompl_2.7.4-33-gc9a9e407b-2023.07.01.04.04_amd64.buildinfo
+ 61618b4ead1ed665194172c2e5e8db207e2b59bc 336414 ros-iron-moveit-planners-ompl_2.7.4-33-gc9a9e407b-2023.07.01.04.04_amd64.deb
+Checksums-Sha256:
+ 77a1e407d29dea79c0870138e1660bb9b32f3e4514e18e3dd01f5128adda4a0e 22882058 ros-iron-moveit-planners-ompl-dbgsym_2.7.4-33-gc9a9e407b-2023.07.01.04.04_amd64.ddeb
+ db4d9da8f3488e374fb5a22f6117530fcf99b109ba9cd5329abb64555debca0c 33960 ros-iron-moveit-planners-ompl_2.7.4-33-gc9a9e407b-2023.07.01.04.04_amd64.buildinfo
+ 2ac5a912b3c39e86782716242a9c6b7d98b28b4998649c87f8583e4a49af2823 336414 ros-iron-moveit-planners-ompl_2.7.4-33-gc9a9e407b-2023.07.01.04.04_amd64.deb
+Files:
+ d048ab495e137f7346ab11e78c11b941 22882058 debug optional ros-iron-moveit-planners-ompl-dbgsym_2.7.4-33-gc9a9e407b-2023.07.01.04.04_amd64.ddeb
+ 0ab1a485f175aa92845e6fdd1ac80ef6 33960 misc optional ros-iron-moveit-planners-ompl_2.7.4-33-gc9a9e407b-2023.07.01.04.04_amd64.buildinfo
+ f755e8307bfbaac44d59e2c3a8f0d772 336414 misc optional ros-iron-moveit-planners-ompl_2.7.4-33-gc9a9e407b-2023.07.01.04.04_amd64.deb
