@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-humble-moveit-planners-stomp
+Binary: ros-humble-moveit-planners-stomp
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-33-gc9a9e407b-2023.07.03.03.18
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-planners-stomp - STOMP Motion Planner for MoveIt
+Changes:
+ ros-humble-moveit-planners-stomp (2.7.4-33-gc9a9e407b-2023.07.03.03.18) jammy; urgency=high
+ .
+   * Migrate STOMP from ros-planning/stomp_moveit (#2158 <https://github.com/ros-planning/moveit2/issues/2158>)
+   * Fix clang-tidy warnings
+   * Improve Documentation and Readability
+   * Remove MVT example
+   * Migrate stomp_moveit into moveit_planners
+     * Move package into moveit_planners subdirectory
+     * Rename stomp_moveit package to moveit_planners_stomp
+     * List moveit_planners_stomp as package dependency
+   * Contributors: Henning Kayser
+Checksums-Sha1:
+ 69fb671d014c53baa44cd75570d5cdaa883a1fbb 6288992 ros-humble-moveit-planners-stomp-dbgsym_2.7.4-33-gc9a9e407b-2023.07.03.03.18_amd64.ddeb
+ 9b1ed4c1b0a0ce179af4ba22df5fdbb39dc4fad9 27885 ros-humble-moveit-planners-stomp_2.7.4-33-gc9a9e407b-2023.07.03.03.18_amd64.buildinfo
+ 21931c98e58f55925bf0ce9bf560b3b0b6e9931f 145714 ros-humble-moveit-planners-stomp_2.7.4-33-gc9a9e407b-2023.07.03.03.18_amd64.deb
+Checksums-Sha256:
+ da616e7d67c363b9a8274538d924d2131508a3c47f8b4728da69913bbfa92e03 6288992 ros-humble-moveit-planners-stomp-dbgsym_2.7.4-33-gc9a9e407b-2023.07.03.03.18_amd64.ddeb
+ fe25bf67c4667d18b92974172db95bcb2b41735104d18fe809c4f841406ce320 27885 ros-humble-moveit-planners-stomp_2.7.4-33-gc9a9e407b-2023.07.03.03.18_amd64.buildinfo
+ eac59d0ff1ea2836d9040044725c3966cfd04abc32029cf713ca3f75cb0b3681 145714 ros-humble-moveit-planners-stomp_2.7.4-33-gc9a9e407b-2023.07.03.03.18_amd64.deb
+Files:
+ 4129cfd0679c72e677ec1bf814de6926 6288992 debug optional ros-humble-moveit-planners-stomp-dbgsym_2.7.4-33-gc9a9e407b-2023.07.03.03.18_amd64.ddeb
+ c6ac98e3f82201ee260471134e0d46c9 27885 misc optional ros-humble-moveit-planners-stomp_2.7.4-33-gc9a9e407b-2023.07.03.03.18_amd64.buildinfo
+ b73f0cbf34ff6e03826eac295880a1cc 145714 misc optional ros-humble-moveit-planners-stomp_2.7.4-33-gc9a9e407b-2023.07.03.03.18_amd64.deb
