@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-humble-moveit-py
+Binary: ros-humble-moveit-py
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-33-gc9a9e407b-2023.07.17.04.23
+Distribution: jammy
+Urgency: high
+Maintainer: Peter David Fagan <peterdavidfagan@gmail.com>
+Changed-By: Peter David Fagan <peterdavidfagan@gmail.com>
+Description:
+ ros-humble-moveit-py - Python binding for MoveIt 2
+Changes:
+ ros-humble-moveit-py (2.7.4-33-gc9a9e407b-2023.07.17.04.23) jammy; urgency=high
+ .
+   * Rename named_target_state_values to get_named_target_state_values (#2181 <https://github.com/ros-planning/moveit2/issues/2181>)
+   * Deprecate MoveItCpp::execute() use of blocking flag (#1984 <https://github.com/ros-planning/moveit2/issues/1984>)
+   * Add Python binding for link_model_names and get_only_one_end_effector_tip + update stubs (#1985 <https://github.com/ros-planning/moveit2/issues/1985>)
+   * Contributors: Jafar, Lucas Wendland
+Checksums-Sha1:
+ befe98b8020244632817ffd601c53723d16c93da 876166 ros-humble-moveit-py-dbgsym_2.7.4-33-gc9a9e407b-2023.07.17.04.23_amd64.ddeb
+ d17e0776cb07045cd812e8a6badee0fa578f5a57 26581 ros-humble-moveit-py_2.7.4-33-gc9a9e407b-2023.07.17.04.23_amd64.buildinfo
+ 06ba4e7e6e32efb43c138185729b3289117020d5 302646 ros-humble-moveit-py_2.7.4-33-gc9a9e407b-2023.07.17.04.23_amd64.deb
+Checksums-Sha256:
+ c7218c84de3558c03f8eb18df6d4189b8a9feae095e03051c4e0d7da0571b3c6 876166 ros-humble-moveit-py-dbgsym_2.7.4-33-gc9a9e407b-2023.07.17.04.23_amd64.ddeb
+ e8d716fe5211715922024208cdcd7719295d498dd3bf5834b03e0fb5945c895c 26581 ros-humble-moveit-py_2.7.4-33-gc9a9e407b-2023.07.17.04.23_amd64.buildinfo
+ 4f16091fcdd440435329e0945ecea86a0fca0e8b523b7ec6c72342275609d0ff 302646 ros-humble-moveit-py_2.7.4-33-gc9a9e407b-2023.07.17.04.23_amd64.deb
+Files:
+ a6bdddb88605175b66607cba4ef5b27d 876166 debug optional ros-humble-moveit-py-dbgsym_2.7.4-33-gc9a9e407b-2023.07.17.04.23_amd64.ddeb
+ 850749f89689abb7c6698b8e1a8d058d 26581 misc optional ros-humble-moveit-py_2.7.4-33-gc9a9e407b-2023.07.17.04.23_amd64.buildinfo
+ b24fe0ac92e7348f9fca59b86bd67d66 302646 misc optional ros-humble-moveit-py_2.7.4-33-gc9a9e407b-2023.07.17.04.23_amd64.deb
