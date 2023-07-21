@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-rolling-moveit-ros-move-group
+Binary: ros-rolling-moveit-ros-move-group
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-34-gb0f0f680c-2023.07.21.03.23
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-rolling-moveit-ros-move-group - The move_group node for MoveIt
+Changes:
+ ros-rolling-moveit-ros-move-group (2.7.4-34-gb0f0f680c-2023.07.21.03.23) jammy; urgency=high
+ .
+   * Fix MoveGroup action cancel callback (#2118 <https://github.com/ros-planning/moveit2/issues/2118>)
+     Moves the execution callback into its own thread to avoid blocking and actually calls the preempt function in with the cancel callback.
+   * Scale acceleration and velocity of cartesian interpolations (#1968 <https://github.com/ros-planning/moveit2/issues/1968>)
+   * Contributors: Jonathan Grebe, Yadu
+Checksums-Sha1:
+ 23598b2302bee2fcf20f89ae82fe566b2a09acf4 23983408 ros-rolling-moveit-ros-move-group-dbgsym_2.7.4-34-gb0f0f680c-2023.07.21.03.23_amd64.ddeb
+ ae761747eba6bf34958b395d1bc3d31a42f58a62 29401 ros-rolling-moveit-ros-move-group_2.7.4-34-gb0f0f680c-2023.07.21.03.23_amd64.buildinfo
+ 8f154bc66aed9529ee2bd656f30881a6fafc8ee1 348670 ros-rolling-moveit-ros-move-group_2.7.4-34-gb0f0f680c-2023.07.21.03.23_amd64.deb
+Checksums-Sha256:
+ 0b2428877c0d24f760c74c48ce75c1027b65eb7c17cf5e915454e969f54da11c 23983408 ros-rolling-moveit-ros-move-group-dbgsym_2.7.4-34-gb0f0f680c-2023.07.21.03.23_amd64.ddeb
+ 6d3ffefffbd6fc7b136ba788070f49f2f18562f0430429212f5c8c6849429884 29401 ros-rolling-moveit-ros-move-group_2.7.4-34-gb0f0f680c-2023.07.21.03.23_amd64.buildinfo
+ fa5fc2feb72d6f9427acf2d22920e6de1545586446562789f12a4d0e50778ebf 348670 ros-rolling-moveit-ros-move-group_2.7.4-34-gb0f0f680c-2023.07.21.03.23_amd64.deb
+Files:
+ 58e591ed0c0471ec65e66d2f78834ea2 23983408 debug optional ros-rolling-moveit-ros-move-group-dbgsym_2.7.4-34-gb0f0f680c-2023.07.21.03.23_amd64.ddeb
+ c24e3848aaf7e37e06b4f9dd4449f170 29401 misc optional ros-rolling-moveit-ros-move-group_2.7.4-34-gb0f0f680c-2023.07.21.03.23_amd64.buildinfo
+ 5834fc53c34672c1ff0022ee52c31e80 348670 misc optional ros-rolling-moveit-ros-move-group_2.7.4-34-gb0f0f680c-2023.07.21.03.23_amd64.deb

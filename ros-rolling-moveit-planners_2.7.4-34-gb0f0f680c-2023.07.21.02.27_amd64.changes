@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-rolling-moveit-planners
+Binary: ros-rolling-moveit-planners
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-34-gb0f0f680c-2023.07.21.02.27
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-planners - Meta package that installs all available planners for MoveIt
+Changes:
+ ros-rolling-moveit-planners (2.7.4-34-gb0f0f680c-2023.07.21.02.27) jammy; urgency=high
+ .
+   * Migrate STOMP from ros-planning/stomp_moveit (#2158 <https://github.com/ros-planning/moveit2/issues/2158>)
+   * Migrate stomp_moveit into moveit_planners
+     * Move package into moveit_planners subdirectory
+     * Rename stomp_moveit package to moveit_planners_stomp
+     * List moveit_planners_stomp as package dependency
+   * Contributors: Henning Kayser
+Checksums-Sha1:
+ af4203f49cc17c1c5072fa52a551d622503d8060 11005 ros-rolling-moveit-planners_2.7.4-34-gb0f0f680c-2023.07.21.02.27_amd64.buildinfo
+ f9b7b3ca6f3c19ba44658954b3119d37bace03de 6338 ros-rolling-moveit-planners_2.7.4-34-gb0f0f680c-2023.07.21.02.27_amd64.deb
+Checksums-Sha256:
+ 7ab3d335b5798a48e2570f8fcf0c4dabef2b223f34aef6933d2547d30f7cec12 11005 ros-rolling-moveit-planners_2.7.4-34-gb0f0f680c-2023.07.21.02.27_amd64.buildinfo
+ b4eaa0f4f00cfbd4565aea91535705638758b008bce31a500946a2d16f1b2972 6338 ros-rolling-moveit-planners_2.7.4-34-gb0f0f680c-2023.07.21.02.27_amd64.deb
+Files:
+ a560b69e14d913b13e26a1d8e017a228 11005 misc optional ros-rolling-moveit-planners_2.7.4-34-gb0f0f680c-2023.07.21.02.27_amd64.buildinfo
+ 3e39fe86513460fae7345bf0d1af716b 6338 misc optional ros-rolling-moveit-planners_2.7.4-34-gb0f0f680c-2023.07.21.02.27_amd64.deb
