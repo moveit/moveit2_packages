@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-humble-moveit-core
+Binary: ros-humble-moveit-core
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-36-gcdf7a9868-2023.07.26.02.31
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-core - Core libraries used by MoveIt
+Changes:
+ ros-humble-moveit-core (2.7.4-36-gcdf7a9868-2023.07.26.02.31) jammy; urgency=high
+ .
+   * Add documentation and cleanups for PlanningRequestAdapter and PlanningRequestAdapterChain classes (#2142 <https://github.com/ros-planning/moveit2/issues/2142>)
+     * Cleanups
+     * Add documentation and more cleanups
+     * Revert size_t change
+   * Fix collision checking in VisibilityConstraint (#1986 <https://github.com/ros-planning/moveit2/issues/1986>)
+   * Alphabetize, smart pointer not needed (#2148 <https://github.com/ros-planning/moveit2/issues/2148>)
+     * Alphabetize, smart pointer not needed
+     * Readability
+   * Fix getting variable bounds in mimic joints for TOTG (#2030 <https://github.com/ros-planning/moveit2/issues/2030>)
+     * Fix getting variable bounds in mimic joints for TOTG
+     * Formatting
+     * Remove unnecessary code
+     * Do not include mimic joints in timing calculations
+     * Change joint variable bounds at mimic creation time
+     * Braces take you places
+     * Fix other single-line if-else without braces in file for clang_tidy
+     * Remove mimic bounds modification
+     * Variable renaming and a comment
+     * Fix index naming
+     ---------
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+     Co-authored-by: Jafar <mailto:cafer.abdi@gmail.com>
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+   * Contributors: AndyZe, Joseph Schornak, Sebastian Castro, Sebastian Jahr
+Checksums-Sha1:
+ c84c25ab3e84d6f8def3b35524c88b007c957171 68542838 ros-humble-moveit-core-dbgsym_2.7.4-36-gcdf7a9868-2023.07.26.02.31_amd64.ddeb
+ a6663c44cafc8ab55ef7fc5e69da4a17613933c2 32110 ros-humble-moveit-core_2.7.4-36-gcdf7a9868-2023.07.26.02.31_amd64.buildinfo
+ 86121835d4627d0057f704bda235994c50311faf 1191172 ros-humble-moveit-core_2.7.4-36-gcdf7a9868-2023.07.26.02.31_amd64.deb
+Checksums-Sha256:
+ 9ea04fa27b8ac348a25199d8820b98b20e6db73f4f749652fc8e69e8e70023a7 68542838 ros-humble-moveit-core-dbgsym_2.7.4-36-gcdf7a9868-2023.07.26.02.31_amd64.ddeb
+ f622284a494623349f3bf5f93b927cbd23f960d567cee91df75afc5cb8e30b87 32110 ros-humble-moveit-core_2.7.4-36-gcdf7a9868-2023.07.26.02.31_amd64.buildinfo
+ afb3858371eff59dce7c6d7c095fa1d0a61464b2eed8a9baf58886d9da482eb7 1191172 ros-humble-moveit-core_2.7.4-36-gcdf7a9868-2023.07.26.02.31_amd64.deb
+Files:
+ 8f6deb3a8d6fb80c8fba72ace3a7b97e 68542838 debug optional ros-humble-moveit-core-dbgsym_2.7.4-36-gcdf7a9868-2023.07.26.02.31_amd64.ddeb
+ 0e470272b10c3051e4f8255c6a63f742 32110 misc optional ros-humble-moveit-core_2.7.4-36-gcdf7a9868-2023.07.26.02.31_amd64.buildinfo
+ 13ce2dcc0b6382cff651f761176d176d 1191172 misc optional ros-humble-moveit-core_2.7.4-36-gcdf7a9868-2023.07.26.02.31_amd64.deb
