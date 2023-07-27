@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 09 May 2022 00:00:00 -0000
+Source: ros-humble-moveit-visual-tools
+Binary: ros-humble-moveit-visual-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.1.0-6-g8578433-2023.07.27.05.39
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ ros-humble-moveit-visual-tools - Helper functions for displaying and debugging MoveIt data in Rviz
+Changes:
+ ros-humble-moveit-visual-tools (4.1.0-6-g8578433-2023.07.27.05.39) jammy; urgency=high
+ .
+   * Update black version (#117 <https://github.com/ros-planning/moveit_visual_tools/issues/117>)
+   * Jammy fixes and clang-format-12 (#116 <https://github.com/ros-planning/moveit_visual_tools/issues/116>)
+   * Fixed deprecated call to PlanningSceneMonitor's constructor (#108 <https://github.com/ros-planning/moveit_visual_tools/issues/108>)
+   * Remove Foxy CI builds (#111 <https://github.com/ros-planning/moveit_visual_tools/issues/111>)
+   * Generate license using ament_copyright (#105 <https://github.com/ros-planning/moveit_visual_tools/issues/105>)
+   * Contributors: Jafar Abdi, Stephanie Eng, Vatan Aksoy Tezer
+Checksums-Sha1:
+ 2391d7f17a93be9881c634a2748ea4bed5e34fbd 8854262 ros-humble-moveit-visual-tools-dbgsym_4.1.0-6-g8578433-2023.07.27.05.39_amd64.ddeb
+ 390f8a31d338a74ddbbc558e52b0482aaee83df9 33983 ros-humble-moveit-visual-tools_4.1.0-6-g8578433-2023.07.27.05.39_amd64.buildinfo
+ 45bf7e6f3e308720ecb66e0fbac6ffc552ba2820 304398 ros-humble-moveit-visual-tools_4.1.0-6-g8578433-2023.07.27.05.39_amd64.deb
+Checksums-Sha256:
+ 2d1474b2c618278ac7e1d4f3af51936901d79291b76fc9f72089eb2e51f9a969 8854262 ros-humble-moveit-visual-tools-dbgsym_4.1.0-6-g8578433-2023.07.27.05.39_amd64.ddeb
+ 71ef202d1e16e78db6f51840f605e5fe2464ca68934b6feaf69913888904eeab 33983 ros-humble-moveit-visual-tools_4.1.0-6-g8578433-2023.07.27.05.39_amd64.buildinfo
+ acdafe8f93252f5dc0c48ef60dba71742393d9e1469852a331741e0573849bf2 304398 ros-humble-moveit-visual-tools_4.1.0-6-g8578433-2023.07.27.05.39_amd64.deb
+Files:
+ 77567ab48c2c416a6fc56f1cf771095f 8854262 debug optional ros-humble-moveit-visual-tools-dbgsym_4.1.0-6-g8578433-2023.07.27.05.39_amd64.ddeb
+ 2defd34a59596474ba7448ac5e6a50c7 33983 misc optional ros-humble-moveit-visual-tools_4.1.0-6-g8578433-2023.07.27.05.39_amd64.buildinfo
+ 6d1f029b486bf12cc6df5317d4d2d97d 304398 misc optional ros-humble-moveit-visual-tools_4.1.0-6-g8578433-2023.07.27.05.39_amd64.deb
