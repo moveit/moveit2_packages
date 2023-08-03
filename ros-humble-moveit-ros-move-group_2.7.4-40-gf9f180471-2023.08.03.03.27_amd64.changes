@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-humble-moveit-ros-move-group
+Binary: ros-humble-moveit-ros-move-group
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-40-gf9f180471-2023.08.03.03.27
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-humble-moveit-ros-move-group - The move_group node for MoveIt
+Changes:
+ ros-humble-moveit-ros-move-group (2.7.4-40-gf9f180471-2023.08.03.03.27) jammy; urgency=high
+ .
+   * Fix MoveGroup action cancel callback (#2118 <https://github.com/ros-planning/moveit2/issues/2118>)
+     Moves the execution callback into its own thread to avoid blocking and actually calls the preempt function in with the cancel callback.
+   * Scale acceleration and velocity of cartesian interpolations (#1968 <https://github.com/ros-planning/moveit2/issues/1968>)
+   * Contributors: Jonathan Grebe, Yadu
+Checksums-Sha1:
+ 37fb3b468a1d3b404a2ad0f5af2f57728f31a87d 23212840 ros-humble-moveit-ros-move-group-dbgsym_2.7.4-40-gf9f180471-2023.08.03.03.27_amd64.ddeb
+ 32e25e93654509bc28847534e8eae1ccc7bc5339 28294 ros-humble-moveit-ros-move-group_2.7.4-40-gf9f180471-2023.08.03.03.27_amd64.buildinfo
+ 3d243cbed678d24e4434079ad037afba1fc2ceac 348514 ros-humble-moveit-ros-move-group_2.7.4-40-gf9f180471-2023.08.03.03.27_amd64.deb
+Checksums-Sha256:
+ 84f792fbff2f0d2bee947025237d97d7eb5e0ad8adceb5ec9682b6d021dbf4ed 23212840 ros-humble-moveit-ros-move-group-dbgsym_2.7.4-40-gf9f180471-2023.08.03.03.27_amd64.ddeb
+ 3c2493d7274fc1c22b0488b7b0571be9c8b93aec94b158eaf78208a7658544b1 28294 ros-humble-moveit-ros-move-group_2.7.4-40-gf9f180471-2023.08.03.03.27_amd64.buildinfo
+ 5c6a13e6246202ecd360317b9fbb251440af08712e7562c0ba94b368281272b5 348514 ros-humble-moveit-ros-move-group_2.7.4-40-gf9f180471-2023.08.03.03.27_amd64.deb
+Files:
+ 1b802b476d983aac73ea442dfeba9b76 23212840 debug optional ros-humble-moveit-ros-move-group-dbgsym_2.7.4-40-gf9f180471-2023.08.03.03.27_amd64.ddeb
+ b745579cac2d7c39dafe7909da465c2f 28294 misc optional ros-humble-moveit-ros-move-group_2.7.4-40-gf9f180471-2023.08.03.03.27_amd64.buildinfo
+ f5d6199390c2426e4325b69bccca41e4 348514 misc optional ros-humble-moveit-ros-move-group_2.7.4-40-gf9f180471-2023.08.03.03.27_amd64.deb
