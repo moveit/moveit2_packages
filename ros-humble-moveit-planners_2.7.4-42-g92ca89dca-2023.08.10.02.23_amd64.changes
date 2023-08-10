@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-humble-moveit-planners
+Binary: ros-humble-moveit-planners
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.4-42-g92ca89dca-2023.08.10.02.23
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-planners - Meta package that installs all available planners for MoveIt
+Changes:
+ ros-humble-moveit-planners (2.7.4-42-g92ca89dca-2023.08.10.02.23) jammy; urgency=high
+ .
+   * Migrate STOMP from ros-planning/stomp_moveit (#2158 <https://github.com/ros-planning/moveit2/issues/2158>)
+   * Migrate stomp_moveit into moveit_planners
+     * Move package into moveit_planners subdirectory
+     * Rename stomp_moveit package to moveit_planners_stomp
+     * List moveit_planners_stomp as package dependency
+   * Contributors: Henning Kayser
+Checksums-Sha1:
+ 2d8d6f27e4e472619cee32f6379bc92f9b564ea3 10914 ros-humble-moveit-planners_2.7.4-42-g92ca89dca-2023.08.10.02.23_amd64.buildinfo
+ 678b6e79e1fd28c48eb87c8903cfc4a0d47b65a9 6340 ros-humble-moveit-planners_2.7.4-42-g92ca89dca-2023.08.10.02.23_amd64.deb
+Checksums-Sha256:
+ f0ea4f8cb18292dea6e1f051c5a699e07468c5349fa8d13058ae78132df046e2 10914 ros-humble-moveit-planners_2.7.4-42-g92ca89dca-2023.08.10.02.23_amd64.buildinfo
+ dec7c6997f166a501b5515afa9ee35f9b0004597115b0d210e39934e4e781ca7 6340 ros-humble-moveit-planners_2.7.4-42-g92ca89dca-2023.08.10.02.23_amd64.deb
+Files:
+ 72de31c48ccd705cc38822aedbb30411 10914 misc optional ros-humble-moveit-planners_2.7.4-42-g92ca89dca-2023.08.10.02.23_amd64.buildinfo
+ 435d104c2df0f97ee71777fd4661ef19 6340 misc optional ros-humble-moveit-planners_2.7.4-42-g92ca89dca-2023.08.10.02.23_amd64.deb

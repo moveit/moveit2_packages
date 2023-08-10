@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 06 Mar 2023 00:00:00 -0000
+Source: ros-humble-moveit-task-constructor-core
+Binary: ros-humble-moveit-task-constructor-core
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1-0.1.3-68-g0ba9796-2023.08.10.04.40
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Goerner <me@v4hn.de>
+Changed-By: Michael Goerner <me@v4hn.de>
+Description:
+ ros-humble-moveit-task-constructor-core - MoveIt Task Pipeline
+Changes:
+ ros-humble-moveit-task-constructor-core (1-0.1.3-68-g0ba9796-2023.08.10.04.40) jammy; urgency=high
+ .
+   * MoveRelative: Allow backwards operation for joint-space delta (#436 <https://github.com/ros-planning/moveit_task_constructor/issues/436>)
+   * ComputeIK: Limit collision checking to JMG (#428 <https://github.com/ros-planning/moveit_task_constructor/issues/428>)
+   * Fix: Fetch pybind11 submodule if not yet present
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 0308f6c0af8d753a419d204ea03f474c28c056e3 39947434 ros-humble-moveit-task-constructor-core-dbgsym_1-0.1.3-68-g0ba9796-2023.08.10.04.40_amd64.ddeb
+ 7e693c6480a1cebecbea17f25e83ec88d0739559 34577 ros-humble-moveit-task-constructor-core_1-0.1.3-68-g0ba9796-2023.08.10.04.40_amd64.buildinfo
+ 95d7e221cb006deccaf5125bbcd95a2a97e20fca 512740 ros-humble-moveit-task-constructor-core_1-0.1.3-68-g0ba9796-2023.08.10.04.40_amd64.deb
+Checksums-Sha256:
+ 6c2e188cd8aeeaa78f72c9d977051e8bb503abdef875263463fa92f9eeb64601 39947434 ros-humble-moveit-task-constructor-core-dbgsym_1-0.1.3-68-g0ba9796-2023.08.10.04.40_amd64.ddeb
+ 1d959b290f4bc595f2e9eadc97d16cfd4c3a41debe4745c70115a69f4d6ac219 34577 ros-humble-moveit-task-constructor-core_1-0.1.3-68-g0ba9796-2023.08.10.04.40_amd64.buildinfo
+ 674a7650e6bbb92912c715fcbb5e96b4dfd14768b3b6ca8deeefdbc88efe5af1 512740 ros-humble-moveit-task-constructor-core_1-0.1.3-68-g0ba9796-2023.08.10.04.40_amd64.deb
+Files:
+ 9cbed73b3db889bb8e1faf8ce3f7d399 39947434 debug optional ros-humble-moveit-task-constructor-core-dbgsym_1-0.1.3-68-g0ba9796-2023.08.10.04.40_amd64.ddeb
+ 26879ea7ce483243137c0f3401b5d479 34577 misc optional ros-humble-moveit-task-constructor-core_1-0.1.3-68-g0ba9796-2023.08.10.04.40_amd64.buildinfo
+ 23a1554a8a080381da520ee5e093012c 512740 misc optional ros-humble-moveit-task-constructor-core_1-0.1.3-68-g0ba9796-2023.08.10.04.40_amd64.deb
